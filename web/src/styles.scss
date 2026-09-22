@@ -1,0 +1,106 @@
+@use "uswds-core" with (
+  $theme-show-compile-warnings: false,
+  $theme-show-notifications: false,
+  $theme-image-path: "/uswds/img",
+  $theme-font-path: "/uswds/fonts",
+  $theme-color-primary: "blue-60v",
+  $theme-color-primary-darker: "blue-warm-70v",
+  $theme-banner-background-color: "ink",
+  $theme-header-max-width: "widescreen",
+  $theme-utility-breakpoints: (
+    "card": false,
+    "card-lg": false,
+    "mobile": false,
+    "mobile-lg": true,
+    "tablet": true,
+    "tablet-lg": false,
+    "desktop": true,
+    "desktop-lg": false,
+    "widescreen": false,
+  )
+);
+@use "uswds";
+
+// ---- demo-specific ----------------------------------------------------------
+body {
+  background: #f9f9f7;
+}
+
+.usa-banner__header-text {
+  color: #fff;
+}
+
+.usa-header--basic .usa-nav {
+  padding-top: 0.75rem;
+  padding-bottom: 0.25rem;
+}
+
+@media (min-width: 64em) {
+  .usa-header--basic .usa-nav {
+    padding-top: 2rem;
+  }
+  .usa-header--basic .usa-nav__secondary {
+    top: 0.25rem;
+  }
+}
+
+.emt-stat {
+  background: #fff;
+  border: 1px solid #dfe1e2;
+  border-left: 4px solid #005ea2;
+  border-radius: 4px;
+  padding: 0.75rem 1rem;
+  margin-bottom: 0.5rem;
+
+  &__label {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: #565c65;
+  }
+  &__value {
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #1b1b1b;
+  }
+  &__hint {
+    font-size: 0.75rem;
+    color: #71767a;
+  }
+  &--button {
+    cursor: pointer;
+    font: inherit;
+  }
+  &--active {
+    border-left-color: #00a91c;
+    background: #ecf3ec;
+  }
+}
+
+.emt-code {
+  background: #1b1b1b;
+  color: #f0f0f0;
+  border-radius: 4px;
+  padding: 0.75rem 1rem;
+  font-size: 0.75rem;
+  line-height: 1.45;
+  overflow-x: auto;
+  min-height: 15rem;
+}
+
+.emt-clamp {
+  max-width: 28rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.usa-table td,
+.usa-table th {
+  vertical-align: top;
+}
+
+.text-no-wrap {
+  white-space: nowrap;
+}
