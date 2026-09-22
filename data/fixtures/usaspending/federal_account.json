@@ -1,0 +1,473 @@
+{
+ "_meta": {
+  "source": "USAspending",
+  "url": "https://api.usaspending.gov/api/v2/agency/096/federal_account/?fiscal_year=2025&limit=50",
+  "fetched_on": "2026-09-22"
+ },
+ "toptier_code": "096",
+ "fiscal_year": 2025,
+ "page_metadata": {
+  "page": 1,
+  "total": 22,
+  "limit": 50,
+  "next": null,
+  "previous": null,
+  "hasNext": false,
+  "hasPrevious": false
+ },
+ "results": [
+  {
+   "code": "096-4902",
+   "name": "Revolving Fund, Corps of Engineers, Civil",
+   "children": [
+    {
+     "name": "Revolving Fund, Corps of Engineers, Civil",
+     "code": "096-X-4902-000",
+     "obligated_amount": 12782184030.2,
+     "gross_outlay_amount": 12799337203.52
+    }
+   ],
+   "obligated_amount": 12782184030.2,
+   "gross_outlay_amount": 12799337203.52
+  },
+  {
+   "code": "096-3123",
+   "name": "Operation and Maintenance, Corps of Engineers-Civil",
+   "children": [
+    {
+     "name": "Operation and Maintenance, Corps of Engineers, Civil",
+     "code": "096-X-3123-000",
+     "obligated_amount": 5942605783.9,
+     "gross_outlay_amount": 5880414733.0
+    },
+    {
+     "name": "Operation and Maintenance, Corps of Engineers-Civil",
+     "code": "096-2020/2021-3123-000",
+     "obligated_amount": 9334.33,
+     "gross_outlay_amount": 10639.33
+    }
+   ],
+   "obligated_amount": 5942615118.23,
+   "gross_outlay_amount": 5880425372.33
+  },
+  {
+   "code": "096-3122",
+   "name": "Construction, Corps of Engineers - Civil",
+   "children": [
+    {
+     "name": "Construction, Corps of Engineers, Civil",
+     "code": "096-X-3122-000",
+     "obligated_amount": 5705397173.48,
+     "gross_outlay_amount": 6036801386.99
+    }
+   ],
+   "obligated_amount": 5705397173.48,
+   "gross_outlay_amount": 6036801386.99
+  },
+  {
+   "code": "096-3125",
+   "name": "Flood Control and Coastal Emergencies, Corps of Engineers, Civil",
+   "children": [
+    {
+     "name": "Flood Control and Coastal Emergencies, Corps of Engineers, Civil",
+     "code": "096-X-3125-000",
+     "obligated_amount": 5447762898.43,
+     "gross_outlay_amount": 4888581007.81
+    }
+   ],
+   "obligated_amount": 5447762898.43,
+   "gross_outlay_amount": 4888581007.81
+  },
+  {
+   "code": "096-8863",
+   "name": "Harbor Maintenance Trust Fund - Treasury Managed, Corps of Engineers - Civil",
+   "children": [
+    {
+     "name": "Harbor Maintenance Trust Fund - Treasury Managed, Corps of Engineers - Civil",
+     "code": "096-096-X-8863-000",
+     "obligated_amount": 2826091073.44,
+     "gross_outlay_amount": 2231602164.92
+    }
+   ],
+   "obligated_amount": 2826091073.44,
+   "gross_outlay_amount": 2231602164.92
+  },
+  {
+   "code": "096-8862",
+   "name": "Rivers and Harbors Contributed and Advance Funds, Corps of Engineers, Civil",
+   "children": [
+    {
+     "name": "Rivers and Harbors Contributed and Advance Funds, Corps of Engineers, Civil",
+     "code": "096-X-8862-000",
+     "obligated_amount": 628643571.07,
+     "gross_outlay_amount": 667999011.8
+    }
+   ],
+   "obligated_amount": 628643571.07,
+   "gross_outlay_amount": 667999011.8
+  },
+  {
+   "code": "096-3112",
+   "name": "Mississippi River and Tributaries, Corps of Engineers, Civil",
+   "children": [
+    {
+     "name": "Mississippi River and Tributaries, Corps of Engineers, Civil",
+     "code": "096-X-3112-000",
+     "obligated_amount": 584798328.7,
+     "gross_outlay_amount": 595257873.53
+    }
+   ],
+   "obligated_amount": 584798328.7,
+   "gross_outlay_amount": 595257873.53
+  },
+  {
+   "code": "096-3130",
+   "name": "Formerly Utilized Sites Remedial Action Program, Corps of Engineers, Civil",
+   "children": [
+    {
+     "name": "Formerly Utilized Sites Remedial Action Program, Corps of Engineers, Civil",
+     "code": "096-X-3130-000",
+     "obligated_amount": 328923537.14,
+     "gross_outlay_amount": 260019400.02
+    }
+   ],
+   "obligated_amount": 328923537.14,
+   "gross_outlay_amount": 260019400.02
+  },
+  {
+   "code": "096-3126",
+   "name": "Regulatory Program, Corps of Engineers, Civil",
+   "children": [
+    {
+     "name": "Regulatory Program, Corps of Engineers, Civil",
+     "code": "096-2025/2026-3126-000",
+     "obligated_amount": 207632549.46,
+     "gross_outlay_amount": 206252093.22
+    },
+    {
+     "name": "Regulatory Program, Corps of Engineers, Civil",
+     "code": "096-2022/2026-3126-000",
+     "obligated_amount": 50939658.49,
+     "gross_outlay_amount": 47460557.47
+    },
+    {
+     "name": "Regulatory Program, Corps of Engineers, Civil",
+     "code": "096-2024/2025-3126-000",
+     "obligated_amount": 22110521.88,
+     "gross_outlay_amount": 22428094.81
+    },
+    {
+     "name": "Regulatory Program, Corps of Engineers, Civil",
+     "code": "096-2023/2024-3126-000",
+     "obligated_amount": 4076115.69,
+     "gross_outlay_amount": 4288481.54
+    },
+    {
+     "name": "Regulatory Program, Corps of Engineers, Civil",
+     "code": "096-2022/2023-3126-000",
+     "obligated_amount": 238838.97,
+     "gross_outlay_amount": 256338.83
+    },
+    {
+     "name": "Regulatory Program, Corps of Engineers, Civil",
+     "code": "096-2020/2021-3126-000",
+     "obligated_amount": 21188.81,
+     "gross_outlay_amount": 523.01
+    },
+    {
+     "name": "Regulatory Program, Corps of Engineers, Civil",
+     "code": "096-2021/2022-3126-000",
+     "obligated_amount": 3797.19,
+     "gross_outlay_amount": 32593.57
+    },
+    {
+     "name": "Regulatory Program, Corps of Engineers, Civil",
+     "code": "096-2019/2020-3126-000",
+     "obligated_amount": 0.0,
+     "gross_outlay_amount": 10000.0
+    }
+   ],
+   "obligated_amount": 285022670.49,
+   "gross_outlay_amount": 280728682.45
+  },
+  {
+   "code": "096-3124",
+   "name": "Expenses, Corps of Engineers, Civil",
+   "children": [
+    {
+     "name": "Expenses, Corps of Engineers-Civil",
+     "code": "096-2025/2026-3124-000",
+     "obligated_amount": 215315112.76,
+     "gross_outlay_amount": 212406361.97
+    },
+    {
+     "name": "Expenses, Corps of Engineers, Civil",
+     "code": "096-X-3124-000",
+     "obligated_amount": 34957835.38,
+     "gross_outlay_amount": 35462244.61
+    },
+    {
+     "name": "Expenses, Corps of Engineers-Civil",
+     "code": "096-2024/2025-3124-000",
+     "obligated_amount": 983478.64,
+     "gross_outlay_amount": 2971181.35
+    },
+    {
+     "name": "Expenses, Corps of Engineers-Civil",
+     "code": "096-2023/2024-3124-000",
+     "obligated_amount": 353304.66,
+     "gross_outlay_amount": 403382.59
+    },
+    {
+     "name": "Expenses, Corps of Engineers-Civil",
+     "code": "096-2021/2022-3124-000",
+     "obligated_amount": 136070.61,
+     "gross_outlay_amount": 136070.61
+    },
+    {
+     "name": "Expenses, Corps of Engineers-Civil",
+     "code": "096-2019/2020-3124-000",
+     "obligated_amount": 14439.56,
+     "gross_outlay_amount": 9896.19
+    },
+    {
+     "name": "Expenses, Corps of Engineers-Civil",
+     "code": "096-2022/2023-3124-000",
+     "obligated_amount": 1946.58,
+     "gross_outlay_amount": 115688.83
+    },
+    {
+     "name": "Expenses, Corps of Engineers-Civil",
+     "code": "096-2020/2021-3124-000",
+     "obligated_amount": 1610.14,
+     "gross_outlay_amount": 146703.05
+    }
+   ],
+   "obligated_amount": 251763798.33,
+   "gross_outlay_amount": 251651529.2
+  },
+  {
+   "code": "096-3121",
+   "name": "Investigations, Corps of Engineers-Civil",
+   "children": [
+    {
+     "name": "Investigations, Corps of Engineers, Civil",
+     "code": "096-X-3121-000",
+     "obligated_amount": 227366493.47,
+     "gross_outlay_amount": 216959128.22
+    }
+   ],
+   "obligated_amount": 227366493.47,
+   "gross_outlay_amount": 216959128.22
+  },
+  {
+   "code": "096-8333",
+   "name": "Coastal Wetlands Restoration Trust Fund, Corps of Engineers - Civil",
+   "children": [
+    {
+     "name": "Coastal Wetlands Restoration Trust Fund, Corps of Engineers - Civil",
+     "code": "096-X-8333-000",
+     "obligated_amount": 157688624.04,
+     "gross_outlay_amount": 66128329.36
+    }
+   ],
+   "obligated_amount": 157688624.04,
+   "gross_outlay_amount": 66128329.36
+  },
+  {
+   "code": "096-3128",
+   "name": "Washington Aqueduct Capital Improvements, Corps of Engineers-Civil",
+   "children": [
+    {
+     "name": "Washington Aqueduct Capital Improvements, Corps of Engineers-Civil",
+     "code": "096-X-3128-000",
+     "obligated_amount": 67500508.55,
+     "gross_outlay_amount": 85612862.43
+    }
+   ],
+   "obligated_amount": 67500508.55,
+   "gross_outlay_amount": 85612862.43
+  },
+  {
+   "code": "096-8861",
+   "name": "Inland Waterways Trust Fund - Treasury Managed, Corps of Engineers - Civil",
+   "children": [
+    {
+     "name": "Inland Waterways Trust Fund - Treasury Managed, Corps of Engineers - Civil",
+     "code": "096-096-X-8861-000",
+     "obligated_amount": 24229870.58,
+     "gross_outlay_amount": 24229870.58
+    }
+   ],
+   "obligated_amount": 24229870.58,
+   "gross_outlay_amount": 24229870.58
+  },
+  {
+   "code": "096-5090",
+   "name": "Payments to States, Flood Control Act of 1954, Corps of Engineers - Civil",
+   "children": [
+    {
+     "name": "Payments to States, Flood Control Act of 1954, Corps of Engineers - Civil",
+     "code": "096-X-5090-000",
+     "obligated_amount": 19105397.86,
+     "gross_outlay_amount": 19105397.86
+    }
+   ],
+   "obligated_amount": 19105397.86,
+   "gross_outlay_amount": 19105397.86
+  },
+  {
+   "code": "096-5125",
+   "name": "Maintenance and Operation of Dams and Other Improvements of Navigable Waters, Corps of Engineers - Civil",
+   "children": [
+    {
+     "name": "Maintenance and Operation of Dams and Other Improvements of Navigable Waters, Corps of Engineers - Civil",
+     "code": "096-X-5125-000",
+     "obligated_amount": 9850436.73,
+     "gross_outlay_amount": 12231918.11
+    }
+   ],
+   "obligated_amount": 9850436.73,
+   "gross_outlay_amount": 12231918.11
+  },
+  {
+   "code": "096-3139",
+   "name": "Water Infrastructure Finance and Innovation Program Account, Corps of Engineers-Civil",
+   "children": [
+    {
+     "name": "Water Infrastructure Finance and Innovation Program Account, Corps of Engineers-Civil",
+     "code": "096-2024/2025-3139-000",
+     "obligated_amount": 2706027.08,
+     "gross_outlay_amount": 2618750.76
+    },
+    {
+     "name": "Water Infrastructure Finance and Innovation Program Account, Corps of Engineers-Civil",
+     "code": "096-X-3139-000",
+     "obligated_amount": 1105743.78,
+     "gross_outlay_amount": 1110145.61
+    },
+    {
+     "name": "Water Infrastructure Finance and Innovation Program Account, Corps of Engineers-Civil",
+     "code": "096-2025/2026-3139-000",
+     "obligated_amount": 1073351.09,
+     "gross_outlay_amount": 602460.17
+    },
+    {
+     "name": "Water Infrastructure Finance and Innovation Program Account, Corps of Engineers-Civil",
+     "code": "096-2023/2024-3139-000",
+     "obligated_amount": 30.22,
+     "gross_outlay_amount": 200480.92
+    },
+    {
+     "name": "Water Infrastructure Finance and Innovation Program Account, Corps of Engineers-Civil",
+     "code": "096-2022/2023-3139-000",
+     "obligated_amount": 0.0,
+     "gross_outlay_amount": 19.35
+    }
+   ],
+   "obligated_amount": 4885152.17,
+   "gross_outlay_amount": 4531856.81
+  },
+  {
+   "code": "096-3132",
+   "name": "Office of Assistant Secretary of the Army for Civil Works, Corps of Engineers, Civil",
+   "children": [
+    {
+     "name": "Office of Assistant Secretary of the Army for Civil Works, Corps of Engineers, Civil",
+     "code": "096-2025/2026-3132-000",
+     "obligated_amount": 4650000.0,
+     "gross_outlay_amount": 3393378.27
+    },
+    {
+     "name": "Office of Assistant Secretary of the Army for Civil Works, Corps of Engineers, Civil",
+     "code": "096-2020/2021-3132-000",
+     "obligated_amount": 0.0,
+     "gross_outlay_amount": 107.19
+    },
+    {
+     "name": "Office of Assistant Secretary of the Army for Civil Works, Corps of Engineers, Civil",
+     "code": "096-2021/2022-3132-000",
+     "obligated_amount": 0.0,
+     "gross_outlay_amount": 192.01
+    },
+    {
+     "name": "Office of Assistant Secretary of the Army for Civil Works, Corps of Engineers, Civil",
+     "code": "096-2023/2024-3132-000",
+     "obligated_amount": 0.0,
+     "gross_outlay_amount": 122227.59
+    },
+    {
+     "name": "Office of Assistant Secretary of the Army for Civil Works, Corps of Engineers, Civil",
+     "code": "096-2024/2025-3132-000",
+     "obligated_amount": 0.0,
+     "gross_outlay_amount": 952883.14
+    },
+    {
+     "name": "Office of Assistant Secretary of the Army for Civil Works, Corps of Engineers-Civil",
+     "code": "096-X-3132-000",
+     "obligated_amount": 0.0,
+     "gross_outlay_amount": 166852.42
+    }
+   ],
+   "obligated_amount": 4650000.0,
+   "gross_outlay_amount": 4635640.62
+  },
+  {
+   "code": "096-5570",
+   "name": "Interagency America the Beautiful Pass Revenues, Corps of Engineers-Civil",
+   "children": [
+    {
+     "name": "Interagency America the Beautiful Pass Revenues, Corps of Engineers-Civil",
+     "code": "096-X-5570-000",
+     "obligated_amount": 1813467.31,
+     "gross_outlay_amount": 1951426.46
+    }
+   ],
+   "obligated_amount": 1813467.31,
+   "gross_outlay_amount": 1951426.46
+  },
+  {
+   "code": "096-5607",
+   "name": "Special Use Permit Fees, Corps of Engineers-Civil",
+   "children": [
+    {
+     "name": "Special Use Permit Fees, Corps of Engineers-Civil",
+     "code": "096-X-5607-000",
+     "obligated_amount": 1258466.53,
+     "gross_outlay_amount": 1092013.08
+    }
+   ],
+   "obligated_amount": 1258466.53,
+   "gross_outlay_amount": 1092013.08
+  },
+  {
+   "code": "096-8217",
+   "name": "South Dakota Terrestrial Wildlife Habitat Restoration Trust Fund, Corps of Engineers - Civil",
+   "children": [
+    {
+     "name": "South Dakota Terrestrial Wildlife Habitat Restoration Trust Fund, Corps of Engineers - Civil",
+     "code": "096-X-8217-000",
+     "obligated_amount": 1000000.0,
+     "gross_outlay_amount": 1000000.0
+    }
+   ],
+   "obligated_amount": 1000000.0,
+   "gross_outlay_amount": 1000000.0
+  },
+  {
+   "code": "096-5066",
+   "name": "Hydraulic Mining in California, Debris Fund, Corps of Engineers-Civil",
+   "children": [
+    {
+     "name": "Hydraulic Mining in California, Debris Fund, Corps of Engineers-Civil",
+     "code": "096-X-5066-000",
+     "obligated_amount": 185729.6,
+     "gross_outlay_amount": 185729.6
+    }
+   ],
+   "obligated_amount": 185729.6,
+   "gross_outlay_amount": 185729.6
+  }
+ ],
+ "messages": []
+}

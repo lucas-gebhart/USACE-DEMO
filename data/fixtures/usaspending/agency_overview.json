@@ -1,0 +1,84 @@
+{
+ "_meta": {
+  "source": "USAspending",
+  "url": "https://api.usaspending.gov/api/v2/agency/096/?fiscal_year=2025",
+  "fetched_on": "2026-09-22"
+ },
+ "fiscal_year": 2025,
+ "toptier_code": "096",
+ "name": "Corps of Engineers - Civil Works",
+ "abbreviation": "USACE",
+ "agency_id": 1412,
+ "icon_filename": null,
+ "mission": "Serve the public by providing the Nation with quality and responsive Development and management of the Nation's water resources; Support of commercial navigation; Restoration, protection and management of aquatic ecosystems; Flood risk management; and Engineering and technical services in an environmentally sustainable, economic, and technically sound manner with a focus on public safety and collaborative partnerships.",
+ "website": "https://www.usace.army.mil/Missions/Civil-Works/",
+ "congressional_justification_url": "https://www.usace.army.mil/Missions/Civil-Works/cj",
+ "about_agency_data": null,
+ "subtier_agency_count": 1,
+ "def_codes": [
+  {
+   "code": "AAA",
+   "public_law": "Emergency P.L. 117-180",
+   "title": "Continuing Appropriations and Ukraine Supplemental Appropriations Act, 2023",
+   "urls": "http://www.govinfo.gov/content/pkg/PLAW-117publ180/pdf/PLAW-117publ180.pdf",
+   "disaster": null
+  },
+  {
+   "code": "AAB",
+   "public_law": "Emergency P.L. 117-328",
+   "title": "Consolidated Appropriations Act, 2023",
+   "urls": "http://www.govinfo.gov/content/pkg/PLAW-117publ328/pdf/PLAW-117publ328.pdf",
+   "disaster": null
+  },
+  {
+   "code": "AAK",
+   "public_law": "Emergency P.L. 118-158",
+   "title": "American Relief Act, 2025",
+   "urls": "http://www.govinfo.gov/content/pkg/PLAW-118publ158/pdf/PLAW-118publ158.pdf",
+   "disaster": null
+  },
+  {
+   "code": "C",
+   "public_law": "Emergency P.L. 115-123",
+   "title": "Bipartisan Budget Act of 2018",
+   "urls": "http://www.govinfo.gov/content/pkg/PLAW-115publ123/pdf/PLAW-115publ123.pdf",
+   "disaster": null
+  },
+  {
+   "code": "E",
+   "public_law": "Emergency P.L. 116-20",
+   "title": "Additional Supplemental Appropriations for Disaster Relief Act, 2019",
+   "urls": "http://www.govinfo.gov/content/pkg/PLAW-116publ20/pdf/PLAW-116publ20.pdf",
+   "disaster": null
+  },
+  {
+   "code": "N",
+   "public_law": "Emergency P.L. 116-136",
+   "title": "Coronavirus Aid, Relief, and Economic Security Act or the CARES Act",
+   "urls": "http://www.govinfo.gov/content/pkg/PLAW-116publ136/pdf/PLAW-116publ136.pdf",
+   "disaster": "covid_19"
+  },
+  {
+   "code": "Q",
+   "public_law": "Not Designated Nonemergency/Emergency/Disaster/Wildfire Suppression",
+   "title": "Not Designated Nonemergency/Emergency/Disaster/Wildfire Suppression",
+   "urls": null,
+   "disaster": null
+  },
+  {
+   "code": "X",
+   "public_law": "Emergency P.L. 117-43",
+   "title": "Extending Government Funding and Delivering Emergency Assistance Act",
+   "urls": "http://www.govinfo.gov/content/pkg/PLAW-117publ43/pdf/PLAW-117publ43.pdf",
+   "disaster": null
+  },
+  {
+   "code": "Z",
+   "public_law": "Emergency P.L. 117-58",
+   "title": "Infrastructure Investment and Jobs Act",
+   "urls": "http://www.govinfo.gov/content/pkg/PLAW-117publ58/pdf/PLAW-117publ58.pdf",
+   "disaster": "infrastructure"
+  }
+ ],
+ "messages": []
+}

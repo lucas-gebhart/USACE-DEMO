@@ -1,0 +1,42 @@
+services:
+  oracle:
+    # Oracle Database 23ai Free, repackaged for fast startup. The application layer changes; the database does not.
+    image: gvenzl/oracle-free:23-slim-faststart
+    environment:
+      ORACLE_PASSWORD: ${ORACLE_SYS_PASSWORD:-Sys_Passw0rd}
+      APP_USER: ${ORACLE_USER:-emt}
+      APP_USER_PASSWORD: ${ORACLE_PASSWORD:-emt_Passw0rd}
+    ports:
+      - "1521:1521"
+    volumes:
+      - ./db/migrations:/container-entrypoint-initdb.d:ro
+    healthcheck:
+      test: ["CMD", "healthcheck.sh"]
+      interval: 10s
+      timeout: 5s
+      retries: 30
+
+  api:
+    build: ./api
+    depends_on:
+      oracle:
+        condition: service_healthy
+    environment:
+      ORACLE_DSN: oracle:1521/FREEPDB1
+      ORACLE_USER: ${ORACLE_USER:-emt}
+      ORACLE_PASSWORD: ${ORACLE_PASSWORD:-emt_Passw0rd}
+      JWT_SECRET: ${JWT_SECRET:-dev-only-change-me}
+      LOAD_FIXTURES_ON_START: "1"
+    volumes:
+      - ./data:/data:ro
+    ports:
+      - "8000:8000"
+
+  web:
+    build: ./web
+    depends_on:
+      - api
+    environment:
+      VITE_API_URL: http://localhost:8000
+    ports:
+      - "5173:80"

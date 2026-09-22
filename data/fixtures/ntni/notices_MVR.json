@@ -1,0 +1,171 @@
+{
+ "_meta": {
+  "source": "NTNI navigation notices (ORDS)",
+  "url": "https://ndc.ops.usace.army.mil/ords/ntni/json_data/notices_by_district/MVR",
+  "fetched_on": "2026-09-22"
+ },
+ "items": [
+  {
+   "controlnumber": 214272,
+   "noticeno": "214193-2",
+   "issuedate": "2026-06-01T05:00:00Z",
+   "begindate": "2026-06-03T12:00:00Z",
+   "waterways": "Upper Mississippi River Pool 20",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=214272&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 212252,
+   "noticeno": "212252",
+   "issuedate": "2025-10-17T05:00:00Z",
+   "begindate": "2025-10-17T15:00:00Z",
+   "waterways": "Upper Mississippi River Pool 21",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=212252&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 212839,
+   "noticeno": "212839",
+   "issuedate": "2026-01-12T06:00:00Z",
+   "begindate": "2026-01-12T13:30:18Z",
+   "waterways": "IL Waterway Starved Rock Pool, IL Waterway Marseilles Pool",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=212839&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 212831,
+   "noticeno": "212364-2",
+   "issuedate": "2025-10-27T20:10:49Z",
+   "begindate": "2025-10-28T19:46:04Z",
+   "waterways": "IL Waterway Peoria Pool",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=212831&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 215081,
+   "noticeno": "215024-2",
+   "issuedate": "2026-09-10T12:16:14Z",
+   "begindate": "2026-09-10T11:00:00Z",
+   "waterways": "IL Waterway La Grange Pool",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=215081&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 214425,
+   "noticeno": "214425",
+   "issuedate": "2026-06-17T05:00:00Z",
+   "begindate": "2026-06-17T21:18:48Z",
+   "waterways": "IL Waterway Starved Rock Pool, IL Waterway Marseilles Pool",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=214425&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 214894,
+   "noticeno": "214894",
+   "issuedate": "2026-08-12T05:00:00Z",
+   "begindate": "2026-08-13T12:00:00Z",
+   "waterways": "Upper Mississippi River Pool 22",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=214894&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 214989,
+   "noticeno": "214980-1",
+   "issuedate": "2026-09-02T17:11:37Z",
+   "begindate": "2026-09-19T12:00:00Z",
+   "waterways": "Upper Mississippi River Pool 15, Upper Mississippi River Pool 14",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=214989&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 214751,
+   "noticeno": "214751",
+   "issuedate": "2026-07-21T05:00:00Z",
+   "begindate": "2026-07-21T11:07:25Z",
+   "waterways": "IL Waterway Starved Rock Pool",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=214751&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 215049,
+   "noticeno": "215049",
+   "issuedate": "2026-09-14T16:00:13Z",
+   "begindate": "2026-09-15T05:00:00Z",
+   "waterways": "IL Waterway La Grange Pool",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=215049&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 214772,
+   "noticeno": "214753-1",
+   "issuedate": "2026-07-21T05:00:00Z",
+   "begindate": "2026-07-21T12:34:20Z",
+   "waterways": "Upper Mississippi River Pool 18",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=214772&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 214767,
+   "noticeno": "214756-1",
+   "issuedate": "2026-07-21T05:00:00Z",
+   "begindate": "2027-01-04T13:00:00Z",
+   "waterways": "Upper Mississippi River Pool 24",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=214767&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 215079,
+   "noticeno": "214995-1",
+   "issuedate": "2026-09-04T12:49:53Z",
+   "begindate": "2026-09-08T11:00:00Z",
+   "waterways": "Upper Mississippi River Pool 19",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=215079&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 214874,
+   "noticeno": "214873-1",
+   "issuedate": "2026-08-10T05:00:00Z",
+   "begindate": "2026-08-12T12:00:00Z",
+   "waterways": "Upper Mississippi River Pool 11",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=214874&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 214949,
+   "noticeno": "214949",
+   "issuedate": "2026-08-25T13:46:14Z",
+   "begindate": "2026-12-05T13:00:00Z",
+   "waterways": "Upper Mississippi River Pool 20",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=214949&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 215053,
+   "noticeno": "214229-1",
+   "issuedate": "2026-06-02T16:17:52Z",
+   "begindate": "2026-09-21T11:00:00Z",
+   "waterways": "IL Waterway Dresden Island Pool, IL Waterway Brandon Road Pool",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=215053&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 205443,
+   "noticeno": "205443",
+   "issuedate": "2023-12-04T17:37:12Z",
+   "begindate": "2023-11-28T12:42:43Z",
+   "waterways": "MISSISSIPPI RIVER",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=205443&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 210815,
+   "noticeno": "210667-1",
+   "issuedate": "2025-05-06T15:46:37Z",
+   "begindate": "2025-05-12T11:00:00Z",
+   "waterways": "Upper Mississippi River Pool 22",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=210815&in_title_formatting=UB"
+  }
+ ],
+ "hasMore": false,
+ "limit": 2000,
+ "offset": 0,
+ "count": 18,
+ "links": [
+  {
+   "rel": "self",
+   "href": "https://ndc.ops.usace.army.mil/ords/ntni/json_data/notices_by_district/MVR"
+  },
+  {
+   "rel": "describedby",
+   "href": "https://ndc.ops.usace.army.mil/ords/ntni/metadata-catalog/json_data/notices_by_district/item"
+  },
+  {
+   "rel": "first",
+   "href": "https://ndc.ops.usace.army.mil/ords/ntni/json_data/notices_by_district/MVR"
+  }
+ ]
+}

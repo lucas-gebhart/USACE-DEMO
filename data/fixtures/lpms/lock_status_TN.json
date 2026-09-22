@@ -1,0 +1,198 @@
+{
+ "_meta": {
+  "source": "LPMS lock status (ORDS)",
+  "url": "https://ndc.ops.usace.army.mil/ords/lpms/lock_status_report_json?in_river_code=TN",
+  "fetched_on": "2026-09-22"
+ },
+ "rivers": [
+  {
+   "riverName": "TENNESSEE RIVER",
+   "locks": [
+    {
+     "lockNumber": "09",
+     "lockMile": 602,
+     "lockName": "Fort Loudoun Lock",
+     "readingEntryDateTime": ":",
+     "damCondition": "n/a",
+     "precipitation": null,
+     "weatherCode": null,
+     "totalPendingArrivals": 0,
+     "totalLocking": 0,
+     "totalLockedUp24Hours": 0,
+     "totalLockedDown24Hours": 0,
+     "average24HourDelay": 0,
+     "notes": "",
+     "stations": [
+      {
+       "stationName": "TN09"
+      }
+     ]
+    },
+    {
+     "lockNumber": "08",
+     "lockMile": 530,
+     "lockName": "Watts Bar Lock",
+     "readingEntryDateTime": ":",
+     "damCondition": "n/a",
+     "precipitation": null,
+     "weatherCode": null,
+     "totalPendingArrivals": 0,
+     "totalLocking": 0,
+     "totalLockedUp24Hours": 0,
+     "totalLockedDown24Hours": 0,
+     "average24HourDelay": 0,
+     "notes": "",
+     "stations": [
+      {
+       "stationName": "TN08"
+      }
+     ]
+    },
+    {
+     "lockNumber": "07",
+     "lockMile": 471,
+     "lockName": "Chickamauga Lock",
+     "readingEntryDateTime": "092226:0600",
+     "gageUpperElevation": 18.48,
+     "gageUpperElevationChange": null,
+     "gageLowerElevation": 17.23,
+     "gageLowerElevationChange": null,
+     "damCondition": "     0.0",
+     "precipitation": null,
+     "weatherCode": null,
+     "totalPendingArrivals": 0,
+     "totalLocking": 0,
+     "totalLockedUp24Hours": 1,
+     "totalLockedDown24Hours": 0,
+     "average24HourDelay": 0,
+     "notes": "",
+     "stations": [
+      {
+       "stationName": "TN07"
+      }
+     ]
+    },
+    {
+     "lockNumber": "06",
+     "lockMile": 425,
+     "lockName": "Nickajack Lock",
+     "readingEntryDateTime": ":",
+     "damCondition": "n/a",
+     "precipitation": null,
+     "weatherCode": null,
+     "totalPendingArrivals": 0,
+     "totalLocking": 0,
+     "totalLockedUp24Hours": 1,
+     "totalLockedDown24Hours": 2,
+     "average24HourDelay": 0,
+     "notes": "",
+     "stations": [
+      {
+       "stationName": "TN06"
+      }
+     ]
+    },
+    {
+     "lockNumber": "05",
+     "lockMile": 349,
+     "lockName": "Guntersville Lock",
+     "readingEntryDateTime": ":",
+     "damCondition": "n/a",
+     "precipitation": null,
+     "weatherCode": null,
+     "totalPendingArrivals": 0,
+     "totalLocking": 0,
+     "totalLockedUp24Hours": 0,
+     "totalLockedDown24Hours": 0,
+     "average24HourDelay": 0,
+     "notes": "",
+     "stations": [
+      {
+       "stationName": "TN05"
+      }
+     ]
+    },
+    {
+     "lockNumber": "04",
+     "lockMile": 275,
+     "lockName": "Gen Jos Wheeler Lock",
+     "readingEntryDateTime": ":",
+     "damCondition": "n/a",
+     "precipitation": null,
+     "weatherCode": null,
+     "totalPendingArrivals": 2,
+     "totalLocking": 0,
+     "totalLockedUp24Hours": 2,
+     "totalLockedDown24Hours": 1,
+     "average24HourDelay": 0,
+     "notes": "",
+     "stations": [
+      {
+       "stationName": "TN04"
+      }
+     ]
+    },
+    {
+     "lockNumber": "03",
+     "lockMile": 259,
+     "lockName": "Wilson Lock",
+     "readingEntryDateTime": ":",
+     "damCondition": "n/a",
+     "precipitation": null,
+     "weatherCode": null,
+     "totalPendingArrivals": 0,
+     "totalLocking": 0,
+     "totalLockedUp24Hours": 3,
+     "totalLockedDown24Hours": 0,
+     "average24HourDelay": 0,
+     "notes": "",
+     "stations": [
+      {
+       "stationName": "TN03"
+      }
+     ]
+    },
+    {
+     "lockNumber": "02",
+     "lockMile": 207,
+     "lockName": "Pickwick Landing Lock",
+     "readingEntryDateTime": ":",
+     "damCondition": "n/a",
+     "precipitation": null,
+     "weatherCode": null,
+     "totalPendingArrivals": 0,
+     "totalLocking": 0,
+     "totalLockedUp24Hours": 4,
+     "totalLockedDown24Hours": 1,
+     "average24HourDelay": 0,
+     "notes": "",
+     "stations": [
+      {
+       "stationName": "TN02"
+      }
+     ]
+    },
+    {
+     "lockNumber": "01",
+     "lockMile": 22,
+     "lockName": "Kentucky Lock",
+     "readingEntryDateTime": ":",
+     "damCondition": "n/a",
+     "precipitation": null,
+     "weatherCode": null,
+     "totalPendingArrivals": 39,
+     "totalLocking": 0,
+     "totalLockedUp24Hours": 1,
+     "totalLockedDown24Hours": 10,
+     "average24HourDelay": 0,
+     "notes": "",
+     "stations": [
+      {
+       "stationName": "TN01"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

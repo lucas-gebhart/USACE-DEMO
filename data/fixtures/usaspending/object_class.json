@@ -1,0 +1,141 @@
+{
+ "_meta": {
+  "source": "USAspending",
+  "url": "https://api.usaspending.gov/api/v2/agency/096/object_class/?fiscal_year=2025&limit=50",
+  "fetched_on": "2026-09-22"
+ },
+ "toptier_code": "096",
+ "fiscal_year": 2025,
+ "page_metadata": {
+  "page": 1,
+  "total": 24,
+  "limit": 50,
+  "next": null,
+  "previous": null,
+  "hasNext": false,
+  "hasPrevious": false
+ },
+ "results": [
+  {
+   "name": "Other goods and services from Federal sources",
+   "obligated_amount": 10728730611.71,
+   "gross_outlay_amount": 10247921463.32
+  },
+  {
+   "name": "Other services from non-Federal sources",
+   "obligated_amount": 8534279939.43,
+   "gross_outlay_amount": 7726211085.64
+  },
+  {
+   "name": "Land and structures",
+   "obligated_amount": 6769090981.43,
+   "gross_outlay_amount": 7911048073.2
+  },
+  {
+   "name": "Full-time permanent",
+   "obligated_amount": 4556647786.34,
+   "gross_outlay_amount": 4556647786.34
+  },
+  {
+   "name": "Operation and maintenance of facilities",
+   "obligated_amount": 1402739731.68,
+   "gross_outlay_amount": 933372297.64
+  },
+  {
+   "name": "Civilian personnel benefits",
+   "obligated_amount": 1136584338.29,
+   "gross_outlay_amount": 1133609464.78
+  },
+  {
+   "name": "Advisory and assistance services",
+   "obligated_amount": 412232180.64,
+   "gross_outlay_amount": 326940149.48
+  },
+  {
+   "name": "Other personnel compensation",
+   "obligated_amount": 340869201.0,
+   "gross_outlay_amount": 340869201.0
+  },
+  {
+   "name": "Travel and transportation of persons",
+   "obligated_amount": 273968582.27,
+   "gross_outlay_amount": 261363875.99
+  },
+  {
+   "name": "Rental payments to GSA",
+   "obligated_amount": 273154453.2,
+   "gross_outlay_amount": 273336575.48
+  },
+  {
+   "name": "Supplies and materials",
+   "obligated_amount": 264724350.17,
+   "gross_outlay_amount": 207415614.0
+  },
+  {
+   "name": "Equipment",
+   "obligated_amount": 189284231.13,
+   "gross_outlay_amount": 77183197.38
+  },
+  {
+   "name": "Communications, utilities, and miscellaneous charges",
+   "obligated_amount": 136576484.62,
+   "gross_outlay_amount": 124575601.64
+  },
+  {
+   "name": "Operation and maintenance of equipment",
+   "obligated_amount": 115795099.25,
+   "gross_outlay_amount": 83139598.89
+  },
+  {
+   "name": "Rental payments to others",
+   "obligated_amount": 70408249.43,
+   "gross_outlay_amount": 61443271.94
+  },
+  {
+   "name": "Other than full-time permanent",
+   "obligated_amount": 48836755.4,
+   "gross_outlay_amount": 48836755.4
+  },
+  {
+   "name": "Research and development contracts",
+   "obligated_amount": 17549226.04,
+   "gross_outlay_amount": 158878.02
+  },
+  {
+   "name": "Transportation of things",
+   "obligated_amount": 17497810.6,
+   "gross_outlay_amount": 13561217.44
+  },
+  {
+   "name": "Grants, subsidies, and contributions",
+   "obligated_amount": 10830172.91,
+   "gross_outlay_amount": 5172.91
+  },
+  {
+   "name": "Insurance claims and indemnities",
+   "obligated_amount": 933711.3,
+   "gross_outlay_amount": 1088571.3
+  },
+  {
+   "name": "Printing and reproduction",
+   "obligated_amount": 900326.99,
+   "gross_outlay_amount": 605614.96
+  },
+  {
+   "name": "Medical care",
+   "obligated_amount": 786311.36,
+   "gross_outlay_amount": 434243.39
+  },
+  {
+   "name": "Interest and dividends",
+   "obligated_amount": 214810.68,
+   "gross_outlay_amount": 214810.68
+  },
+  {
+   "name": "Subsistence and support of persons",
+   "obligated_amount": 101000.48,
+   "gross_outlay_amount": 85284.88
+  }
+ ],
+ "messages": []
+}
