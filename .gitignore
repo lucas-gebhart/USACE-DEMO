@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+
+# Node
+node_modules/
+web/dist/
+
+# Data: raw downloads are large; only curated fixtures under data/fixtures are committed
+data/raw/
+
+# Local env
+.env
+*.log
