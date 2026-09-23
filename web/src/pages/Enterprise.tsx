@@ -37,7 +37,7 @@ export default function Enterprise() {
           <Stat label="Contract awards" value={int(p.rollup.contract_count)} hint={moneyCompact(p.rollup.contract_value) + " obligated (CEFMS proxy)"} />
         </div>
         <div className="tablet:grid-col">
-          <Stat label="USACE dams" value={int(p.rollup.asset_count)} hint="NID (BUILDER proxy)" />
+          <Stat label="USACE-owned dams" value={int(p.rollup.asset_count)} hint="NID owner match (BUILDER proxy)" />
         </div>
         <div className="tablet:grid-col">
           <Stat
@@ -147,7 +147,11 @@ export default function Enterprise() {
           </Section>
         </div>
         <div className="desktop:grid-col-6">
-          <Section title="Dam hazard / condition (NID)" aside="BUILDER SMS proxy">
+          <Section title="Dam hazard / condition (NID)" aside={
+              p.scope.kind === "HQ"
+                ? "all loaded NID dams: USACE-owned + high-hazard regional context · BUILDER SMS proxy"
+                : "USACE-owned dams in scope · BUILDER SMS proxy"
+            }>
             <div className="grid-row grid-gap-1">
               <div className="grid-col-6">
                 <MixTable title="Hazard potential" rows={p.hazard_mix} />
