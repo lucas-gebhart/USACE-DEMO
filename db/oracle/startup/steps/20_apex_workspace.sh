@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Runs once after 10_apex_install.sh. Creates the EMT workspace on the application schema, a
+# Step 4 of ../emt_init.sh. Creates the EMT workspace on the application schema, a
 # developer login for the APEX Builder, and imports the legacy EMT application (db/apex/f100.sql).
 set -euo pipefail
 APP_USER="${APP_USER:-emt}"

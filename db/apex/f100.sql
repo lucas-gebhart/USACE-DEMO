@@ -1641,7 +1641,7 @@ wwv_flow_imp_page.create_page(
 );
 wwv_flow_imp_page.create_page_plug(
  p_id=>wwv_flow_imp.id(7987141390352612)
-,p_plug_name=>'V Emt Projects'
+,p_plug_name=>'Projects'
 ,p_region_template_options=>'#DEFAULT#:t-IRR-region--hideHeader js-addHiddenHeadingRoleDesc'
 ,p_plug_template=>2100526641005906379
 ,p_plug_display_sequence=>10
@@ -1675,6 +1675,7 @@ wwv_flow_imp_page.create_worksheet_column(
 ,p_column_identifier=>'A'
 ,p_column_label=>'Project ID'
 ,p_column_type=>'NUMBER'
+,p_display_text_as=>'HIDDEN'
 ,p_heading_alignment=>'RIGHT'
 ,p_column_alignment=>'RIGHT'
 ,p_tz_dependent=>'N'

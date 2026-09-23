@@ -132,7 +132,7 @@ data/       fetch.py refreshes public fixtures; fixtures/ (committed) ; referenc
 db/         migrations/V001 canonical schema, V002 emt_legacy PL/SQL package, V003 migration_routes,
             V004 v_emt_* views the APEX app reads
             apex/f100.sql — APEX 24.2 export of the legacy EMT app (application 100)
-            oracle/initdb/ — first-boot scripts: app user, APEX install, migrations, workspace + import
+            oracle/startup/ — first-boot init (emt_init.sh + steps/): app user, APEX install, migrations, workspace + import
             legacy/apex_page_process_example.sql — annotated district-dashboard page process (shown on the coexistence page)
 api/        FastAPI (app/), loaders (python -m loaders), pytest integration suite (tests/)
 web/        React 19 + USWDS 3 + TanStack Query + Recharts; nginx image proxies /api

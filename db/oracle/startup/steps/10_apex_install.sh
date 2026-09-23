@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
-# Runs once, on first database creation (container-registry.oracle.com/database/free sources
-# /opt/oracle/scripts/setup/*.sh). Installs Oracle APEX into FREEPDB1 and configures the REST database
+# Step 2 of ../emt_init.sh. Installs Oracle APEX into FREEPDB1 and configures the REST database
 # users so the legacy EMT APEX application can be served by the `ords` compose service.
 # The APEX distribution is kept unzipped inside the oradata volume; the ords service mounts that
 # subpath at /opt/oracle/apex (static /i/ files + version detection).

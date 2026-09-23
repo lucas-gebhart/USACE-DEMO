@@ -11,6 +11,8 @@ jobs:
     runs-on: ubuntu-latest
     services:
       oracle:
+        # Slim image is enough for the API suite (tables, views, PL/SQL). The APEX/ORDS "before" app needs
+        # XDB, which only the full official image has; that path is exercised by `make up`, not CI.
         image: gvenzl/oracle-free:23-slim-faststart
         env:
           ORACLE_PASSWORD: Sys_Passw0rd
