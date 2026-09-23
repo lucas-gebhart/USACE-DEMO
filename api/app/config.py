@@ -17,4 +17,7 @@ TOKEN_TTL_MINUTES = 8 * 60
 DATA_DIR = Path(env("DATA_DIR", str(REPO_ROOT / "data")))
 MIGRATIONS_DIR = Path(env("MIGRATIONS_DIR", str(REPO_ROOT / "db" / "migrations")))
 LOAD_FIXTURES_ON_START = env("LOAD_FIXTURES_ON_START", "0") == "1"
+# Where the browser reaches the legacy APEX application (ORDS). App 100 = legacy EMT.
+APEX_BASE_URL = env("APEX_BASE_URL", "http://localhost:8080/ords")
+APEX_APP_ID = int(env("APEX_APP_ID", "100"))
 CORS_ORIGINS = [o for o in env("CORS_ORIGINS", "http://localhost:5173,http://127.0.0.1:5173").split(",") if o]

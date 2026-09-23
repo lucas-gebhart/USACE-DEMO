@@ -1,4 +1,4 @@
-import { Navigate, NavLink, Route, Routes } from "react-router-dom";
+import { Navigate, NavLink, Route, Routes, useParams } from "react-router-dom";
 import { useAuth } from "./lib/auth";
 import Login from "./pages/Login";
 import Enterprise from "./pages/Enterprise";
@@ -7,6 +7,26 @@ import ProjectPage from "./pages/ProjectPage";
 import Operations from "./pages/Operations";
 import Coexistence from "./pages/Coexistence";
 import Sources from "./pages/Sources";
+import Migration from "./pages/Migration";
+import MigratedRoute from "./components/MigratedRoute";
+
+function OrgRoute() {
+  const { code = "" } = useParams();
+  return (
+    <MigratedRoute routeKey="org" apexItems={{ IR_ROWFILTER: code.toUpperCase() }}>
+      <OrgPage />
+    </MigratedRoute>
+  );
+}
+
+function ProjectRoute() {
+  const { id = "" } = useParams();
+  return (
+    <MigratedRoute routeKey="project" apexItems={{ P5_PROJECT_ID: id }}>
+      <ProjectPage />
+    </MigratedRoute>
+  );
+}
 
 export default function App() {
   const { user, ready, logout } = useAuth();
@@ -17,7 +37,8 @@ export default function App() {
     { to: "/", label: "Enterprise" },
     { to: `/orgs/${user.org_code}`, label: user.role === "DISTRICT" ? "My district" : "Drill-down" },
     { to: "/ops", label: "Operations" },
-    { to: "/coexistence", label: "APEX coexistence" },
+    { to: "/migration", label: "Migration control" },
+    { to: "/coexistence", label: "PL/SQL coexistence" },
     { to: "/sources", label: "Data lineage" },
   ];
 
@@ -78,10 +99,25 @@ export default function App() {
       </header>
       <main id="main" className="grid-container-widescreen padding-y-3">
         <Routes>
-          <Route path="/" element={<Enterprise />} />
-          <Route path="/orgs/:code" element={<OrgPage />} />
-          <Route path="/projects/:id" element={<ProjectPage />} />
-          <Route path="/ops" element={<Operations />} />
+          <Route
+            path="/"
+            element={
+              <MigratedRoute routeKey="enterprise">
+                <Enterprise />
+              </MigratedRoute>
+            }
+          />
+          <Route path="/orgs/:code" element={<OrgRoute />} />
+          <Route path="/projects/:id" element={<ProjectRoute />} />
+          <Route
+            path="/ops"
+            element={
+              <MigratedRoute routeKey="ops">
+                <Operations />
+              </MigratedRoute>
+            }
+          />
+          <Route path="/migration" element={<Migration />} />
           <Route path="/coexistence" element={<Coexistence />} />
           <Route path="/sources" element={<Sources />} />
           <Route path="*" element={<Navigate to="/" replace />} />

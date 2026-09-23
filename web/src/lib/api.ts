@@ -283,6 +283,31 @@ const qs = (params: Record<string, string | number | boolean | undefined | null>
   return out ? `?${out}` : "";
 };
 
+export type Implementation = "APEX" | "REACT";
+
+export interface MigrationRoute {
+  route_key: string;
+  title: string;
+  sort_order: number;
+  apex_page_id: number;
+  apex_page_name: string;
+  apex_url: string;
+  react_path: string;
+  api_routes: string[];
+  implementation: Implementation;
+  migrated_at: string | null;
+  note: string | null;
+}
+
+export interface MigrationState {
+  apex_base_url: string;
+  apex_app_id: number;
+  apex_builder_url: string;
+  routes: MigrationRoute[];
+  migrated_count: number;
+  total_count: number;
+}
+
 export const api = {
   devUsers: () => request<DevUser[]>("/auth/users"),
   login: (username: string, password: string) =>
@@ -305,4 +330,10 @@ export const api = {
   workforce: () => request<Workforce>("/v1/workforce"),
   legacyDashboard: (code: string) => request<LegacyDashboard>(`/v1/legacy/district-dashboard/${code}`),
   sources: () => request<SourceLoad[]>("/v1/sources"),
+  migration: () => request<MigrationState>("/v1/migration"),
+  setImplementation: (routeKey: string, implementation: Implementation) =>
+    request<MigrationRoute>(`/v1/migration/${routeKey}`, {
+      method: "PUT",
+      body: JSON.stringify({ implementation }),
+    }),
 };

@@ -172,6 +172,33 @@ class Portfolio(BaseModel):
     sources: list[SourceLoad]
 
 
+class MigrationRoute(BaseModel):
+    route_key: str
+    title: str
+    sort_order: int
+    apex_page_id: int
+    apex_page_name: str
+    apex_url: str
+    react_path: str
+    api_routes: list[str]
+    implementation: str  # APEX | REACT
+    migrated_at: datetime | None = None
+    note: str | None = None
+
+
+class MigrationState(BaseModel):
+    apex_base_url: str
+    apex_app_id: int
+    apex_builder_url: str
+    routes: list[MigrationRoute]
+    migrated_count: int
+    total_count: int
+
+
+class MigrationUpdate(BaseModel):
+    implementation: str  # APEX | REACT
+
+
 class DistrictDashboard(BaseModel):
     org: Org
     rollup: OrgRollup

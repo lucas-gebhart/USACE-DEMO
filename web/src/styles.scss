@@ -116,3 +116,121 @@ body {
 .text-no-wrap {
   white-space: nowrap;
 }
+
+// ---- APEX -> React migration shell -----------------------------------------
+$apex-red: #c74634; // Oracle brand red, used only to mark the legacy tier
+$react-green: #2e8540;
+
+.emt-route {
+  border-left: 0.5rem solid $apex-red;
+  padding-left: 1rem;
+  margin-left: -1.5rem;
+
+  &--react {
+    border-left-color: $react-green;
+  }
+}
+
+.emt-route__bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  padding: 0.5rem 0.75rem;
+  margin-bottom: 1rem;
+  background: #f0f0f0;
+  border-radius: 0.25rem;
+}
+
+.emt-pill-apex {
+  background: $apex-red;
+  color: #fff;
+}
+
+.emt-pill-react {
+  background: $react-green;
+  color: #fff;
+}
+
+.emt-seg-active {
+  background: #005ea2;
+  color: #fff !important;
+}
+
+.emt-apex-frame {
+  border: 1px solid #a9aeb1;
+  border-radius: 0.375rem;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+
+  &__chrome {
+    display: flex;
+    align-items: center;
+    gap: 0.35rem;
+    padding: 0.4rem 0.75rem;
+    background: #dfe1e2;
+    border-bottom: 1px solid #a9aeb1;
+  }
+
+  &__dot {
+    width: 0.65rem;
+    height: 0.65rem;
+    border-radius: 50%;
+    background: #a9aeb1;
+  }
+
+  &__iframe {
+    display: block;
+    width: 100%;
+    border: 0;
+  }
+}
+
+.emt-split__label {
+  margin: 0 0 0.5rem;
+  font-weight: 700;
+  font-size: 0.8rem;
+  letter-spacing: 0.04em;
+
+  &--apex {
+    color: $apex-red;
+  }
+
+  &--react {
+    color: $react-green;
+  }
+}
+
+.emt-split__react {
+  border: 1px solid $react-green;
+  border-radius: 0.375rem;
+  padding: 1rem;
+  max-height: 1400px;
+  overflow: auto;
+}
+
+.emt-progress {
+  position: relative;
+  height: 2rem;
+  background: mix($apex-red, #fff, 25%);
+  border-radius: 1rem;
+  overflow: hidden;
+
+  &__bar {
+    height: 100%;
+    background: $react-green;
+    transition: width 0.6s ease;
+  }
+
+  &__label {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 0.85rem;
+  }
+}

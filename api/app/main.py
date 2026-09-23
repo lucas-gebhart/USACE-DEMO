@@ -6,7 +6,19 @@ from fastapi.middleware.cors import CORSMiddleware
 
 from app import config, db
 from app.auth import visible_orgs
-from app.routers import assets, auth, contracts, legacy, ops, orgs, portfolio, projects, sources, workforce
+from app.routers import (
+    assets,
+    auth,
+    contracts,
+    legacy,
+    migration,
+    ops,
+    orgs,
+    portfolio,
+    projects,
+    sources,
+    workforce,
+)
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s %(name)s: %(message)s")
 log = logging.getLogger(__name__)
@@ -44,7 +56,7 @@ app.add_middleware(
     CORSMiddleware, allow_origins=config.CORS_ORIGINS, allow_methods=["*"], allow_headers=["*"], allow_credentials=True
 )
 
-for r in (auth, portfolio, orgs, projects, contracts, assets, ops, workforce, legacy, sources):
+for r in (auth, portfolio, orgs, projects, contracts, assets, ops, workforce, legacy, migration, sources):
     app.include_router(r.router)
 
 

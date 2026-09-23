@@ -14,7 +14,7 @@ def test_health(client):
 def test_openapi_lists_v1_routes(client):
     paths = client.get("/openapi.json").json()["paths"]
     for p in ("/v1/portfolio", "/v1/orgs/{org_code}", "/v1/projects", "/v1/contracts", "/v1/assets", "/v1/ops/locks",
-              "/v1/workforce", "/v1/legacy/district-dashboard/{org_code}", "/v1/sources"):  # fmt: skip
+              "/v1/workforce", "/v1/legacy/district-dashboard/{org_code}", "/v1/sources", "/v1/migration"):  # fmt: skip
         assert p in paths
 
 
@@ -202,3 +202,41 @@ def test_legacy_dashboard_matches_new_route(client, mvp):
     assert [p["project_id"] for p in old["projects"]] == [p["project_id"] for p in new]
     assert [p["status_label"] for p in old["projects"]] == [p["status_label"] for p in new]
     assert client.get("/v1/legacy/district-dashboard/MVS", headers=mvp).status_code == 403
+
+
+# --- strangler-fig migration switch -----------------------------------------
+
+
+def test_migration_state_lists_every_legacy_page(client, mvp):
+    s = client.get("/v1/migration", headers=mvp).json()
+    assert s["apex_app_id"] == 100
+    assert s["apex_base_url"].endswith("/ords")
+    assert [r["route_key"] for r in s["routes"]] == ["enterprise", "org", "project", "ops"]
+    assert s["total_count"] == 4
+    for r in s["routes"]:
+        assert r["implementation"] in ("APEX", "REACT")
+        assert r["apex_url"] == f"{s['apex_base_url']}/f?p=100:{r['apex_page_id']}"
+        assert r["api_routes"]
+
+
+def test_migration_flip_is_hq_only(client, mvp, mvd):
+    for h in (mvp, mvd):
+        assert client.put("/v1/migration/ops", json={"implementation": "REACT"}, headers=h).status_code == 403
+
+
+def test_migration_flip_and_rollback(client, hq):
+    before = client.get("/v1/migration/ops", headers=hq).json()["implementation"]
+    try:
+        r = client.put("/v1/migration/ops", json={"implementation": "REACT"}, headers=hq).json()
+        assert r["implementation"] == "REACT" and r["migrated_at"] is not None
+        assert client.get("/v1/migration", headers=hq).json()["migrated_count"] >= 1
+        r = client.put("/v1/migration/ops", json={"implementation": "APEX"}, headers=hq).json()
+        assert r["implementation"] == "APEX" and r["migrated_at"] is None
+    finally:
+        client.put("/v1/migration/ops", json={"implementation": before}, headers=hq)
+
+
+def test_migration_validation(client, hq):
+    assert client.put("/v1/migration/ops", json={"implementation": "COBOL"}, headers=hq).status_code == 422
+    assert client.put("/v1/migration/nope", json={"implementation": "REACT"}, headers=hq).status_code == 404
+    assert client.get("/v1/migration/nope", headers=hq).status_code == 404

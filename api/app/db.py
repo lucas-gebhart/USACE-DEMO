@@ -68,6 +68,13 @@ def query_one(sql: str, **binds: Any) -> dict[str, Any] | None:
     return rows[0] if rows else None
 
 
+def execute(sql: str, **binds: Any) -> int:
+    with connection() as conn, conn.cursor() as cur:
+        cur.execute(sql, binds)
+        conn.commit()
+        return cur.rowcount
+
+
 def call_refcursor(call: str, **binds: Any) -> list[dict[str, Any]]:
     """Run `SELECT`-free PL/SQL that returns a SYS_REFCURSOR, e.g. legacy package functions."""
     with connection() as conn, conn.cursor() as cur:
