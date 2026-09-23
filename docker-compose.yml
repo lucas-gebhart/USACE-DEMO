@@ -1,18 +1,55 @@
 services:
   oracle:
-    # Oracle Database 23ai Free, repackaged for fast startup. The application layer changes; the database does not.
-    image: gvenzl/oracle-free:23-slim-faststart
+    # Oracle Database 23ai Free (official image; the *-lite and gvenzl slim variants drop XDB, which APEX needs).
+    # First start runs db/oracle/initdb/*: app schema, APEX 24.2 install (~5 min), db/migrations, workspace + legacy app import.
+    image: container-registry.oracle.com/database/free:23.9.0.0
     environment:
-      ORACLE_PASSWORD: ${ORACLE_SYS_PASSWORD:-Sys_Passw0rd}
+      ORACLE_PWD: ${ORACLE_SYS_PASSWORD:-Sys_Passw0rd}
       APP_USER: ${ORACLE_USER:-emt}
       APP_USER_PASSWORD: ${ORACLE_PASSWORD:-emt_Passw0rd}
+      APEX_VERSION: ${APEX_VERSION:-24.2}
+      APEX_ADMIN_PASSWORD: ${APEX_ADMIN_PASSWORD:-Apex_Passw0rd!1}
+      APEX_REST_PASSWORD: ${APEX_REST_PASSWORD:-Rest_Passw0rd!1}
+    volumes:
+      - oracle-data:/opt/oracle/oradata
+      - ./db/oracle/initdb:/opt/oracle/scripts/setup:ro
+      - ./db/migrations:/migrations:ro
+      - ./db/apex:/apex-app:ro
     ports:
       - "1521:1521"
+    shm_size: 2g
     healthcheck:
-      test: ["CMD", "healthcheck.sh"]
+      # Healthy only once db/oracle/initdb/* finished (99_done.sh marker) and the app schema accepts logins.
+      test: ["CMD-SHELL", "test -f /opt/oracle/oradata/.emt-initdb-done && echo 'select 1 from dual;' | sqlplus -s -L $$APP_USER/$$APP_USER_PASSWORD@//localhost:1521/FREEPDB1 | grep -q 1"]
       interval: 10s
-      timeout: 5s
-      retries: 30
+      timeout: 10s
+      retries: 90
+      start_period: 60s
+
+  ords:
+    # Oracle REST Data Services (official image). Serves the legacy APEX application — the "before" —
+    # at http://localhost:8080/ords/f?p=100 and the APEX Builder at /ords/apex. First start installs the
+    # ORDS schema (~1 min); it finds APEX already installed by the oracle initdb scripts.
+    image: container-registry.oracle.com/database/ords:26.2.3
+    depends_on:
+      oracle:
+        condition: service_healthy
+    environment:
+      DBHOST: oracle
+      DBPORT: "1521"
+      DBSERVICENAME: FREEPDB1
+      ORACLE_PWD: ${ORACLE_SYS_PASSWORD:-Sys_Passw0rd}
+      ORACLE_USER_PWD: ${ORDS_PASSWORD:-Ords_Passw0rd!1}
+    volumes:
+      - type: volume
+        source: oracle-data
+        target: /opt/oracle/apex
+        read_only: true
+        volume:
+          subpath: apex-cache/apex
+      - ords-config:/etc/ords/config
+    ports:
+      - "8080:8080"
 
   api:
     build: ./api
@@ -27,6 +64,7 @@ services:
       LOAD_FIXTURES_ON_START: "1"
       DATA_DIR: /data
       MIGRATIONS_DIR: /db/migrations
+      APEX_BASE_URL: ${APEX_BASE_URL:-http://localhost:8080/ords}
       CORS_ORIGINS: http://localhost:5173,http://127.0.0.1:5173
     volumes:
       - ./data:/data:ro
@@ -40,3 +78,7 @@ services:
       - api
     ports:
       - "5173:80"
+
+volumes:
+  oracle-data:
+  ords-config:
