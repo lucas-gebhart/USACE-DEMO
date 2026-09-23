@@ -115,13 +115,13 @@ export default function ProjectPage() {
           <div className="grid-row grid-gap-2">
             <div className="desktop:grid-col-7">
               <h3 className="font-heading-sm margin-bottom-05">Contract awards in {p.org_code}</h3>
-              <table className="usa-table usa-table--compact usa-table--striped width-full font-body-2xs">
+              <table className="usa-table usa-table--compact usa-table--striped width-full font-body-2xs emt-table-fixed">
                 <thead>
                   <tr>
-                    <th scope="col">PIID</th>
-                    <th scope="col">Recipient</th>
+                    <th scope="col" className="width-card">PIID</th>
+                    <th scope="col" className="width-card-lg">Recipient</th>
                     <th scope="col">Description</th>
-                    <th scope="col" className="text-right">Award</th>
+                    <th scope="col" className="text-right width-card">Award</th>
                   </tr>
                 </thead>
                 <tbody>

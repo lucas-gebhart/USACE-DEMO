@@ -96,6 +96,18 @@ body {
   white-space: nowrap;
 }
 
+.emt-table-fixed {
+  table-layout: fixed;
+
+  td {
+    overflow-wrap: anywhere;
+  }
+
+  .emt-clamp {
+    max-width: none;
+  }
+}
+
 .usa-table td,
 .usa-table th {
   vertical-align: top;
