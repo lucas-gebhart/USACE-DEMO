@@ -17,6 +17,8 @@ def load(cur: oracledb.Cursor, data_dir: Path) -> int:
 
     cur.execute("DELETE FROM project_business_lines")
     cur.execute("DELETE FROM projects")
+    # Reloads keep /projects/{id} links stable: restart the identity at 1 for the (now empty) table.
+    cur.execute("ALTER TABLE projects MODIFY (project_id GENERATED ALWAYS AS IDENTITY (START WITH LIMIT VALUE))")
     pid = cur.var(oracledb.DB_TYPE_NUMBER)
     for p in projects:
         cur.execute(

@@ -1,5 +1,9 @@
+import type { ReactNode } from "react";
+import { useQuery, type UseQueryResult } from "@tanstack/react-query";
 import { Navigate, NavLink, Route, Routes, useParams } from "react-router-dom";
+import { api } from "./lib/api";
 import { useAuth } from "./lib/auth";
+import { ErrorBox, Loading } from "./components/ui";
 import Login from "./pages/Login";
 import Enterprise from "./pages/Enterprise";
 import OrgPage from "./pages/OrgPage";
@@ -10,21 +14,35 @@ import Sources from "./pages/Sources";
 import Migration from "./pages/Migration";
 import MigratedRoute from "./components/MigratedRoute";
 
+/** The API's JWT org scoping gates the shell even while the page itself is still served by APEX. */
+function ScopeGate({ query, children }: { query: UseQueryResult<unknown>; children: ReactNode }) {
+  if (query.isPending) return <Loading what="access scope" />;
+  if (query.error) return <ErrorBox error={query.error} />;
+  return <>{children}</>;
+}
+
 function OrgRoute() {
   const { code = "" } = useParams();
+  const scope = useQuery({ queryKey: ["org", code], queryFn: () => api.org(code) });
   return (
-    <MigratedRoute routeKey="org" apexItems={{ IR_ROWFILTER: code.toUpperCase() }}>
-      <OrgPage />
-    </MigratedRoute>
+    <ScopeGate query={scope}>
+      <MigratedRoute routeKey="org" apexItems={{ IR_ROWFILTER: code.toUpperCase() }}>
+        <OrgPage />
+      </MigratedRoute>
+    </ScopeGate>
   );
 }
 
 function ProjectRoute() {
   const { id = "" } = useParams();
+  const pid = Number(id);
+  const scope = useQuery({ queryKey: ["project", pid], queryFn: () => api.project(pid) });
   return (
-    <MigratedRoute routeKey="project" apexItems={{ P5_PROJECT_ID: id }}>
-      <ProjectPage />
-    </MigratedRoute>
+    <ScopeGate query={scope}>
+      <MigratedRoute routeKey="project" apexItems={{ P5_PROJECT_ID: id }}>
+        <ProjectPage />
+      </MigratedRoute>
+    </ScopeGate>
   );
 }
 
