@@ -1,0 +1,43 @@
+{
+ "_meta": {
+  "source": "NTNI navigation notices (ORDS)",
+  "url": "https://ndc.ops.usace.army.mil/ords/ntni/json_data/notices_by_district/MVK",
+  "fetched_on": "2026-09-22"
+ },
+ "items": [
+  {
+   "controlnumber": 215023,
+   "noticeno": "215023",
+   "issuedate": "2026-09-09T20:34:04Z",
+   "begindate": "2026-09-09T19:00:00Z",
+   "waterways": "FITLER-MILLIKEN BEND",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=215023&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 215072,
+   "noticeno": "215072",
+   "issuedate": "2026-09-18T16:11:45Z",
+   "begindate": "2026-09-19T17:00:00Z",
+   "waterways": "CUMBYVILLE MM690",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=215072&in_title_formatting=UB"
+  }
+ ],
+ "hasMore": false,
+ "limit": 2000,
+ "offset": 0,
+ "count": 2,
+ "links": [
+  {
+   "rel": "self",
+   "href": "https://ndc.ops.usace.army.mil/ords/ntni/json_data/notices_by_district/MVK"
+  },
+  {
+   "rel": "describedby",
+   "href": "https://ndc.ops.usace.army.mil/ords/ntni/metadata-catalog/json_data/notices_by_district/item"
+  },
+  {
+   "rel": "first",
+   "href": "https://ndc.ops.usace.army.mil/ords/ntni/json_data/notices_by_district/MVK"
+  }
+ ]
+}

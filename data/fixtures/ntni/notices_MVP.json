@@ -1,0 +1,91 @@
+{
+ "_meta": {
+  "source": "NTNI navigation notices (ORDS)",
+  "url": "https://ndc.ops.usace.army.mil/ords/ntni/json_data/notices_by_district/MVP",
+  "fetched_on": "2026-09-22"
+ },
+ "items": [
+  {
+   "controlnumber": 214032,
+   "noticeno": "214032",
+   "issuedate": "2026-05-27T14:05:53Z",
+   "begindate": "2026-05-22T14:29:33Z",
+   "waterways": "POOL_03_UPPER_MISSISSIPPI",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=214032&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 214845,
+   "noticeno": "214845",
+   "issuedate": "2026-08-06T14:28:43Z",
+   "begindate": "2026-08-06T12:00:00Z",
+   "waterways": "POOL_09_UPPER_MISSISSIPPI",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=214845&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 214031,
+   "noticeno": "214031",
+   "issuedate": "2026-05-27T14:08:06Z",
+   "begindate": "2026-05-22T13:11:02Z",
+   "waterways": "POOL_05A_UPPER_MISSISSIPPI",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=214031&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 214810,
+   "noticeno": "214810",
+   "issuedate": "2026-07-31T17:22:40Z",
+   "begindate": "2026-12-01T13:00:00Z",
+   "waterways": "POOL_03_UPPER_MISSISSIPPI, POOL_02_UPPER_MISSISSIPPI",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=214810&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 214812,
+   "noticeno": "214810-1",
+   "issuedate": "2026-07-31T17:22:40Z",
+   "begindate": "2026-12-01T13:00:00Z",
+   "waterways": "POOL_03_UPPER_MISSISSIPPI, POOL_02_UPPER_MISSISSIPPI",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=214812&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 214847,
+   "noticeno": "214811-1",
+   "issuedate": "2026-08-06T15:47:12Z",
+   "begindate": "2026-12-07T13:00:00Z",
+   "waterways": "POOL_05_UPPER_MISSISSIPPI, POOL_06_UPPER_MISSISSIPPI",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=214847&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 205450,
+   "noticeno": "14006-1",
+   "issuedate": "2021-04-28T00:00:00Z",
+   "begindate": null,
+   "waterways": null,
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=205450&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 205788,
+   "noticeno": "205788",
+   "issuedate": "2024-01-19T15:42:48Z",
+   "begindate": "2024-01-12T14:46:27Z",
+   "waterways": "POOL_05A_UPPER_MISSISSIPPI",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=205788&in_title_formatting=UB"
+  }
+ ],
+ "hasMore": false,
+ "limit": 2000,
+ "offset": 0,
+ "count": 8,
+ "links": [
+  {
+   "rel": "self",
+   "href": "https://ndc.ops.usace.army.mil/ords/ntni/json_data/notices_by_district/MVP"
+  },
+  {
+   "rel": "describedby",
+   "href": "https://ndc.ops.usace.army.mil/ords/ntni/metadata-catalog/json_data/notices_by_district/item"
+  },
+  {
+   "rel": "first",
+   "href": "https://ndc.ops.usace.army.mil/ords/ntni/json_data/notices_by_district/MVP"
+  }
+ ]
+}

@@ -1,0 +1,147 @@
+{
+ "_meta": {
+  "source": "NTNI navigation notices (ORDS)",
+  "url": "https://ndc.ops.usace.army.mil/ords/ntni/json_data/notices_by_district/SAM",
+  "fetched_on": "2026-09-22"
+ },
+ "items": [
+  {
+   "controlnumber": 212829,
+   "noticeno": "212829",
+   "issuedate": "2026-01-09T14:28:44Z",
+   "begindate": "2026-01-12T12:00:00Z",
+   "waterways": "OLIVER_POOL_BLACK_WARRIOR_RIVER",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=212829&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 212707,
+   "noticeno": "212707",
+   "issuedate": "2025-12-18T06:00:00Z",
+   "begindate": "2026-01-12T12:00:00Z",
+   "waterways": "OLIVER_POOL_BLACK_WARRIOR_RIVER, HOLT_POOL_BLACK_WARRIOR_RIVER",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=212707&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 213491,
+   "noticeno": "213491",
+   "issuedate": "2026-03-27T05:00:00Z",
+   "begindate": "2026-09-09T11:00:00Z",
+   "waterways": "Aberdeen Lake, Amory Pool",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=213491&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 213008,
+   "noticeno": "213008",
+   "issuedate": "2026-02-06T06:00:00Z",
+   "begindate": "2026-01-12T12:00:00Z",
+   "waterways": "OLIVER_POOL_BLACK_WARRIOR_RIVER",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=213008&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 213854,
+   "noticeno": "213854",
+   "issuedate": "2026-05-07T05:00:00Z",
+   "begindate": "2026-05-22T11:00:00Z",
+   "waterways": "Mobile River Channel, Mobile Upper Bay Channel",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=213854&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 215080,
+   "noticeno": "215080",
+   "issuedate": "2026-09-22T05:00:00Z",
+   "begindate": "2026-09-22T05:00:00Z",
+   "waterways": "COFFEEVILLE_LOWER_POOL_TOMBIGBEE_RIVER",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=215080&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 215058,
+   "noticeno": "215058",
+   "issuedate": "2026-09-15T05:00:00Z",
+   "begindate": "2026-09-15T13:00:00Z",
+   "waterways": "RF_HENRY_POOL_ALABAMA_RIVER, MILLERS_FERRY_POOL_ALABAMA_RIVER, CLAIBORNE_POOL_ALABAMA_RIVER, CLAIBORNE_LOWER_POOL_ALABAMA_RIVER",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=215058&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 214848,
+   "noticeno": "214848",
+   "issuedate": "2026-08-06T05:00:00Z",
+   "begindate": "2026-09-09T11:00:00Z",
+   "waterways": "Amory Pool",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=214848&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 214692,
+   "noticeno": "214692",
+   "issuedate": "2026-07-13T05:00:00Z",
+   "begindate": "2026-07-16T19:00:00Z",
+   "waterways": "OLIVER_POOL_BLACK_WARRIOR_RIVER",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=214692&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 215035,
+   "noticeno": "215035",
+   "issuedate": "2026-09-10T05:00:00Z",
+   "begindate": "2026-10-02T11:00:00Z",
+   "waterways": "Columbus Lake",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=215035&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 214651,
+   "noticeno": "214651",
+   "issuedate": "2026-07-09T05:00:00Z",
+   "begindate": "2026-07-27T11:00:00Z",
+   "waterways": "Mobile Upper Bay Channel, Mobile River Channel",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=214651&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 214652,
+   "noticeno": "214652",
+   "issuedate": "2026-07-09T05:00:00Z",
+   "begindate": "2026-07-09T17:40:29Z",
+   "waterways": "OLIVER_POOL_BLACK_WARRIOR_RIVER, HOLT_POOL_BLACK_WARRIOR_RIVER",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=214652&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 215032,
+   "noticeno": "215032",
+   "issuedate": "2026-09-10T05:00:00Z",
+   "begindate": "2026-09-14T11:00:00Z",
+   "waterways": "Demopolis Lake",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=215032&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 214766,
+   "noticeno": "214766",
+   "issuedate": "2026-07-22T05:00:00Z",
+   "begindate": "2026-07-23T19:00:00Z",
+   "waterways": "OLIVER_POOL_BLACK_WARRIOR_RIVER",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=214766&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 212568,
+   "noticeno": "212568",
+   "issuedate": "2025-11-25T16:17:19Z",
+   "begindate": "2026-01-12T06:00:00Z",
+   "waterways": "OLIVER_POOL_BLACK_WARRIOR_RIVER",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=212568&in_title_formatting=UB"
+  }
+ ],
+ "hasMore": false,
+ "limit": 2000,
+ "offset": 0,
+ "count": 15,
+ "links": [
+  {
+   "rel": "self",
+   "href": "https://ndc.ops.usace.army.mil/ords/ntni/json_data/notices_by_district/SAM"
+  },
+  {
+   "rel": "describedby",
+   "href": "https://ndc.ops.usace.army.mil/ords/ntni/metadata-catalog/json_data/notices_by_district/item"
+  },
+  {
+   "rel": "first",
+   "href": "https://ndc.ops.usace.army.mil/ords/ntni/json_data/notices_by_district/SAM"
+  }
+ ]
+}

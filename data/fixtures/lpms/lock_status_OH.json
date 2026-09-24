@@ -1,0 +1,524 @@
+{
+ "_meta": {
+  "source": "LPMS lock status (ORDS)",
+  "url": "https://ndc.ops.usace.army.mil/ords/lpms/lock_status_report_json?in_river_code=OH",
+  "fetched_on": "2026-09-22"
+ },
+ "rivers": [
+  {
+   "riverName": "OHIO RIVER",
+   "locks": [
+    {
+     "lockNumber": "79",
+     "lockMile": 965,
+     "lockName": "Olmsted L/D",
+     "readingEntryDateTime": "092226:1600",
+     "gageUpperElevation": 22.0,
+     "gageUpperElevationChange": -0.7,
+     "gageLowerElevation": 19.3,
+     "gageLowerElevationChange": 2.1,
+     "damCondition": "    60.0",
+     "airTemparture": 70,
+     "precipitation": 0.0,
+     "weatherCode": "PC",
+     "totalPendingArrivals": 1,
+     "totalLocking": 0,
+     "totalLockedUp24Hours": 9,
+     "totalLockedDown24Hours": 11,
+     "average24HourDelay": 56,
+     "notes": "DAM UP ; Locking Both Chambers\r Oct 5 - Nov 13 we will be locking land chamber only.",
+     "stations": [
+      {
+       "stationName": "OH79"
+      }
+     ]
+    },
+    {
+     "lockNumber": "53",
+     "stations": [
+      {
+       "stationName": "OH79_53"
+      },
+      {
+       "stationName": "OH53"
+      }
+     ]
+    },
+    {
+     "lockNumber": "52",
+     "stations": [
+      {
+       "stationName": "OH52"
+      }
+     ]
+    },
+    {
+     "lockNumber": "78",
+     "lockMile": 919,
+     "lockName": "Smithland L/D",
+     "readingEntryDateTime": "092226:1600",
+     "gageUpperElevation": 12.9,
+     "gageUpperElevationChange": 0.0,
+     "gageLowerElevation": 13.7,
+     "gageLowerElevationChange": 0.6,
+     "damCondition": "    27.0",
+     "airTemparture": 67,
+     "precipitation": null,
+     "weatherCode": "PC",
+     "totalPendingArrivals": 2,
+     "totalLocking": 0,
+     "totalLockedUp24Hours": 11,
+     "totalLockedDown24Hours": 10,
+     "average24HourDelay": 57,
+     "notes": "",
+     "stations": [
+      {
+       "stationName": "OH53_1"
+      },
+      {
+       "stationName": "OH52_1"
+      },
+      {
+       "stationName": "OH78"
+      }
+     ]
+    },
+    {
+     "lockNumber": "77",
+     "lockMile": 846,
+     "lockName": "John T. Myers Lock & Dam",
+     "readingEntryDateTime": "092226:1600",
+     "gageUpperElevation": 12.7,
+     "gageUpperElevationChange": 0.1,
+     "gageLowerElevation": 18.2,
+     "gageLowerElevationChange": 2.6,
+     "damCondition": "    57.0",
+     "airTemparture": 64,
+     "precipitation": 0.0,
+     "weatherCode": "PC",
+     "totalPendingArrivals": 1,
+     "totalLocking": 1,
+     "totalLockedUp24Hours": 10,
+     "totalLockedDown24Hours": 8,
+     "average24HourDelay": 38,
+     "waterTemperature": "78",
+     "notes": "",
+     "stations": [
+      {
+       "stationName": "OH77"
+      }
+     ]
+    },
+    {
+     "lockNumber": "76",
+     "lockMile": 776,
+     "lockName": "Newburgh L/D",
+     "readingEntryDateTime": "092226:1600",
+     "gageUpperElevation": 10.9,
+     "gageUpperElevationChange": 0.1,
+     "gageLowerElevation": 20.4,
+     "gageLowerElevationChange": 4.4,
+     "damCondition": "    70.0",
+     "precipitation": null,
+     "weatherCode": null,
+     "totalPendingArrivals": 1,
+     "totalLocking": 0,
+     "totalLockedUp24Hours": 11,
+     "totalLockedDown24Hours": 10,
+     "average24HourDelay": 99,
+     "notes": "Mooring Bit Status for Newburgh Main Chamber\r \r Usable Pins on Middle Wall Main Chamber (Good)\r \r 475'\r 750'\r 1150'\r \r Usable Pins on River Wall Main Chamber (Good)\r \r 25'\r 75'\r 200'\r 1150'\r 1200'",
+     "stations": [
+      {
+       "stationName": "OH76"
+      }
+     ]
+    },
+    {
+     "lockNumber": "75",
+     "lockMile": 721,
+     "lockName": "Cannelton L/D",
+     "readingEntryDateTime": "092226:1600",
+     "gageUpperElevation": 9.8,
+     "gageUpperElevationChange": 0.1,
+     "gageLowerElevation": 18.6,
+     "gageLowerElevationChange": 4.8,
+     "damCondition": "    46.0",
+     "airTemparture": 65,
+     "precipitation": 0.0,
+     "weatherCode": "CL",
+     "totalPendingArrivals": 3,
+     "totalLocking": 0,
+     "totalLockedUp24Hours": 6,
+     "totalLockedDown24Hours": 7,
+     "average24HourDelay": 33,
+     "waterTemperature": "83",
+     "notes": "",
+     "stations": [
+      {
+       "stationName": "OH75"
+      }
+     ]
+    },
+    {
+     "lockNumber": "42",
+     "lockMile": 607,
+     "lockName": "Mcalpine L/D",
+     "readingEntryDateTime": "092226:1600",
+     "gageUpperElevation": 13.2,
+     "gageUpperElevationChange": 0.2,
+     "gageLowerElevation": 25.7,
+     "gageLowerElevationChange": 8.1,
+     "damCondition": "   101.0",
+     "airTemparture": 64,
+     "precipitation": 0.0,
+     "weatherCode": "PC",
+     "totalPendingArrivals": 1,
+     "totalLocking": 1,
+     "totalLockedUp24Hours": 4,
+     "totalLockedDown24Hours": 8,
+     "average24HourDelay": 23,
+     "waterTemperature": "75",
+     "notes": "0600:  09/22/2026 -67 Feet of Dam - 7 Hydro Units @ 35.2cfs",
+     "stations": [
+      {
+       "stationName": "OH42"
+      }
+     ]
+    },
+    {
+     "lockNumber": "41",
+     "lockMile": 532,
+     "lockName": "Markland L/D",
+     "readingEntryDateTime": "092226:1600",
+     "gageUpperElevation": 13.0,
+     "gageUpperElevationChange": 0.1,
+     "gageLowerElevation": 28.4,
+     "gageLowerElevationChange": 7.8,
+     "damCondition": "    78.0",
+     "airTemparture": 61,
+     "precipitation": 0.06,
+     "weatherCode": "CL",
+     "totalPendingArrivals": 0,
+     "totalLocking": 0,
+     "totalLockedUp24Hours": 6,
+     "totalLockedDown24Hours": 8,
+     "average24HourDelay": 20,
+     "waterTemperature": "78",
+     "notes": "When Dam reach's 120' no tow's are NOT allowed on the mooring cells.\r \r   \r Missing mooring pins:  Main Chamber River wall 1200' pin Missing\r                                      Aux chamber Middle Wall 25' pin Missing",
+     "stations": [
+      {
+       "stationName": "OH41"
+      }
+     ]
+    },
+    {
+     "lockNumber": "25",
+     "lockMile": 436,
+     "lockName": "Capt Ant Meldahl L/D",
+     "readingEntryDateTime": "092226:1600",
+     "gageUpperElevation": 12.61,
+     "gageUpperElevationChange": -0.62,
+     "gageLowerElevation": 32.45,
+     "gageLowerElevationChange": 11.52,
+     "damCondition": "   110.0",
+     "airTemparture": 60,
+     "precipitation": 0.0,
+     "weatherCode": "PC",
+     "totalPendingArrivals": 3,
+     "totalLocking": 1,
+     "totalLockedUp24Hours": 7,
+     "totalLockedDown24Hours": 13,
+     "average24HourDelay": 0,
+     "waterTemperature": "78",
+     "notes": "",
+     "stations": [
+      {
+       "stationName": "OH25"
+      }
+     ]
+    },
+    {
+     "lockNumber": "24",
+     "lockMile": 341,
+     "lockName": "Greenup L/D",
+     "readingEntryDateTime": "092226:1600",
+     "gageUpperElevation": 12.2,
+     "gageUpperElevationChange": -0.73,
+     "gageLowerElevation": 36.03,
+     "gageLowerElevationChange": 11.05,
+     "damCondition": "   125.0",
+     "airTemparture": 60,
+     "precipitation": 0.25,
+     "weatherCode": "CL",
+     "totalPendingArrivals": 0,
+     "totalLocking": 0,
+     "totalLockedUp24Hours": 3,
+     "totalLockedDown24Hours": 2,
+     "average24HourDelay": 1,
+     "waterTemperature": "69",
+     "notes": "",
+     "stations": [
+      {
+       "stationName": "OH24"
+      }
+     ]
+    },
+    {
+     "lockNumber": "26",
+     "lockMile": 279,
+     "lockName": "Robert C. Byrd L/D",
+     "readingEntryDateTime": "092226:1600",
+     "gageUpperElevation": 12.73,
+     "gageUpperElevationChange": 0.56,
+     "gageLowerElevation": 31.84,
+     "gageLowerElevationChange": 8.96,
+     "damCondition": "   134.0",
+     "precipitation": null,
+     "weatherCode": null,
+     "totalPendingArrivals": 0,
+     "totalLocking": 0,
+     "totalLockedUp24Hours": 4,
+     "totalLockedDown24Hours": 5,
+     "average24HourDelay": 4,
+     "notes": "`",
+     "stations": [
+      {
+       "stationName": "OH26"
+      }
+     ]
+    },
+    {
+     "lockNumber": "22",
+     "lockMile": 237,
+     "lockName": "Racine L/D",
+     "readingEntryDateTime": "092226:1600",
+     "gageUpperElevation": 12.75,
+     "gageUpperElevationChange": -0.06,
+     "gageLowerElevation": 25.66,
+     "gageLowerElevationChange": 7.76,
+     "damCondition": "    72.0",
+     "airTemparture": 58,
+     "precipitation": 0.55,
+     "weatherCode": "CL",
+     "totalPendingArrivals": 0,
+     "totalLocking": 0,
+     "totalLockedUp24Hours": 5,
+     "totalLockedDown24Hours": 7,
+     "average24HourDelay": 13,
+     "waterTemperature": "74",
+     "notes": "",
+     "stations": [
+      {
+       "stationName": "OH22"
+      }
+     ]
+    },
+    {
+     "lockNumber": "21",
+     "lockMile": 204,
+     "lockName": "Belleville L/D",
+     "readingEntryDateTime": "092226:1600",
+     "gageUpperElevation": 12.17,
+     "gageUpperElevationChange": -1.15,
+     "gageLowerElevation": 23.76,
+     "gageLowerElevationChange": 6.17,
+     "damCondition": "    63.0",
+     "airTemparture": 59,
+     "precipitation": 0.24,
+     "weatherCode": "CL",
+     "totalPendingArrivals": 0,
+     "totalLocking": 0,
+     "totalLockedUp24Hours": 10,
+     "totalLockedDown24Hours": 9,
+     "average24HourDelay": 11,
+     "waterTemperature": "73",
+     "notes": "",
+     "stations": [
+      {
+       "stationName": "OH21"
+      }
+     ]
+    },
+    {
+     "lockNumber": "72",
+     "lockMile": 162,
+     "lockName": "Willow Island L/D",
+     "readingEntryDateTime": "092226:1600",
+     "gageUpperElevation": 12.57,
+     "gageUpperElevationChange": -0.47,
+     "gageLowerElevation": 18.39,
+     "gageLowerElevationChange": 1.72,
+     "damCondition": "    19.3",
+     "airTemparture": 60,
+     "precipitation": 0.52,
+     "weatherCode": "FG",
+     "totalPendingArrivals": 1,
+     "totalLocking": 0,
+     "totalLockedUp24Hours": 7,
+     "totalLockedDown24Hours": 7,
+     "average24HourDelay": 27,
+     "waterTemperature": "0",
+     "notes": "",
+     "stations": [
+      {
+       "stationName": "OH72"
+      }
+     ]
+    },
+    {
+     "lockNumber": "71",
+     "lockMile": 126,
+     "lockName": "Hannibal L/D",
+     "readingEntryDateTime": "092226:1600",
+     "gageUpperElevation": 13.06,
+     "gageUpperElevationChange": 0.21,
+     "gageLowerElevation": 14.39,
+     "gageLowerElevationChange": 0.02,
+     "damCondition": "    12.0",
+     "airTemparture": 60,
+     "precipitation": 0.67,
+     "weatherCode": "CL",
+     "totalPendingArrivals": 0,
+     "totalLocking": 0,
+     "totalLockedUp24Hours": 5,
+     "totalLockedDown24Hours": 9,
+     "average24HourDelay": 23,
+     "notes": "",
+     "stations": [
+      {
+       "stationName": "OH71"
+      }
+     ]
+    },
+    {
+     "lockNumber": "05",
+     "lockMile": 84,
+     "lockName": "Pike Island L/D",
+     "readingEntryDateTime": "092226:1600",
+     "gageUpperElevation": 12.8,
+     "gageUpperElevationChange": -0.1,
+     "gageLowerElevation": 16.6,
+     "gageLowerElevationChange": 0.5,
+     "damCondition": "    20.0",
+     "airTemparture": 58,
+     "precipitation": 0.11,
+     "weatherCode": "CL",
+     "totalPendingArrivals": 0,
+     "totalLocking": 0,
+     "totalLockedUp24Hours": 4,
+     "totalLockedDown24Hours": 7,
+     "average24HourDelay": 0,
+     "notes": "",
+     "stations": [
+      {
+       "stationName": "OH05"
+      }
+     ]
+    },
+    {
+     "lockNumber": "04",
+     "lockMile": 54,
+     "lockName": "New Cumberland L/D",
+     "readingEntryDateTime": "092226:1600",
+     "gageUpperElevation": 12.5,
+     "gageUpperElevationChange": 0.1,
+     "gageLowerElevation": 16.0,
+     "gageLowerElevationChange": 0.5,
+     "damCondition": "    19.0",
+     "airTemparture": 59,
+     "precipitation": 0.5,
+     "weatherCode": "CL",
+     "totalPendingArrivals": 1,
+     "totalLocking": 1,
+     "totalLockedUp24Hours": 1,
+     "totalLockedDown24Hours": 5,
+     "average24HourDelay": 0,
+     "iceCover": "00",
+     "iceThickness": "0 ",
+     "iceExtent": "0 ",
+     "notes": "",
+     "stations": [
+      {
+       "stationName": "OH04"
+      }
+     ]
+    },
+    {
+     "lockNumber": "03",
+     "lockMile": 32,
+     "lockName": "Montgomery L/D",
+     "readingEntryDateTime": "092226:1600",
+     "gageUpperElevation": 12.3,
+     "gageUpperElevationChange": -0.3,
+     "gageLowerElevation": 14.3,
+     "gageLowerElevationChange": 0.5,
+     "damCondition": "    28.0",
+     "airTemparture": 58,
+     "precipitation": 0.5,
+     "weatherCode": "CL",
+     "totalPendingArrivals": 1,
+     "totalLocking": 1,
+     "totalLockedUp24Hours": 7,
+     "totalLockedDown24Hours": 7,
+     "average24HourDelay": 0,
+     "notes": "",
+     "stations": [
+      {
+       "stationName": "OH03"
+      }
+     ]
+    },
+    {
+     "lockNumber": "02",
+     "lockMile": 13,
+     "lockName": "Dashields L/D",
+     "readingEntryDateTime": "092226:1600",
+     "gageUpperElevation": 16.2,
+     "gageUpperElevationChange": 0.4,
+     "gageLowerElevation": 14.6,
+     "gageLowerElevationChange": 0.2,
+     "damCondition": "     0.0",
+     "airTemparture": 59,
+     "precipitation": 0.42,
+     "weatherCode": "DR",
+     "totalPendingArrivals": 0,
+     "totalLocking": 0,
+     "totalLockedUp24Hours": 6,
+     "totalLockedDown24Hours": 7,
+     "average24HourDelay": 0,
+     "notes": "",
+     "stations": [
+      {
+       "stationName": "OH02"
+      }
+     ]
+    },
+    {
+     "lockNumber": "01",
+     "lockMile": 6,
+     "lockName": "Emsworth L/D",
+     "readingEntryDateTime": "092226:1600",
+     "gageUpperElevation": 15.8,
+     "gageUpperElevationChange": -0.5,
+     "gageLowerElevation": 16.8,
+     "gageLowerElevationChange": 0.0,
+     "damCondition": "    30.5",
+     "airTemparture": 56,
+     "precipitation": 0.5,
+     "weatherCode": "CL",
+     "totalPendingArrivals": 0,
+     "totalLocking": 0,
+     "totalLockedUp24Hours": 5,
+     "totalLockedDown24Hours": 8,
+     "average24HourDelay": 0,
+     "notes": "Conducting Lockage's: YES\r 600'x105' Chamber in operation: YES \r 360'x56' Chamber in operation: YES\r LOWER GAUGE @ 16:00 on 09/22/2026 16.8",
+     "stations": [
+      {
+       "stationName": "OH01"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

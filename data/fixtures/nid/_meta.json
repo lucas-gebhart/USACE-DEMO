@@ -1,0 +1,8 @@
+{
+ "source": "National Inventory of Dams",
+ "url": "https://nid.sec.usace.army.mil/api/nation/csv",
+ "fetched_on": "2026-09-22",
+ "data_last_updated": "2026-9-11",
+ "selection": "all dams whose Owner Names begins 'USACE - <District> District', plus High-hazard dams in Mississippi Valley Division states as regional context",
+ "rows": 3658
+}

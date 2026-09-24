@@ -1,0 +1,102 @@
+{
+ "_meta": {
+  "source": "LPMS lock status (ORDS)",
+  "url": "https://ndc.ops.usace.army.mil/ords/lpms/lock_status_report_json?in_river_code=CU",
+  "fetched_on": "2026-09-22"
+ },
+ "rivers": [
+  {
+   "riverName": "CUMBERLAND RIVER",
+   "locks": [
+    {
+     "lockNumber": "23",
+     "lockMile": 314,
+     "lockName": "Cordell Hull Lock",
+     "readingEntryDateTime": ":",
+     "damCondition": "n/a",
+     "precipitation": null,
+     "weatherCode": null,
+     "totalPendingArrivals": 0,
+     "totalLocking": 0,
+     "totalLockedUp24Hours": 0,
+     "totalLockedDown24Hours": 0,
+     "average24HourDelay": 0,
+     "notes": "",
+     "stations": [
+      {
+       "stationName": "CU23"
+      }
+     ]
+    },
+    {
+     "lockNumber": "24",
+     "lockMile": 216,
+     "lockName": "Old Hickory Lock",
+     "readingEntryDateTime": ":",
+     "damCondition": "n/a",
+     "precipitation": null,
+     "weatherCode": null,
+     "totalPendingArrivals": 0,
+     "totalLocking": 0,
+     "totalLockedUp24Hours": 2,
+     "totalLockedDown24Hours": 4,
+     "average24HourDelay": 0,
+     "notes": "",
+     "stations": [
+      {
+       "stationName": "CU24"
+      }
+     ]
+    },
+    {
+     "lockNumber": "22",
+     "lockMile": 149,
+     "lockName": "Cheatham Lock",
+     "readingEntryDateTime": "092226:0600",
+     "gageUpperElevation": 17.9,
+     "gageUpperElevationChange": null,
+     "gageLowerElevation": 13.0,
+     "gageLowerElevationChange": null,
+     "damCondition": "     0.0",
+     "precipitation": null,
+     "weatherCode": null,
+     "totalPendingArrivals": 0,
+     "totalLocking": 0,
+     "totalLockedUp24Hours": 5,
+     "totalLockedDown24Hours": 0,
+     "average24HourDelay": 0,
+     "notes": "",
+     "stations": [
+      {
+       "stationName": "CU22"
+      }
+     ]
+    },
+    {
+     "lockNumber": "21",
+     "lockMile": 31,
+     "lockName": "Barkley Lock",
+     "readingEntryDateTime": "092226:1200",
+     "gageUpperElevation": 55.7,
+     "gageUpperElevationChange": null,
+     "gageLowerElevation": 6.4,
+     "gageLowerElevationChange": null,
+     "damCondition": "     0.0",
+     "precipitation": null,
+     "weatherCode": null,
+     "totalPendingArrivals": 0,
+     "totalLocking": 0,
+     "totalLockedUp24Hours": 0,
+     "totalLockedDown24Hours": 0,
+     "average24HourDelay": 0,
+     "notes": "",
+     "stations": [
+      {
+       "stationName": "CU21"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,123 @@
+{
+ "_meta": {
+  "source": "NTNI navigation notices (ORDS)",
+  "url": "https://ndc.ops.usace.army.mil/ords/ntni/json_data/notices_by_district/MVS",
+  "fetched_on": "2026-09-22"
+ },
+ "items": [
+  {
+   "controlnumber": 212547,
+   "noticeno": "212547",
+   "issuedate": "2025-11-21T06:00:00Z",
+   "begindate": "2025-11-21T15:06:58Z",
+   "waterways": "POOL_IL2_ILLINOIS_RIVER",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=212547&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 213232,
+   "noticeno": "213230-1",
+   "issuedate": "2026-03-04T06:00:00Z",
+   "begindate": "2026-03-04T19:32:22Z",
+   "waterways": "POOL_24_UPPER_MISSISSIPPI, POOL_25_UPPER_MISSISSIPPI",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=213232&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 213430,
+   "noticeno": "213430",
+   "issuedate": "2026-03-19T05:00:00Z",
+   "begindate": "2026-03-20T11:00:00Z",
+   "waterways": "POOL_25_UPPER_MISSISSIPPI, POOL_24_UPPER_MISSISSIPPI",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=213430&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 215059,
+   "noticeno": "215059",
+   "issuedate": "2026-09-15T05:00:00Z",
+   "begindate": "2026-09-15T20:27:11Z",
+   "waterways": "POOL_KK1_KASKASKIA_RIVER",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=215059&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 215034,
+   "noticeno": "215034",
+   "issuedate": "2026-09-10T05:00:00Z",
+   "begindate": "2026-09-08T11:00:00Z",
+   "waterways": "POOL_26_UPPER_MISSISSIPPI, MOSENTHEIN_REACH_UPPER_MISSISSIPPI",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=215034&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 215071,
+   "noticeno": "215063-1",
+   "issuedate": "2026-09-16T05:00:00Z",
+   "begindate": "2026-09-16T20:15:38Z",
+   "waterways": "MOSENTHEIN_REACH_UPPER_MISSISSIPPI",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=215071&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 12461,
+   "noticeno": "12461",
+   "issuedate": "2020-09-03T00:00:00Z",
+   "begindate": "2020-09-03T06:00:00Z",
+   "waterways": "UPPER MISSISSIPPI",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=12461&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 215077,
+   "noticeno": "212420-25",
+   "issuedate": "2026-09-21T18:57:10Z",
+   "begindate": "2025-11-18T14:00:00Z",
+   "waterways": "POOL_26_UPPER_MISSISSIPPI, POOL_25_UPPER_MISSISSIPPI",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=215077&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 214814,
+   "noticeno": "212499-7",
+   "issuedate": "2026-07-31T19:10:30Z",
+   "begindate": "2025-11-14T21:00:00Z",
+   "waterways": "POOL_25_UPPER_MISSISSIPPI, POOL_26_UPPER_MISSISSIPPI",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=214814&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 215065,
+   "noticeno": "215065",
+   "issuedate": "2026-09-17T05:00:00Z",
+   "begindate": "2026-09-17T14:49:05Z",
+   "waterways": "FORT_CHARTRES_UPPER_MISSISSIPPI, PROTOTYPE_REACH_UPPER_MISSISSIPPI, IVORY_LANDING_UPPER_MISSISSIPPI, KASKASKIA_BEND_UPPER_MISSISSIPPI",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=215065&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 215066,
+   "noticeno": "215066",
+   "issuedate": "2026-09-17T18:02:52Z",
+   "begindate": "2026-09-17T15:07:00Z",
+   "waterways": "POOL_IL1_ILLINOIS_RIVER, MOSENTHEIN_REACH_UPPER_MISSISSIPPI, IVORY_LANDING_UPPER_MISSISSIPPI, POOL_26_UPPER_MISSISSIPPI, POOL_IL2_ILLINOIS_RIVER",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=215066&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 212369,
+   "noticeno": "211973-4",
+   "issuedate": "2025-10-29T16:51:17Z",
+   "begindate": "2025-09-19T22:00:00Z",
+   "waterways": "POOL_25_UPPER_MISSISSIPPI",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=212369&in_title_formatting=UB"
+  }
+ ],
+ "hasMore": false,
+ "limit": 2000,
+ "offset": 0,
+ "count": 12,
+ "links": [
+  {
+   "rel": "self",
+   "href": "https://ndc.ops.usace.army.mil/ords/ntni/json_data/notices_by_district/MVS"
+  },
+  {
+   "rel": "describedby",
+   "href": "https://ndc.ops.usace.army.mil/ords/ntni/metadata-catalog/json_data/notices_by_district/item"
+  },
+  {
+   "rel": "first",
+   "href": "https://ndc.ops.usace.army.mil/ords/ntni/json_data/notices_by_district/MVS"
+  }
+ ]
+}

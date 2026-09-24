@@ -1,0 +1,155 @@
+{
+ "_meta": {
+  "source": "NTNI navigation notices (ORDS)",
+  "url": "https://ndc.ops.usace.army.mil/ords/ntni/json_data/notices_by_district/LRL",
+  "fetched_on": "2026-09-22"
+ },
+ "items": [
+  {
+   "controlnumber": 212860,
+   "noticeno": "212860",
+   "issuedate": "2026-01-13T05:00:00Z",
+   "begindate": "2026-01-13T14:42:16Z",
+   "waterways": "MCALPINE_POOL_OHIO_RIVER, CANNELTON_POOL_OHIO_RIVER, MARKLAND_POOL_OHIO_RIVER, JTMYERS_POOL_OHIO_RIVER, NEWBURGH_POOL_OHIO_RIVER",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=212860&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 215069,
+   "noticeno": "215067-1",
+   "issuedate": "2026-09-17T04:00:00Z",
+   "begindate": "2026-10-05T05:00:00Z",
+   "waterways": "OLMSTED_POOL_OHIO_RIVER",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=215069&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 215076,
+   "noticeno": "215076",
+   "issuedate": "2026-09-19T04:00:00Z",
+   "begindate": "2026-09-20T04:00:00Z",
+   "waterways": "SMITHLAND_POOL_OHIO_RIVER",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=215076&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 214420,
+   "noticeno": "214420",
+   "issuedate": "2026-06-17T04:00:00Z",
+   "begindate": "2026-06-08T12:00:00Z",
+   "waterways": "CANNELTON_POOL_OHIO_RIVER",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=214420&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 214938,
+   "noticeno": "214938",
+   "issuedate": "2026-08-21T17:44:24Z",
+   "begindate": "2026-08-24T11:00:00Z",
+   "waterways": "LOCK2_POOL_GREEN_RIVER",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=214938&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 214913,
+   "noticeno": "214913",
+   "issuedate": "2026-08-18T04:00:00Z",
+   "begindate": "2026-08-31T05:00:00Z",
+   "waterways": "CANNELTON_POOL_OHIO_RIVER",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=214913&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 214917,
+   "noticeno": "214656-3",
+   "issuedate": "2026-08-18T20:28:28Z",
+   "begindate": "2026-07-20T11:00:00Z",
+   "waterways": "NEWBURGH_POOL_OHIO_RIVER",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=214917&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 215036,
+   "noticeno": "215036",
+   "issuedate": "2026-09-12T04:00:00Z",
+   "begindate": "2026-09-13T04:00:00Z",
+   "waterways": "SMITHLAND_POOL_OHIO_RIVER",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=215036&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 215056,
+   "noticeno": "215056",
+   "issuedate": "2026-09-14T04:00:00Z",
+   "begindate": "2026-09-15T17:00:00Z",
+   "waterways": "MARKLAND_POOL_OHIO_RIVER",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=215056&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 215075,
+   "noticeno": "215075",
+   "issuedate": "2026-09-18T04:00:00Z",
+   "begindate": "2026-09-18T21:36:55Z",
+   "waterways": "MARKLAND_POOL_OHIO_RIVER",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=215075&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 214804,
+   "noticeno": "214804",
+   "issuedate": "2026-07-30T04:00:00Z",
+   "begindate": "2026-08-24T05:00:00Z",
+   "waterways": "SMITHLAND_POOL_OHIO_RIVER",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=214804&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 214937,
+   "noticeno": "214937",
+   "issuedate": "2026-08-21T04:00:00Z",
+   "begindate": "2026-09-10T11:00:00Z",
+   "waterways": "CANNELTON_POOL_OHIO_RIVER",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=214937&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 214975,
+   "noticeno": "214975",
+   "issuedate": "2026-09-01T04:00:00Z",
+   "begindate": "2026-09-17T11:00:00Z",
+   "waterways": "MARKLAND_POOL_OHIO_RIVER",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=214975&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 214992,
+   "noticeno": "214889-2",
+   "issuedate": "2026-09-03T04:00:00Z",
+   "begindate": "2026-09-08T04:00:00Z",
+   "waterways": "OLMSTED_POOL_OHIO_RIVER",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=214992&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 215009,
+   "noticeno": "215009",
+   "issuedate": "2026-09-07T04:00:00Z",
+   "begindate": "2026-09-08T04:00:00Z",
+   "waterways": "SMITHLAND_POOL_OHIO_RIVER",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=215009&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 215015,
+   "noticeno": "215015",
+   "issuedate": "2026-09-08T04:00:00Z",
+   "begindate": "2026-09-14T11:00:00Z",
+   "waterways": "OHIO_BACKWATER_LICKING_RIVER",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=215015&in_title_formatting=UB"
+  }
+ ],
+ "hasMore": false,
+ "limit": 2000,
+ "offset": 0,
+ "count": 16,
+ "links": [
+  {
+   "rel": "self",
+   "href": "https://ndc.ops.usace.army.mil/ords/ntni/json_data/notices_by_district/LRL"
+  },
+  {
+   "rel": "describedby",
+   "href": "https://ndc.ops.usace.army.mil/ords/ntni/metadata-catalog/json_data/notices_by_district/item"
+  },
+  {
+   "rel": "first",
+   "href": "https://ndc.ops.usace.army.mil/ords/ntni/json_data/notices_by_district/LRL"
+  }
+ ]
+}

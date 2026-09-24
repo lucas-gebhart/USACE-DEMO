@@ -1,0 +1,73 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  api:
+    name: API lint + integration tests (Oracle 23ai Free)
+    runs-on: ubuntu-latest
+    services:
+      oracle:
+        # Slim image is enough for the API suite (tables, views, PL/SQL). The APEX/ORDS "before" app needs
+        # XDB, which only the full official image has; that path is exercised by `make up`, not CI.
+        image: gvenzl/oracle-free:23-slim-faststart
+        env:
+          ORACLE_PASSWORD: Sys_Passw0rd
+          APP_USER: emt
+          APP_USER_PASSWORD: emt_Passw0rd
+        ports:
+          - 1521:1521
+        options: >-
+          --health-cmd healthcheck.sh
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+        with:
+          version: "0.8.x"
+      - name: Sync
+        working-directory: api
+        run: uv sync --frozen
+      - name: Ruff
+        working-directory: api
+        run: |
+          uv run ruff check .
+          uv run ruff format --check .
+      - name: Pytest (migrates + loads fixtures into the service Oracle)
+        working-directory: api
+        env:
+          ORACLE_DSN: localhost:1521/FREEPDB1
+          ORACLE_USER: emt
+          ORACLE_PASSWORD: emt_Passw0rd
+        run: uv run pytest -q
+
+  web:
+    name: Web lint + typecheck + build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: web/package-lock.json
+      - working-directory: web
+        run: npm ci
+      - working-directory: web
+        run: npm run lint
+      - working-directory: web
+        run: npm run typecheck
+      - working-directory: web
+        run: npm run build
+
+  images:
+    name: Docker images build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: docker compose build api web

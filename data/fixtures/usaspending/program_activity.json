@@ -1,0 +1,166 @@
+{
+ "_meta": {
+  "source": "USAspending",
+  "url": "https://api.usaspending.gov/api/v2/agency/096/program_activity/?fiscal_year=2025&limit=50",
+  "fetched_on": "2026-09-22"
+ },
+ "toptier_code": "096",
+ "fiscal_year": 2025,
+ "page_metadata": {
+  "page": 1,
+  "total": 29,
+  "limit": 50,
+  "next": null,
+  "previous": null,
+  "hasNext": false,
+  "hasPrevious": false
+ },
+ "results": [
+  {
+   "name": "INTRA-CORPS",
+   "obligated_amount": 12927015930.46,
+   "gross_outlay_amount": 12968899244.62
+  },
+  {
+   "name": "DEPARTMENT OF HOMELAND SECURITY",
+   "obligated_amount": 5070858666.46,
+   "gross_outlay_amount": 4485059608.7
+  },
+  {
+   "name": "COMMERCIAL NAVIGATION",
+   "obligated_amount": 4117061423.39,
+   "gross_outlay_amount": 4198330852.76
+  },
+  {
+   "name": "MULTIPURPOSE AND OTHER PROGRAMS",
+   "obligated_amount": 3212013716.52,
+   "gross_outlay_amount": 3104885982.87
+  },
+  {
+   "name": "HARBOR MAINTENANCE TRUST FUND",
+   "obligated_amount": 2826091073.44,
+   "gross_outlay_amount": 2231602164.92
+  },
+  {
+   "name": "FLOOD RISK MANAGEMENT",
+   "obligated_amount": 2776634141.84,
+   "gross_outlay_amount": 2455845541.34
+  },
+  {
+   "name": "DEPARTMENT OF VETERAN AFFAIRS",
+   "obligated_amount": 774368716.01,
+   "gross_outlay_amount": 1105965678.36
+  },
+  {
+   "name": "ENVIROMENTAL PROTECTION AGENCY",
+   "obligated_amount": 524892655.88,
+   "gross_outlay_amount": 424514305.32
+  },
+  {
+   "name": "AQUATIC ECOSYSTEM RESTORATION",
+   "obligated_amount": 517637062.11,
+   "gross_outlay_amount": 860779650.01
+  },
+  {
+   "name": "FLOOD RISK MANAGMENT",
+   "obligated_amount": 418470197.56,
+   "gross_outlay_amount": 389267306.76
+  },
+  {
+   "name": "EMERGENCY MANAGEMENT",
+   "obligated_amount": 417138343.98,
+   "gross_outlay_amount": 458490439.9
+  },
+  {
+   "name": "FORMERLY UTILIZED SITE REMEDIAL ACTION PROGRAM",
+   "obligated_amount": 328921767.14,
+   "gross_outlay_amount": 260017630.02
+  },
+  {
+   "name": "NON-FEDERAL AGENCIES",
+   "obligated_amount": 282223131.07,
+   "gross_outlay_amount": 196195675.87
+  },
+  {
+   "name": "REGULATORY",
+   "obligated_amount": 262122185.08,
+   "gross_outlay_amount": 258330923.73
+  },
+  {
+   "name": "EXECUTIVE DIRECTION AND MANAGEMENT",
+   "obligated_amount": 251018651.92,
+   "gross_outlay_amount": 250641705.69
+  },
+  {
+   "name": "OTHER FEDERAL AGENCIES",
+   "obligated_amount": 213587730.95,
+   "gross_outlay_amount": 307162322.67
+  },
+  {
+   "name": "COASTAL WETLANDS RESTORATION TRUST FUND",
+   "obligated_amount": 157688624.04,
+   "gross_outlay_amount": 66128329.36
+  },
+  {
+   "name": "WASHINGTON AQUEDUCT",
+   "obligated_amount": 67500508.55,
+   "gross_outlay_amount": 85612862.43
+  },
+  {
+   "name": "DEPARTMENT OF ENERGY",
+   "obligated_amount": 54869977.96,
+   "gross_outlay_amount": 68684470.69
+  },
+  {
+   "name": "NATIONAL AERONAUTICS AND SPACE ADMINISTRATION",
+   "obligated_amount": 32056773.26,
+   "gross_outlay_amount": 73902748.49
+  },
+  {
+   "name": "MAINTENANCE AND OPERATION OF DAMS AND OTHER IMPROVEMENTS OF NAVIGABLE WATERS",
+   "obligated_amount": 29141564.19,
+   "gross_outlay_amount": 31523045.57
+  },
+  {
+   "name": "INLAND WATERWAYS TRUST FUND",
+   "obligated_amount": 24229870.58,
+   "gross_outlay_amount": 24229870.58
+  },
+  {
+   "name": "ADMINISTRATIVE EXPENSES",
+   "obligated_amount": 4885152.17,
+   "gross_outlay_amount": 4531856.81
+  },
+  {
+   "name": "OFFICE OF ASSISTANT SECRETARY OF THE ARMY (CIVIL WORKS)",
+   "obligated_amount": 4650000.0,
+   "gross_outlay_amount": 4635640.62
+  },
+  {
+   "name": "HYDROPOWER",
+   "obligated_amount": 3584879.95,
+   "gross_outlay_amount": 10792530.23
+  },
+  {
+   "name": "INTERAGENCY AMERICA THE BEAUTIFUL PASS REVENUES",
+   "obligated_amount": 1813467.31,
+   "gross_outlay_amount": 1951426.46
+  },
+  {
+   "name": "RECREATION RESOURCES",
+   "obligated_amount": 1258466.53,
+   "gross_outlay_amount": 1092013.08
+  },
+  {
+   "name": "WILDLIFE HABITAT RESTORATION",
+   "obligated_amount": 1000000.0,
+   "gross_outlay_amount": 1000000.0
+  },
+  {
+   "name": "SUPPORT ACTIVITIES",
+   "obligated_amount": 1668.0,
+   "gross_outlay_amount": -6022.16
+  }
+ ],
+ "messages": []
+}
