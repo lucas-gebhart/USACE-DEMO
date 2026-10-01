@@ -12,6 +12,7 @@ import Operations from "./pages/Operations";
 import Coexistence from "./pages/Coexistence";
 import Sources from "./pages/Sources";
 import Migration from "./pages/Migration";
+import PublicValue from "./pages/PublicValue";
 import MigratedRoute from "./components/MigratedRoute";
 
 /** The API's JWT org scoping gates the shell even while the page itself is still served by APEX. */
@@ -55,6 +56,7 @@ export default function App() {
     { to: "/", label: "Enterprise" },
     { to: `/orgs/${user.org_code}`, label: user.role === "DISTRICT" ? "My district" : "Drill-down" },
     { to: "/ops", label: "Operations" },
+    { to: "/public-value", label: "Public value" },
     { to: "/migration", label: "Migration control" },
     { to: "/coexistence", label: "PL/SQL coexistence" },
     { to: "/sources", label: "Data lineage" },
@@ -132,6 +134,14 @@ export default function App() {
             element={
               <MigratedRoute routeKey="ops">
                 <Operations />
+              </MigratedRoute>
+            }
+          />
+          <Route
+            path="/public-value"
+            element={
+              <MigratedRoute routeKey="public_value">
+                <PublicValue />
               </MigratedRoute>
             }
           />

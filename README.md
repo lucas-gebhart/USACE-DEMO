@@ -120,9 +120,13 @@ Both tiers read the same tables, so nothing about the data changes when a page m
    agree row for row (`test_legacy_dashboard_matches_new_route`).
 5. **Scoping**: switch to `mvp.pm`; portfolio shrinks to St. Paul, `/orgs/MVS` is 403, and
    the migration buttons disappear (HQ-only, enforced by the API, not the UI).
-6. **Data lineage**: every row carries a `source_load_id`; the Sources page shows fetch
+6. **Public value**: the *Public value* page (APEX page 6 → React) shows what the
+   Sustainable Rivers Program gives back — river miles, reservoirs, lock-and-dam systems and
+   river systems covered, miles by phase and by environmental action purpose, and the site
+   roster highlighted for the signed-in division.
+7. **Data lineage**: every row carries a `source_load_id`; the Sources page shows fetch
    time, URL and row count per public source.
-7. **Oracle didn't move**: `docker compose exec oracle sqlplus emt/emt_Passw0rd@FREEPDB1`
+8. **Oracle didn't move**: `docker compose exec oracle sqlplus emt/emt_Passw0rd@FREEPDB1`
    — same tables, same package, APEX Builder still opens the legacy app.
 
 ## Layout
@@ -130,7 +134,7 @@ Both tiers read the same tables, so nothing about the data changes when a page m
 ```
 data/       fetch.py refreshes public fixtures; fixtures/ (committed) ; reference/orgs.csv
 db/         migrations/V001 canonical schema, V002 emt_legacy PL/SQL package, V003 migration_routes,
-            V004 v_emt_* views the APEX app reads
+            V004 v_emt_* views the APEX app reads, V005 Sustainable Rivers Program read model + route
             apex/f100.sql — APEX 24.2 export of the legacy EMT app (application 100)
             oracle/startup/ — first-boot init (emt_init.sh + steps/): app user, APEX install, migrations, workspace + import
             legacy/apex_page_process_example.sql — annotated district-dashboard page process (shown on the coexistence page)
@@ -153,6 +157,7 @@ docs/       demo plan (interactive HTML)
 | `GET /v1/workforce` | personnel object-class obligations (EMS proxy) |
 | `GET /v1/legacy/district-dashboard/{code}`, `/status-label` | calls `emt_legacy` PL/SQL directly |
 | `GET /v1/migration[/{route}]`, `PUT /v1/migration/{route}` (HQ) | which tier owns each legacy APEX page; flip / roll back |
+| `GET /v1/public-value/srp` | Sustainable Rivers Program footprint, miles by phase/purpose, org-flagged site roster |
 | `GET /v1/sources` | source-load lineage |
 
 ## Data sources (all public proxies)
@@ -164,6 +169,7 @@ docs/       demo plan (interactive HTML)
 | Scheduling & lifecycle (P2 / CMP) | [FY2025 Civil Works O&M justification sheets](https://www.usace.army.mil/missions/civil-works/budget/) | Schedules, milestones, CMP records |
 | Infrastructure status (BUILDER SMS) | [National Inventory of Dams](https://nid.sec.usace.army.mil/) | Facility condition indices, work items |
 | Operations | [Corps Locks / LPMS](https://ndc.ops.usace.army.mil/ords/f?p=108) and NTNI ORDS JSON | — (these are the real public APEX apps) |
+| Public value (program outcomes) | [Sustainable Rivers Program](https://www.hec.usace.army.mil/sustainablerivers/) In-Progress Reviews (FY21, FY23), Metrics Framework 2002–2023, ERDC 20-year webinar — transcribed into `data/fixtures/srp/` with the document and reporting date per row | GIS-measured mileage; project cost or execution data. Snapshots from different documents are kept separate, never summed |
 
 `python3 data/fetch.py` (needs `pdftotext` from poppler-utils) re-pulls everything and records URL, fetch time and row counts in
 each fixture's `_meta.json`; loaders write those into `source_loads`.

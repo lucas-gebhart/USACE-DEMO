@@ -3,11 +3,11 @@ import { useFlip, useMigration } from "../lib/migration";
 import { ErrorBox, Loading, Section } from "../components/ui";
 import { useAuth } from "../lib/auth";
 
-const DIAGRAM = `  BEFORE (one APEX app, 4 pages)              AFTER (page by page)
+const DIAGRAM = `  BEFORE (one APEX app, 5 pages)              AFTER (page by page)
   ┌──────────────────────────────┐            ┌──────────────────────────────┐
   │ ORDS ─► APEX app 100         │            │ React + USWDS  (/, /orgs, …) │
   │  p1 Dashboard  p2 Districts  │  ───────►  │        │  fetch /v1/*         │
-  │  p4 Locks  p5 Project Detail │  strangler │ FastAPI (typed, versioned)   │
+  │  p4 Locks  p5 Project  p6 SRP│  strangler │ FastAPI (typed, versioned)   │
   │  session state · PL/SQL procs│    fig     │        │  python-oracledb     │
   └──────────────┬───────────────┘            └────────┬─────────────────────┘
                  │                                     │

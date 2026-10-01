@@ -16,6 +16,7 @@ from app.routers import (
     orgs,
     portfolio,
     projects,
+    public_value,
     sources,
     workforce,
 )
@@ -28,8 +29,9 @@ Custom-code replacement for an Oracle APEX dashboard tier. Oracle stays the syst
 record; page logic moves into versioned Python routes with typed responses.
 
 All data is **public**: USAspending (agency 096 + Army district awards), FY2025 Civil Works
-O&M justification sheets, the National Inventory of Dams, and the Corps Locks / NTNI ORDS
-feeds. None of it is CEFMS, EMS, P2/CMP, or BUILDER; each is a proxy for that domain.
+O&M justification sheets, the National Inventory of Dams, the Corps Locks / NTNI ORDS
+feeds, and Sustainable Rivers Program metrics from HEC/ERDC publications. None of it is CEFMS,
+EMS, P2/CMP, or BUILDER; each is a proxy for that domain.
 """
 
 
@@ -56,7 +58,7 @@ app.add_middleware(
     CORSMiddleware, allow_origins=config.CORS_ORIGINS, allow_methods=["*"], allow_headers=["*"], allow_credentials=True
 )
 
-for r in (auth, portfolio, orgs, projects, contracts, assets, ops, workforce, legacy, migration, sources):
+for r in (auth, portfolio, orgs, projects, contracts, assets, ops, workforce, legacy, migration, sources, public_value):
     app.include_router(r.router)
 
 

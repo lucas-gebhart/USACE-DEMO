@@ -14,7 +14,8 @@ def test_health(client):
 def test_openapi_lists_v1_routes(client):
     paths = client.get("/openapi.json").json()["paths"]
     for p in ("/v1/portfolio", "/v1/orgs/{org_code}", "/v1/projects", "/v1/contracts", "/v1/assets", "/v1/ops/locks",
-              "/v1/workforce", "/v1/legacy/district-dashboard/{org_code}", "/v1/sources", "/v1/migration"):  # fmt: skip
+              "/v1/workforce", "/v1/legacy/district-dashboard/{org_code}", "/v1/sources", "/v1/migration",
+              "/v1/public-value/srp"):  # fmt: skip
         assert p in paths
 
 
@@ -211,8 +212,8 @@ def test_migration_state_lists_every_legacy_page(client, mvp):
     s = client.get("/v1/migration", headers=mvp).json()
     assert s["apex_app_id"] == 100
     assert s["apex_base_url"].endswith("/ords")
-    assert [r["route_key"] for r in s["routes"]] == ["enterprise", "org", "project", "ops"]
-    assert s["total_count"] == 4
+    assert [r["route_key"] for r in s["routes"]] == ["enterprise", "org", "project", "ops", "public_value"]
+    assert s["total_count"] == 5
     for r in s["routes"]:
         assert r["implementation"] in ("APEX", "REACT")
         assert r["apex_url"] == f"{s['apex_base_url']}/f?p=100:{r['apex_page_id']}"
@@ -240,3 +241,33 @@ def test_migration_validation(client, hq):
     assert client.put("/v1/migration/ops", json={"implementation": "COBOL"}, headers=hq).status_code == 422
     assert client.put("/v1/migration/nope", json={"implementation": "REACT"}, headers=hq).status_code == 404
     assert client.get("/v1/migration/nope", headers=hq).status_code == 404
+
+
+# --- public value: Sustainable Rivers Program --------------------------------
+
+
+def test_srp_public_value_totals(client, hq):
+    p = client.get("/v1/public-value/srp", headers=hq).json()
+    assert [m["label"] for m in p["phase_miles"]] == ["Advance", "Implement", "Incorporate"]
+    assert sum(m["metric_value"] for m in p["phase_miles"]) == 9874 + 940 + 1255
+    assert sum(m["metric_value"] for m in p["action_purpose_miles"]) == 4939  # Metrics Framework Table 3 total
+    current = max(p["footprint"], key=lambda f: f["as_of_year"])
+    assert current["river_miles"] == 14000 and current["rivers"] == 60 and current["rivers_qualifier"] == ">"
+    structures = {m["metric_key"]: m["metric_value"] for m in p["structures"]}
+    assert structures["lock_dam_systems"] == 7 and structures["dry_dams"] == 5 and structures["reservoirs"] == 90
+    assert len(p["sites"]) == 52
+    assert all(s["in_scope"] for s in p["sites"])
+    assert {d["code"] for d in p["by_division"]} <= {"LRD", "MVD", "NAD", "NWD", "SAD", "SPD", "SWD"}
+    assert sum(d["sites"] for d in p["by_division"]) == sum(1 for s in p["sites"] if s["org_code"])
+    assert p["sources"] and p["sources"][0]["source"].startswith("Sustainable Rivers")
+
+
+def test_srp_sites_follow_org_scope(client, mvd, mvp):
+    div = client.get("/v1/public-value/srp", headers=mvd).json()
+    in_scope = {s["site_name"] for s in div["sites"] if s["in_scope"]}
+    assert "Minnesota River" in in_scope and "Kaskaskia River" in in_scope  # MVP, MVS
+    assert "Willamette River" not in in_scope  # NWP
+    assert len(div["sites"]) == 52  # program roster stays national; scope only flags it
+    dist = client.get("/v1/public-value/srp", headers=mvp).json()
+    assert {s["site_name"] for s in dist["sites"] if s["in_scope"]} == {"Bois de Sioux River", "Minnesota River"}
+    assert [d["code"] for d in dist["by_division"] if d["in_scope"]] == []

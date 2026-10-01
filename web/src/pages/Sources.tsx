@@ -8,6 +8,7 @@ const MAP = [
   ["Scheduling & lifecycle (P2 / CMP)", "FY2025 Civil Works O&M justification sheets", "Project list, funding by year and business line. No schedules, milestones or CMP records."],
   ["Infrastructure status (BUILDER SMS)", "National Inventory of Dams", "Hazard, condition and inspection date for USACE-owned dams. No facility condition indices or work items."],
   ["Operations", "Corps Locks (LPMS) and NTNI ORDS feeds", "Live public APEX/ORDS apps run by USACE — the real 'before'."],
+  ["Public value (program outcomes)", "Sustainable Rivers Program metrics from HEC/ERDC In-Progress Reviews and the Metrics Framework", "Program-reported river miles, structures and sites. Not a GIS measurement; no project execution or cost data."],
 ];
 
 export default function Sources() {

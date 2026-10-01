@@ -9,7 +9,7 @@ import oracledb
 
 from app import config
 from app.migrate import apply_migrations
-from loaders import nid, ops, orgs, usaspending, workplan
+from loaders import nid, ops, orgs, srp, usaspending, workplan
 
 log = logging.getLogger(__name__)
 
@@ -22,6 +22,7 @@ def load_all(conn: oracledb.Connection, data_dir: Path = config.DATA_DIR) -> dic
         counts["projects"] = workplan.load(cur, data_dir)
         counts["assets"] = nid.load(cur, data_dir)
         counts.update(ops.load(cur, data_dir))
+        counts.update(srp.load(cur, data_dir))
     conn.commit()
     return counts
 

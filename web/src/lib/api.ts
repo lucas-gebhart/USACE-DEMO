@@ -308,6 +308,95 @@ export interface MigrationState {
   total_count: number;
 }
 
+export interface SrpFootprint {
+  snapshot_key: string;
+  as_of_year: number;
+  as_of_label: string;
+  rivers: number | null;
+  rivers_qualifier: string | null;
+  river_miles: number | null;
+  river_miles_qualifier: string | null;
+  reservoirs: number | null;
+  reservoirs_qualifier: string | null;
+  districts: number | null;
+  divisions: number | null;
+  floodplain_acres: number | null;
+  basis: string | null;
+  source: string;
+  source_url: string | null;
+}
+
+export interface SrpMetric {
+  metric_group: string;
+  metric_key: string;
+  label: string;
+  metric_value: number;
+  unit: string;
+  qualifier: string | null;
+  sort_order: number;
+  as_of_label: string | null;
+  as_of_year: number | null;
+  note: string | null;
+  source: string;
+}
+
+export type SrpPhase = "Advance" | "Implement" | "Incorporate";
+
+export interface SrpSite {
+  site_id: number;
+  site_name: string;
+  river_name: string;
+  action_type: string | null;
+  org_code: string | null;
+  district_name: string | null;
+  division_code: string | null;
+  division_name: string | null;
+  co_org_codes: string | null;
+  states: string | null;
+  infrastructure: string | null;
+  infrastructure_label: string;
+  structures: string | null;
+  start_year: number;
+  implement_year: number | null;
+  incorporate_year: number | null;
+  phase: SrpPhase;
+  orgs_engaged: number | null;
+  note: string | null;
+  source: string;
+  in_scope: boolean;
+}
+
+export interface SrpDivisionCount {
+  code: string;
+  name: string;
+  sites: number;
+  implementing: number;
+  in_scope: boolean;
+}
+
+export interface SrpDocument {
+  key: string;
+  title: string;
+  url: string;
+}
+
+export interface PublicValueSrp {
+  scope: Org;
+  footprint: SrpFootprint[];
+  structures: SrpMetric[];
+  phase_miles: SrpMetric[];
+  action_purpose_miles: SrpMetric[];
+  action_purpose_acres: SrpMetric[];
+  new_river_proposals: SrpMetric[];
+  budget_change_pct: SrpMetric[];
+  sites: SrpSite[];
+  by_division: SrpDivisionCount[];
+  infrastructure_mix: MixEntry[];
+  phase_mix: MixEntry[];
+  documents: SrpDocument[];
+  sources: SourceLoad[];
+}
+
 export const api = {
   devUsers: () => request<DevUser[]>("/auth/users"),
   login: (username: string, password: string) =>
@@ -331,6 +420,7 @@ export const api = {
   legacyDashboard: (code: string) => request<LegacyDashboard>(`/v1/legacy/district-dashboard/${code}`),
   sources: () => request<SourceLoad[]>("/v1/sources"),
   migration: () => request<MigrationState>("/v1/migration"),
+  publicValueSrp: () => request<PublicValueSrp>("/v1/public-value/srp"),
   setImplementation: (routeKey: string, implementation: Implementation) =>
     request<MigrationRoute>(`/v1/migration/${routeKey}`, {
       method: "PUT",

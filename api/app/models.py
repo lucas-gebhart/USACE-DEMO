@@ -208,3 +208,93 @@ class DistrictDashboard(BaseModel):
     contracts: list[Contract]
     notices: list[NavNotice]
     sources: list[SourceLoad]
+
+
+# --- public value: Sustainable Rivers Program -------------------------------
+
+
+class SrpFootprint(BaseModel):
+    snapshot_key: str
+    as_of_year: int
+    as_of_label: str
+    rivers: int | None = None
+    rivers_qualifier: str | None = None
+    river_miles: int | None = None
+    river_miles_qualifier: str | None = None
+    reservoirs: int | None = None
+    reservoirs_qualifier: str | None = None
+    districts: int | None = None
+    divisions: int | None = None
+    floodplain_acres: int | None = None
+    basis: str | None = None
+    source: str
+    source_url: str | None = None
+
+
+class SrpMetric(BaseModel):
+    metric_group: str
+    metric_key: str
+    label: str
+    metric_value: float
+    unit: str
+    qualifier: str | None = None
+    sort_order: int
+    as_of_label: str | None = None
+    as_of_year: int | None = None
+    note: str | None = None
+    source: str
+
+
+class SrpSite(BaseModel):
+    site_id: int
+    site_name: str
+    river_name: str
+    action_type: str | None = None
+    org_code: str | None = None
+    district_name: str | None = None
+    division_code: str | None = None
+    division_name: str | None = None
+    co_org_codes: str | None = None
+    states: str | None = None
+    infrastructure: str | None = None
+    infrastructure_label: str
+    structures: str | None = None
+    start_year: int
+    implement_year: int | None = None
+    incorporate_year: int | None = None
+    phase: str
+    orgs_engaged: int | None = None
+    note: str | None = None
+    source: str
+    in_scope: bool
+
+
+class SrpDivisionCount(BaseModel):
+    code: str
+    name: str
+    sites: int
+    implementing: int
+    in_scope: bool
+
+
+class SrpDocument(BaseModel):
+    key: str
+    title: str
+    url: str
+
+
+class PublicValueSrp(BaseModel):
+    scope: Org
+    footprint: list[SrpFootprint]
+    structures: list[SrpMetric]
+    phase_miles: list[SrpMetric]
+    action_purpose_miles: list[SrpMetric]
+    action_purpose_acres: list[SrpMetric]
+    new_river_proposals: list[SrpMetric]
+    budget_change_pct: list[SrpMetric]
+    sites: list[SrpSite]
+    by_division: list[SrpDivisionCount]
+    infrastructure_mix: list[MixEntry]
+    phase_mix: list[MixEntry]
+    documents: list[SrpDocument]
+    sources: list[SourceLoad]
