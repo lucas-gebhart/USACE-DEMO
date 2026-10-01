@@ -16,3 +16,7 @@ data/raw/
 # Local env
 .env
 *.log
+
+# USWDS static assets copied from node_modules by `npm run assets`
+web/public/uswds/
+*.tsbuildinfo

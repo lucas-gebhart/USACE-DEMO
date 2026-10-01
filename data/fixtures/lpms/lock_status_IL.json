@@ -1,0 +1,211 @@
+{
+ "_meta": {
+  "source": "LPMS lock status (ORDS)",
+  "url": "https://ndc.ops.usace.army.mil/ords/lpms/lock_status_report_json?in_river_code=IL",
+  "fetched_on": "2026-09-22"
+ },
+ "rivers": [
+  {
+   "riverName": "ILLINOIS WATERWAY",
+   "locks": [
+    {
+     "lockNumber": "01",
+     "lockMile": 327,
+     "lockName": "Thomas J. O'Brien Lock",
+     "readingEntryDateTime": "092226:1600",
+     "gageUpperElevation": 0.98,
+     "gageUpperElevationChange": -0.35,
+     "gageLowerElevation": -1.88,
+     "gageLowerElevationChange": 0.89,
+     "damCondition": "     0.0",
+     "airTemparture": 56,
+     "precipitation": 0.03,
+     "weatherCode": "CL",
+     "totalPendingArrivals": 0,
+     "totalLocking": 0,
+     "totalLockedUp24Hours": 5,
+     "totalLockedDown24Hours": 3,
+     "average24HourDelay": 0,
+     "waterTemperature": "67",
+     "notes": "Wind:  NE @ 01 mph\r Precipitation:  .03\r Max/Min Temp:  68\u00b0/57\u00b0\r Temp:  56\u00b0\r Water Temp:  67\u00b0\r Upper Elevation:  +1.01/580.49\r Lower Elevation:  -1.89/577.59\r Flow:  0'",
+     "stations": [
+      {
+       "stationName": "IL01"
+      }
+     ]
+    },
+    {
+     "lockNumber": "02",
+     "lockMile": 291,
+     "lockName": "Lockport Lock",
+     "readingEntryDateTime": "092226:1600",
+     "gageUpperElevation": 575.58,
+     "gageUpperElevationChange": null,
+     "gageLowerElevation": 539.73,
+     "gageLowerElevationChange": null,
+     "damCondition": "     0.0",
+     "airTemparture": 56,
+     "precipitation": 0.0,
+     "weatherCode": "CL",
+     "totalPendingArrivals": 1,
+     "totalLocking": 0,
+     "totalLockedUp24Hours": 5,
+     "totalLockedDown24Hours": 6,
+     "average24HourDelay": 0,
+     "waterTemperature": "69",
+     "notes": "22 September 2026 @ 0600\r Current Flow: 3100\r Upper Pool Elevation: 575.82\r Lower Tail Elevation: 539.14\r Current Air Temp: 56\r Current Water Temp: 69\r Current Wind Direction/Speed: N @ 5 MPH\r \r \r Lockport Lock\r Brandon Strickland, Lockmaster\r 815-838-0536\r Marine Band Channel 14",
+     "stations": [
+      {
+       "stationName": "IL02"
+      }
+     ]
+    },
+    {
+     "lockNumber": "03",
+     "lockMile": 286,
+     "lockName": "Brandon Road L/D",
+     "readingEntryDateTime": "092226:1600",
+     "gageUpperElevation": 539.1,
+     "gageUpperElevationChange": 0.25,
+     "gageLowerElevation": 505.69,
+     "gageLowerElevationChange": -1.43,
+     "damCondition": "     8.0",
+     "airTemparture": 56,
+     "precipitation": 0.01,
+     "weatherCode": "CL",
+     "totalPendingArrivals": 0,
+     "totalLocking": 0,
+     "totalLockedUp24Hours": 4,
+     "totalLockedDown24Hours": 3,
+     "average24HourDelay": 0,
+     "waterTemperature": "68",
+     "notes": "Current Date: September 22nd, 2026\r Current Flow: 3850\r Current Pool:  539.02\r Current Tail:    505.35\r Current Air Temp:  57\r Current Water Temp:  68\r Current Wind Direction/Speed:  NE@ 12\r \r ***Lower descending 400' Floater out of service *****",
+     "stations": [
+      {
+       "stationName": "IL03"
+      }
+     ]
+    },
+    {
+     "lockNumber": "04",
+     "lockMile": 272,
+     "lockName": "Dresden Island L/D",
+     "readingEntryDateTime": ":",
+     "damCondition": "n/a",
+     "precipitation": null,
+     "weatherCode": null,
+     "totalPendingArrivals": 0,
+     "totalLocking": 0,
+     "totalLockedUp24Hours": 0,
+     "totalLockedDown24Hours": 0,
+     "average24HourDelay": 0,
+     "notes": "September 21, 2026 @ 0600\r Current Dam Opening:  19 FT      \r Current Upper Pool Reading: 504.86\r Current Lower Pool Reading: 490.37\r Wind:   NE @ 9 MPH\r \r \r Restrictions: \r \r  \r \r \r \r Notes/Instructions:\r \r **ATTENTION MARINERS USE CAUTION WHILE ENTERING/EXITING THE LOCK ON THE DOWNSTREAM I-WALL SIDE (RIGHT DESCENDING). THERE IS A 3 FT GAP IN THE WALL DUE TO A PLATE MISSING FOR THE BULKHEAD SLOT IN THE SHORT WALL**\r \r \r ALL VESSELS ARE TO STAY CLEAR OF THE ARRIVAL AREAS, UNLESS YOU ARE GOING TO LOCK. SOUTH BOUND TOWS MUST STAY ABOVE THE MOUTH OF THE KANKAKEE RIVER. NORTH BOUND TOWS MUST STAY BELOW THE EJ&E RAILROAD BRIDGE. \r \r Due to damage sustained to a rub rail within the lock chamber, bumpers will be needed on the left descending side while entering the lock. Tows are instructed to keep the bumpers out during the entire locking procedure to ensure the tow is kept at a safe distance from the wall.\r \r \r \r \r Dresden Island Lock & Dam\r Gerald Snyder, Lockmaster\r 815-942-0840\r Marine Band Channel 14",
+     "stations": [
+      {
+       "stationName": "IL04"
+      }
+     ]
+    },
+    {
+     "lockNumber": "05",
+     "lockMile": 245,
+     "lockName": "Marseilles L/D",
+     "readingEntryDateTime": "092226:1000",
+     "gageUpperElevation": 483.05,
+     "gageUpperElevationChange": -0.22,
+     "gageLowerElevation": 462.72,
+     "gageLowerElevationChange": 0.62,
+     "damCondition": "    12.0",
+     "airTemparture": 57,
+     "precipitation": 0.14,
+     "weatherCode": "CL",
+     "totalPendingArrivals": 1,
+     "totalLocking": 1,
+     "totalLockedUp24Hours": 2,
+     "totalLockedDown24Hours": 5,
+     "average24HourDelay": 0,
+     "notes": "Sept 22 2026 @ 0600\r \r Upper Pool: 483.10\r Lower Pool: 459.77\r Dam: @ 12\r Temp: 57\r Wind: SW 3\r \r ***************Notifications***************\r -All northbound tows must be fully aligned with the lower guide wall BEFORE entry into the chamber.\r -There will be no parking allowed in the canal unless you are on lock-turn. Once you commit to lock, you are expected to clear the canal\r -Mariners are requested to maintain proper alignment when entering/exiting lock chamber, no heeling off of guide walls when exiting.\r \r \r - Original Mule (1) is no longer in use do to ceasing and safety concerns. Utilize Mule 2 for headline on southbound cuts. Check with operators beforehand for proper instruction.\r  \r -Lower traditional stopping pin damaged, new Red Top stopping pin identified at lower 825' mark.\r -Expect longer lockage times when lower wall is occupied.",
+     "stations": [
+      {
+       "stationName": "IL05"
+      }
+     ]
+    },
+    {
+     "lockNumber": "06",
+     "lockMile": 231,
+     "lockName": "Starved Rock L/D",
+     "readingEntryDateTime": "092226:1600",
+     "gageUpperElevation": 458.87,
+     "gageUpperElevationChange": -0.13,
+     "gageLowerElevation": 448.15,
+     "gageLowerElevationChange": -0.1,
+     "damCondition": "    15.0",
+     "precipitation": null,
+     "weatherCode": null,
+     "totalPendingArrivals": 3,
+     "totalLocking": 1,
+     "totalLockedUp24Hours": 2,
+     "totalLockedDown24Hours": 3,
+     "average24HourDelay": 0,
+     "notes": "09/22/2026 at 06:00\r \r \r     Gate opening:            17.00 FT\r     Hydro:                        20.87 cu ft/sec\r     Upper Pool:                459.11 FT\r     Lower Pool:                448.35 FT\r     Flat Pool:                    440.30 FT\r     Above flat pool:             8.05 FT\r     \r \r \r     Lower wall elevation:   458.50\r     Upper wall elevation:   463.50\r \r     Air Temp:                     58 F @ 0600 \r     Water Temp:                67 F\r     Wind:                          6 SE @6 mph\r \r \r     For Locking info call on VHF Ch. 14 \r \r \r \r     ****ATTENTION******\r  https://waterdata.usgs.gov/monitoring-location/05553700/#parameterCode=00010&timeSeriesId=310640&period=P7D\r     Click the link above, scroll down the page and you will see the upper monitoring camera. \r \r \r     N/B Traffic: Call in spot is Deer Park Light\r \r     S/B Traffic: Call in spot is The Beer Joint",
+     "stations": [
+      {
+       "stationName": "IL06"
+      }
+     ]
+    },
+    {
+     "lockNumber": "07",
+     "lockMile": 158,
+     "lockName": "Peoria L/D",
+     "readingEntryDateTime": "092226:1600",
+     "gageUpperElevation": 439.55,
+     "gageUpperElevationChange": -0.64,
+     "gageLowerElevation": 439.55,
+     "gageLowerElevationChange": 4.0,
+     "damCondition": "OUT",
+     "precipitation": null,
+     "weatherCode": null,
+     "totalPendingArrivals": 0,
+     "totalLocking": 0,
+     "totalLockedUp24Hours": 2,
+     "totalLockedDown24Hours": 2,
+     "average24HourDelay": 0,
+     "notes": "Peoria Lock & Dam: September 22 2026 @ 0600\r \r Upper Pool Elevation: 439.18\r Lower Pool Elevation: 439.18\r Current Water Temp: 73\r Current Wind Direction/Speed: ESE 8 mph\r \r Dam is currently down. Use the open pass.\r Call us on marine channel 14 to coordinate lockage, or via phone for vessels unequipped with marine radio..\r \r 0-2' light outdraft\r 3-5' moderate outdraft\r >5'  strong outdraft\r \r On northbound cuts with empties on the land wall side, ensure you have a ladder on the cut for safe debarkation of your deck hands.\r \r Matt Traver, Lockmaster \r 309-699-6111 \r Marine Band Channel 14",
+     "stations": [
+      {
+       "stationName": "IL07"
+      }
+     ]
+    },
+    {
+     "lockNumber": "08",
+     "lockMile": 80,
+     "lockName": "Lagrange L/D",
+     "readingEntryDateTime": "092226:1600",
+     "gageUpperElevation": 429.29,
+     "gageUpperElevationChange": 0.01,
+     "gageLowerElevation": 425.66,
+     "gageLowerElevationChange": 1.92,
+     "damCondition": "     8.0",
+     "airTemparture": 61,
+     "precipitation": 0.0,
+     "weatherCode": "CL",
+     "totalPendingArrivals": 1,
+     "totalLocking": 0,
+     "totalLockedUp24Hours": 2,
+     "totalLockedDown24Hours": 6,
+     "average24HourDelay": 0,
+     "waterTemperature": "81",
+     "notes": "LaGrange lock and dam 217-225-3317\r 09/22/2026\r There is 15 wickets down, boats are locking through the lock.\r upper pool 429.29 at 6am",
+     "stations": [
+      {
+       "stationName": "IL08"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

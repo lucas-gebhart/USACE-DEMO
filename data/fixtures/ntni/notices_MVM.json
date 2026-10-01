@@ -1,0 +1,59 @@
+{
+ "_meta": {
+  "source": "NTNI navigation notices (ORDS)",
+  "url": "https://ndc.ops.usace.army.mil/ords/ntni/json_data/notices_by_district/MVM",
+  "fetched_on": "2026-09-22"
+ },
+ "items": [
+  {
+   "controlnumber": 212923,
+   "noticeno": "212099-7",
+   "issuedate": "2026-01-02T06:00:00Z",
+   "begindate": "2025-10-05T20:55:45Z",
+   "waterways": "LM_MEMPHIS, LM_CLARKSDALE, LM_OVERLAP, WH_MONTGOMERY_LOCK, LM_FRIARS_POINT, LM_RM_759_762, LM_RANDOLPH, LM_RM_762_765, WH_ST_CHARLES, WH_CLARENDON, WH_DES_ARC, WH_AUGUSTA, LM_OSCEOLA, LM_CARUTHERSVILLE_BRIDGE, LM_NEW_MADRID, LM_HICKMAN",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=212923&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 214357,
+   "noticeno": "214357",
+   "issuedate": "2026-06-11T18:48:55Z",
+   "begindate": "2026-06-15T13:00:00Z",
+   "waterways": "LM_NEW_MADRID, LM_CARUTHERSVILLE_BRIDGE, LM_OSCEOLA, LM_MEMPHIS, LM_FRIARS_POINT, LM_HICKMAN",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=214357&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 215031,
+   "noticeno": "215031",
+   "issuedate": "2026-09-10T05:00:00Z",
+   "begindate": "2026-09-12T11:00:00Z",
+   "waterways": "COMMERCE RM 701-691",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=215031&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 214940,
+   "noticeno": "214940",
+   "issuedate": "2026-08-21T20:33:37Z",
+   "begindate": "2026-08-21T20:26:28Z",
+   "waterways": "LMR CAIRO - GULF",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=214940&in_title_formatting=UB"
+  }
+ ],
+ "hasMore": false,
+ "limit": 2000,
+ "offset": 0,
+ "count": 4,
+ "links": [
+  {
+   "rel": "self",
+   "href": "https://ndc.ops.usace.army.mil/ords/ntni/json_data/notices_by_district/MVM"
+  },
+  {
+   "rel": "describedby",
+   "href": "https://ndc.ops.usace.army.mil/ords/ntni/metadata-catalog/json_data/notices_by_district/item"
+  },
+  {
+   "rel": "first",
+   "href": "https://ndc.ops.usace.army.mil/ords/ntni/json_data/notices_by_district/MVM"
+  }
+ ]
+}

@@ -1,0 +1,291 @@
+{
+ "_meta": {
+  "source": "NTNI navigation notices (ORDS)",
+  "url": "https://ndc.ops.usace.army.mil/ords/ntni/json_data/notices_by_district/SWL",
+  "fetched_on": "2026-09-22"
+ },
+ "items": [
+  {
+   "controlnumber": 214328,
+   "noticeno": "214328",
+   "issuedate": "2026-06-09T05:00:00Z",
+   "begindate": "2026-06-15T05:00:00Z",
+   "waterways": "JAMES W TRIMBLE",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=214328&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 214424,
+   "noticeno": "214423-1",
+   "issuedate": "2026-06-13T05:00:00Z",
+   "begindate": "2026-06-15T11:00:00Z",
+   "waterways": "JAMES W TRIMBLE, OZARK-JETTA TAYLOR, DARDANELLE, ARTHUR V ORMOND, TOAD SUCK FERRY, MURRAY",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=214424&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 211835,
+   "noticeno": "211835",
+   "issuedate": "2025-09-04T05:00:00Z",
+   "begindate": "2025-09-17T05:00:00Z",
+   "waterways": "OZARK-JETTA TAYLOR, JAMES W TRIMBLE",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=211835&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 212606,
+   "noticeno": "212606",
+   "issuedate": "2025-12-02T06:00:00Z",
+   "begindate": "2025-12-02T16:00:00Z",
+   "waterways": "JOE HARDIN",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=212606&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 212706,
+   "noticeno": "212706",
+   "issuedate": "2025-12-18T06:00:00Z",
+   "begindate": "2025-12-18T14:00:00Z",
+   "waterways": "DARDANELLE",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=212706&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 212601,
+   "noticeno": "212601",
+   "issuedate": "2025-11-26T06:00:00Z",
+   "begindate": "2025-11-26T22:30:00Z",
+   "waterways": "WHITE RIVER ENTRANCE CANAL",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=212601&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 213272,
+   "noticeno": "213272",
+   "issuedate": "2026-03-05T06:00:00Z",
+   "begindate": "2026-03-05T18:00:00Z",
+   "waterways": "ARKANSAS POST CANAL, WILBUR D MILLS",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=213272&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 213271,
+   "noticeno": "213271",
+   "issuedate": "2026-03-09T17:03:50Z",
+   "begindate": "2026-03-05T18:00:00Z",
+   "waterways": "ARKANSAS POST CANAL, WILBUR D MILLS",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=213271&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 212899,
+   "noticeno": "212899",
+   "issuedate": "2026-01-07T06:00:00Z",
+   "begindate": "2026-06-15T12:00:00Z",
+   "waterways": "OZARK-JETTA TAYLOR, DARDANELLE, ARTHUR V ORMOND, TOAD SUCK FERRY, MURRAY, JAMES W TRIMBLE",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=212899&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 213190,
+   "noticeno": "213190",
+   "issuedate": "2026-02-17T06:00:00Z",
+   "begindate": "2026-02-17T15:00:00Z",
+   "waterways": "WHITE RIVER ENTRANCE CANAL",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=213190&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 213049,
+   "noticeno": "213049",
+   "issuedate": "2026-02-12T06:00:00Z",
+   "begindate": "2026-02-12T20:00:00Z",
+   "waterways": "WHITE RIVER ENTRANCE CANAL",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=213049&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 213620,
+   "noticeno": "213620",
+   "issuedate": "2026-04-21T05:00:00Z",
+   "begindate": "2026-04-21T19:30:00Z",
+   "waterways": "JAMES W TRIMBLE",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=213620&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 214452,
+   "noticeno": "214452",
+   "issuedate": "2026-06-22T05:00:00Z",
+   "begindate": "2026-06-22T18:39:49Z",
+   "waterways": "DAVID D TERRY",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=214452&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 213868,
+   "noticeno": "213868",
+   "issuedate": "2026-04-29T05:00:00Z",
+   "begindate": "2026-06-15T12:00:00Z",
+   "waterways": "OZARK-JETTA TAYLOR, JAMES W TRIMBLE, DARDANELLE, ARTHUR V ORMOND, TOAD SUCK FERRY, MURRAY",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=213868&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 213690,
+   "noticeno": "213690",
+   "issuedate": "2026-04-29T05:00:00Z",
+   "begindate": "2026-06-15T12:00:00Z",
+   "waterways": "JAMES W TRIMBLE, OZARK-JETTA TAYLOR, DARDANELLE, ARTHUR V ORMOND, TOAD SUCK FERRY, MURRAY",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=213690&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 214757,
+   "noticeno": "214757",
+   "issuedate": "2026-07-22T15:51:42Z",
+   "begindate": "2026-07-22T14:00:00Z",
+   "waterways": "MURRAY, TOAD SUCK FERRY, ARTHUR V ORMOND, DARDANELLE, OZARK-JETTA TAYLOR, JAMES W TRIMBLE",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=214757&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 215051,
+   "noticeno": "215051",
+   "issuedate": "2026-09-10T05:00:00Z",
+   "begindate": "2026-09-10T13:00:00Z",
+   "waterways": "JAMES W TRIMBLE, OZARK-JETTA TAYLOR, DARDANELLE, ARTHUR V ORMOND, TOAD SUCK FERRY, MURRAY",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=215051&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 211469,
+   "noticeno": "211469",
+   "issuedate": "2025-07-25T05:00:00Z",
+   "begindate": "2025-07-25T14:30:00Z",
+   "waterways": "DARDANELLE, JAMES W TRIMBLE",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=211469&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 211614,
+   "noticeno": "211614",
+   "issuedate": "2025-08-12T05:00:00Z",
+   "begindate": "2025-08-12T18:00:00Z",
+   "waterways": "EMMETT SANDERS",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=211614&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 211086,
+   "noticeno": "211086",
+   "issuedate": "2025-06-12T05:00:00Z",
+   "begindate": "2025-06-12T18:00:00Z",
+   "waterways": "CHARLES D MAYNARD",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=211086&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 211819,
+   "noticeno": "211819",
+   "issuedate": "2025-09-03T05:00:00Z",
+   "begindate": "2025-09-03T12:00:00Z",
+   "waterways": "DARDANELLE",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=211819&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 211773,
+   "noticeno": "211773",
+   "issuedate": "2025-08-28T05:00:00Z",
+   "begindate": "2025-08-28T20:00:00Z",
+   "waterways": "WHITE RIVER ENTRANCE CANAL",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=211773&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 205245,
+   "noticeno": "205245",
+   "issuedate": "2023-10-13T05:00:00Z",
+   "begindate": "2023-10-13T05:00:00Z",
+   "waterways": "ARKANSAS RIVER",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=205245&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 208351,
+   "noticeno": "208351",
+   "issuedate": "2024-10-07T05:00:00Z",
+   "begindate": "2024-10-07T19:30:00Z",
+   "waterways": "DARDANELLE, ARTHUR V ORMOND, OZARK-JETTA TAYLOR",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=208351&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 212562,
+   "noticeno": "212562",
+   "issuedate": "2025-11-23T06:00:00Z",
+   "begindate": "2025-11-23T22:00:00Z",
+   "waterways": "WHITE RIVER ENTRANCE CANAL",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=212562&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 208676,
+   "noticeno": "208676",
+   "issuedate": "2024-11-07T06:00:00Z",
+   "begindate": "2024-11-07T17:00:00Z",
+   "waterways": "POOL 13 JAMES W TRIMBLE, JAMES W TRIMBLE, OZARK-JETTA TAYLOR, POTEAU RIVER",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=208676&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 207783,
+   "noticeno": "207783",
+   "issuedate": "2024-08-16T05:00:00Z",
+   "begindate": "2024-08-16T19:05:31Z",
+   "waterways": "DARDANELLE, ARTHUR V ORMOND",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=207783&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 207784,
+   "noticeno": "207784",
+   "issuedate": "2024-08-16T05:00:00Z",
+   "begindate": "2024-08-16T19:32:42Z",
+   "waterways": "DARDANELLE",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=207784&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 207096,
+   "noticeno": "207096",
+   "issuedate": "2024-05-21T18:10:22Z",
+   "begindate": "2024-05-21T05:00:00Z",
+   "waterways": "DARDANELLE",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=207096&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 207844,
+   "noticeno": "207844",
+   "issuedate": "2024-08-20T05:00:00Z",
+   "begindate": "2024-08-20T19:26:44Z",
+   "waterways": "DARDANELLE",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=207844&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 208672,
+   "noticeno": "208672",
+   "issuedate": "2024-11-06T06:00:00Z",
+   "begindate": "2024-12-02T06:00:00Z",
+   "waterways": "MURRAY, CHARLES D MAYNARD, DAVID D TERRY, TOAD SUCK FERRY",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=208672&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 205703,
+   "noticeno": "205703",
+   "issuedate": "2024-01-04T06:00:00Z",
+   "begindate": null,
+   "waterways": "ARKANSAS POST CANAL, WHITE RIVER ENTRANCE CANAL",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=205703&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 209044,
+   "noticeno": "209044",
+   "issuedate": "2024-12-18T06:00:00Z",
+   "begindate": "2024-12-18T13:41:50Z",
+   "waterways": "ARKANSAS POST CANAL, CESSIONS-VICTORIA BEND, LM_OVERLAP, WH_MONTGOMERY_LOCK, WHITE RIVER ENTRANCE CANAL",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=209044&in_title_formatting=UB"
+  }
+ ],
+ "hasMore": false,
+ "limit": 2000,
+ "offset": 0,
+ "count": 33,
+ "links": [
+  {
+   "rel": "self",
+   "href": "https://ndc.ops.usace.army.mil/ords/ntni/json_data/notices_by_district/SWL"
+  },
+  {
+   "rel": "describedby",
+   "href": "https://ndc.ops.usace.army.mil/ords/ntni/metadata-catalog/json_data/notices_by_district/item"
+  },
+  {
+   "rel": "first",
+   "href": "https://ndc.ops.usace.army.mil/ords/ntni/json_data/notices_by_district/SWL"
+  }
+ ]
+}

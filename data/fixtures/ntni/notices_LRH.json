@@ -1,0 +1,131 @@
+{
+ "_meta": {
+  "source": "NTNI navigation notices (ORDS)",
+  "url": "https://ndc.ops.usace.army.mil/ords/ntni/json_data/notices_by_district/LRH",
+  "fetched_on": "2026-09-22"
+ },
+ "items": [
+  {
+   "controlnumber": 214329,
+   "noticeno": "214275-1",
+   "issuedate": "2026-06-11T16:20:05Z",
+   "begindate": "2026-06-05T20:00:00Z",
+   "waterways": "LONDON_POOL_KANAWHA_RIVER, MARMET_POOL_KANAWHA_RIVER",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=214329&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 212613,
+   "noticeno": "212613",
+   "issuedate": "2025-12-23T20:04:35Z",
+   "begindate": "2026-01-11T05:00:00Z",
+   "waterways": "LONDON POOL, KANAWHA RIVER",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=212613&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 212824,
+   "noticeno": "212824",
+   "issuedate": "2026-01-27T18:34:35Z",
+   "begindate": "2026-01-01T05:00:00Z",
+   "waterways": "HUNTINGTON DISTRICT",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=212824&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 212821,
+   "noticeno": "212821",
+   "issuedate": "2026-01-27T18:32:46Z",
+   "begindate": "2026-01-01T05:00:00Z",
+   "waterways": "HUNTINGTON DISTRICT",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=212821&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 212819,
+   "noticeno": "212819",
+   "issuedate": "2026-01-27T18:32:05Z",
+   "begindate": "2026-01-01T05:00:00Z",
+   "waterways": "OHIO RIVER AND TRIBUTARIES",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=212819&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 212822,
+   "noticeno": "212822",
+   "issuedate": "2026-01-27T18:33:24Z",
+   "begindate": "2026-01-01T05:00:00Z",
+   "waterways": "HUNTINGTON DISTRICT",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=212822&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 212823,
+   "noticeno": "212823",
+   "issuedate": "2026-01-27T18:34:07Z",
+   "begindate": "2026-01-01T05:00:00Z",
+   "waterways": "HUNTINGTON DISTRICT",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=212823&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 214630,
+   "noticeno": "214630",
+   "issuedate": "2026-07-09T16:55:40Z",
+   "begindate": "2026-08-01T11:00:00Z",
+   "waterways": "MELDAHL_POOL_OHIO_RIVER",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=214630&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 214909,
+   "noticeno": "213526-2",
+   "issuedate": "2026-08-17T18:56:27Z",
+   "begindate": "2026-08-17T19:00:00Z",
+   "waterways": "GREENUP_POOL_OHIO_RIVER, MELDAHL_POOL_OHIO_RIVER, WINFIELD_POOL_KANAWHA_RIVER",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=214909&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 214958,
+   "noticeno": "214952-1",
+   "issuedate": "2026-08-27T17:54:48Z",
+   "begindate": "2026-09-08T11:00:00Z",
+   "waterways": "BELLEVILLE_POOL_OHIO_RIVER",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=214958&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 214970,
+   "noticeno": "214970",
+   "issuedate": "2026-08-31T19:10:57Z",
+   "begindate": "2026-09-08T10:00:00Z",
+   "waterways": "WINFIELD_POOL_KANAWHA_RIVER",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=214970&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 206876,
+   "noticeno": "206876",
+   "issuedate": "2024-04-30T19:21:43Z",
+   "begindate": "2024-04-29T16:00:00Z",
+   "waterways": "GREENUP_POOL_OHIO_RIVER, RC_BYRD_POOL_OHIO_RIVER",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=206876&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 210085,
+   "noticeno": "210085",
+   "issuedate": "2025-03-12T17:05:50Z",
+   "begindate": "2025-03-12T12:20:55Z",
+   "waterways": "RC_BYRD_POOL_KANAWHA_RIVER, WINFIELD_POOL_KANAWHA_RIVER",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=210085&in_title_formatting=UB"
+  }
+ ],
+ "hasMore": false,
+ "limit": 2000,
+ "offset": 0,
+ "count": 13,
+ "links": [
+  {
+   "rel": "self",
+   "href": "https://ndc.ops.usace.army.mil/ords/ntni/json_data/notices_by_district/LRH"
+  },
+  {
+   "rel": "describedby",
+   "href": "https://ndc.ops.usace.army.mil/ords/ntni/metadata-catalog/json_data/notices_by_district/item"
+  },
+  {
+   "rel": "first",
+   "href": "https://ndc.ops.usace.army.mil/ords/ntni/json_data/notices_by_district/LRH"
+  }
+ ]
+}
