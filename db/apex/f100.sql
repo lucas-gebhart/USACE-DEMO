@@ -28,11 +28,11 @@ wwv_flow_imp.import_begin (
 end;
 /
  
-prompt APPLICATION 100 - Enterprise Management Tool (EMT)
+prompt APPLICATION 100 - Program Portfolio Dashboard
 --
 -- Application Export:
 --   Application:     100
---   Name:            Enterprise Management Tool (EMT)
+--   Name:            Program Portfolio Dashboard
 --   Exported By:     EMT_DEV
 --   Flashback:       0
 --   Export Type:     Application Export
@@ -73,7 +73,7 @@ begin
 wwv_imp_workspace.create_flow(
  p_id=>wwv_flow.g_flow_id
 ,p_owner=>nvl(wwv_flow_application_install.get_schema,'EMT')
-,p_name=>nvl(wwv_flow_application_install.get_application_name,'Enterprise Management Tool (EMT)')
+,p_name=>nvl(wwv_flow_application_install.get_application_name,'Program Portfolio Dashboard')
 ,p_alias=>nvl(wwv_flow_application_install.get_application_alias,'EMT')
 ,p_page_view_logging=>'YES'
 ,p_page_protection_enabled_y_n=>'Y'
@@ -90,7 +90,7 @@ wwv_imp_workspace.create_flow(
 ,p_authentication_id=>wwv_flow_imp.id(16850969642603743)
 ,p_application_tab_set=>1
 ,p_logo_type=>'T'
-,p_logo_text=>'Enterprise Management Tool (EMT)'
+,p_logo_text=>'Program Portfolio Dashboard'
 ,p_proxy_server=>nvl(wwv_flow_application_install.get_proxy,'')
 ,p_no_proxy_domains=>nvl(wwv_flow_application_install.get_no_proxy_domains,'')
 ,p_flow_version=>'Release 1.0'
@@ -101,7 +101,7 @@ wwv_imp_workspace.create_flow(
 ,p_csv_encoding=>'Y'
 ,p_auto_time_zone=>'N'
 ,p_substitution_string_01=>'APP_NAME'
-,p_substitution_value_01=>'Enterprise Management Tool (EMT)'
+,p_substitution_value_01=>'Program Portfolio Dashboard'
 ,p_file_prefix => nvl(wwv_flow_application_install.get_static_app_file_prefix,'')
 ,p_files_version=>6
 ,p_version_scn=>3261319
@@ -994,7 +994,7 @@ wwv_flow_imp_page.create_page(
  p_id=>1
 ,p_name=>'Dashboard'
 ,p_alias=>'HOME'
-,p_step_title=>'Enterprise Management Tool (EMT)'
+,p_step_title=>'Program Portfolio Dashboard'
 ,p_autocomplete_on_off=>'OFF'
 ,p_page_template_options=>'#DEFAULT#'
 ,p_page_is_public_y_n=>'Y'
@@ -1368,7 +1368,7 @@ wwv_flow_imp_page.create_jet_chart_axis(
 );
 wwv_flow_imp_page.create_page_plug(
  p_id=>wwv_flow_imp.id(16878643970603840)
-,p_plug_name=>'Enterprise Management Tool (EMT)'
+,p_plug_name=>'Program Portfolio Dashboard'
 ,p_region_template_options=>'#DEFAULT#'
 ,p_escape_on_http_output=>'Y'
 ,p_plug_template=>2674017834225413037
@@ -3090,7 +3090,7 @@ wwv_flow_imp_page.create_page(
  p_id=>9999
 ,p_name=>'Login Page'
 ,p_alias=>'LOGIN'
-,p_step_title=>'Enterprise Management Tool (EMT) - Log In'
+,p_step_title=>'Program Portfolio Dashboard - Log In'
 ,p_warn_on_unsaved_changes=>'N'
 ,p_first_item=>'AUTO_FIRST_ITEM'
 ,p_autocomplete_on_off=>'OFF'
@@ -3102,7 +3102,7 @@ wwv_flow_imp_page.create_page(
 );
 wwv_flow_imp_page.create_page_plug(
  p_id=>wwv_flow_imp.id(16862046341603814)
-,p_plug_name=>'Enterprise Management Tool (EMT)'
+,p_plug_name=>'Program Portfolio Dashboard'
 ,p_region_template_options=>'#DEFAULT#'
 ,p_plug_template=>2674157997338192145
 ,p_plug_display_sequence=>10

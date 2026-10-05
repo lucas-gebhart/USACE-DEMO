@@ -86,7 +86,7 @@ export default function App() {
           <div className="usa-navbar">
             <div className="usa-logo">
               <em className="usa-logo__text">
-                <NavLink to="/">EMT · modernized</NavLink>
+                <NavLink to="/">Program Portfolio Dashboard · modernized</NavLink>
               </em>
             </div>
           </div>
