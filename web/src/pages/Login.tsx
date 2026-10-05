@@ -23,7 +23,7 @@ export default function Login() {
 
   return (
     <main className="grid-container padding-y-6">
-      <h1 className="font-heading-xl margin-bottom-1">EMT modernization demo</h1>
+      <h1 className="font-heading-xl margin-bottom-1">Program Portfolio Dashboard — modernization demo</h1>
       <p className="usa-intro margin-top-0">
         Choose a persona. In production this is a CAC / EAMS-A → OIDC redirect; here a dev IdP issues a JWT whose{" "}
         <code>role</code> and <code>org</code> claims replace APEX session state for authorization.
