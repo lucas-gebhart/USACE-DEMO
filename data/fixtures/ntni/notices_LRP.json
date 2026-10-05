@@ -1,0 +1,139 @@
+{
+ "_meta": {
+  "source": "NTNI navigation notices (ORDS)",
+  "url": "https://ndc.ops.usace.army.mil/ords/ntni/json_data/notices_by_district/LRP",
+  "fetched_on": "2026-09-22"
+ },
+ "items": [
+  {
+   "controlnumber": 214391,
+   "noticeno": "214389-1",
+   "issuedate": "2026-06-12T04:00:00Z",
+   "begindate": "2026-06-12T19:00:00Z",
+   "waterways": "Ohio River Montgomery Pool, Ohio River New Cumberland PA Pool",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=214391&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 214768,
+   "noticeno": "214768",
+   "issuedate": "2026-07-24T15:00:00Z",
+   "begindate": "2026-08-03T10:00:00Z",
+   "waterways": "Monongahela River Charleroi Pool, Monongahela River Maxwell Pool",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=214768&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 215070,
+   "noticeno": "215070",
+   "issuedate": "2026-09-18T19:57:09Z",
+   "begindate": "2026-09-21T13:00:00Z",
+   "waterways": "Ohio River Pike Island Pool, Ohio River Hannibal Pool",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=215070&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 215078,
+   "noticeno": "214976-1",
+   "issuedate": "2026-09-01T18:13:54Z",
+   "begindate": "2026-10-02T12:00:00Z",
+   "waterways": "Ohio River Hannibal Pool",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=215078&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 214813,
+   "noticeno": "214813",
+   "issuedate": "2026-08-12T16:55:07Z",
+   "begindate": "2026-08-17T11:00:00Z",
+   "waterways": "Ohio River Hannibal Pool",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=214813&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 214951,
+   "noticeno": "214850-1",
+   "issuedate": "2026-08-06T19:05:47Z",
+   "begindate": "2026-10-05T10:00:00Z",
+   "waterways": "Allegheny River Pool 3, Allegheny River Pool 4",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=214951&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 215027,
+   "noticeno": "215027",
+   "issuedate": "2026-09-11T13:56:45Z",
+   "begindate": "2026-09-14T13:00:00Z",
+   "waterways": "Ohio River Pike Island Pool, Ohio River Hannibal Pool",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=215027&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 207387,
+   "noticeno": "207387",
+   "issuedate": "2024-07-02T14:36:28Z",
+   "begindate": "2024-07-01T13:08:28Z",
+   "waterways": "Monongahela River Braddock Pool, Monongahela River Elizabeth Pool, Monongahela River Charleroi Pool",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=207387&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 207442,
+   "noticeno": "207442",
+   "issuedate": "2024-07-13T03:19:00Z",
+   "begindate": "2024-07-12T21:00:00Z",
+   "waterways": "Monongahela River Braddock Pool, Monongahela River Elizabeth Pool",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=207442&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 208090,
+   "noticeno": "208090",
+   "issuedate": null,
+   "begindate": "2024-09-19T10:00:00Z",
+   "waterways": "Monongahela River Elizabeth Pool",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=208090&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 207386,
+   "noticeno": "206875-3",
+   "issuedate": "2024-05-07T12:26:03Z",
+   "begindate": "2024-07-01T04:15:00Z",
+   "waterways": "Monongahela River Elizabeth Pool, Monongahela River Braddock Pool",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=207386&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 207476,
+   "noticeno": "207476",
+   "issuedate": "2024-07-16T04:00:00Z",
+   "begindate": "2024-07-16T21:00:00Z",
+   "waterways": "Monongahela River Elizabeth Pool, Monongahela River Braddock Pool",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=207476&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 209084,
+   "noticeno": "209084",
+   "issuedate": "2024-12-20T00:02:58Z",
+   "begindate": "2024-12-20T00:30:00Z",
+   "waterways": "Monongahela River Elizabeth Pool, Monongahela River Braddock Pool",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=209084&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 209624,
+   "noticeno": "209624",
+   "issuedate": "2025-02-05T05:00:00Z",
+   "begindate": "2025-03-03T05:00:00Z",
+   "waterways": "Ohio River Montgomery Pool",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=209624&in_title_formatting=UB"
+  }
+ ],
+ "hasMore": false,
+ "limit": 2000,
+ "offset": 0,
+ "count": 14,
+ "links": [
+  {
+   "rel": "self",
+   "href": "https://ndc.ops.usace.army.mil/ords/ntni/json_data/notices_by_district/LRP"
+  },
+  {
+   "rel": "describedby",
+   "href": "https://ndc.ops.usace.army.mil/ords/ntni/metadata-catalog/json_data/notices_by_district/item"
+  },
+  {
+   "rel": "first",
+   "href": "https://ndc.ops.usace.army.mil/ords/ntni/json_data/notices_by_district/LRP"
+  }
+ ]
+}

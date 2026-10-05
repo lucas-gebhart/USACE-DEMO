@@ -1,0 +1,243 @@
+{
+ "_meta": {
+  "source": "NTNI navigation notices (ORDS)",
+  "url": "https://ndc.ops.usace.army.mil/ords/ntni/json_data/notices_by_district/MVN",
+  "fetched_on": "2026-09-22"
+ },
+ "items": [
+  {
+   "controlnumber": 214455,
+   "noticeno": "214455",
+   "issuedate": "2026-06-23T05:00:00Z",
+   "begindate": "2026-06-23T14:42:54Z",
+   "waterways": "ALGIERS LOCK",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=214455&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 213888,
+   "noticeno": "213888",
+   "issuedate": "2026-05-13T13:29:12Z",
+   "begindate": "2026-06-01T05:00:00Z",
+   "waterways": "SOUTHEAST LOUISIANA PARISHES - LOCAL STORM STRUCTURES",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=213888&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 212035,
+   "noticeno": "211907-1",
+   "issuedate": "2025-09-29T18:28:18Z",
+   "begindate": "2025-09-15T05:00:00Z",
+   "waterways": "MISS RIVER - DEEP DRAFT CROSSINGS",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=212035&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 205308,
+   "noticeno": "205308",
+   "issuedate": "2023-10-26T20:15:30Z",
+   "begindate": null,
+   "waterways": "MISSISSIPPI RIVER, SOUTHWEST PASS",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=205308&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 215057,
+   "noticeno": "215057",
+   "issuedate": "2026-09-15T14:27:10Z",
+   "begindate": "2026-09-07T05:00:00Z",
+   "waterways": "FRESHWATER BAYOU",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=215057&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 215068,
+   "noticeno": "215068",
+   "issuedate": "2026-09-17T18:48:53Z",
+   "begindate": "2026-09-17T14:45:00Z",
+   "waterways": "CATFISH POINT CONTROL STRUCTURE",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=215068&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 214511,
+   "noticeno": "214511",
+   "issuedate": "2026-06-25T05:00:00Z",
+   "begindate": "2026-06-25T20:51:48Z",
+   "waterways": "MISSISSIPPI RIVER - BATON ROUGE TO NEW ORLEANS",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=214511&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 214594,
+   "noticeno": "214594",
+   "issuedate": "2026-07-02T18:21:00Z",
+   "begindate": null,
+   "waterways": "MISSISSIPPI RIVER MILE 120.3 - 120.5",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=214594&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 214939,
+   "noticeno": "214939",
+   "issuedate": "2026-08-21T19:03:19Z",
+   "begindate": "2026-08-21T16:30:00Z",
+   "waterways": "EAST & WEST CALUMET FLOODGATES",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=214939&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 214890,
+   "noticeno": "214890",
+   "issuedate": "2026-08-11T19:43:55Z",
+   "begindate": "2026-08-13T05:00:00Z",
+   "waterways": "NEW ORLEANS HARBOR",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=214890&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 215020,
+   "noticeno": "215020",
+   "issuedate": "2026-09-09T15:46:50Z",
+   "begindate": "2026-09-09T13:00:00Z",
+   "waterways": "GIWW - HARVEY LOCK",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=215020&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 214770,
+   "noticeno": "214770",
+   "issuedate": "2026-07-23T17:31:52Z",
+   "begindate": "2021-10-04T14:00:00Z",
+   "waterways": "CALCASIEU LOCK",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=214770&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 214896,
+   "noticeno": "214896",
+   "issuedate": "2026-08-12T19:10:20Z",
+   "begindate": "2026-08-17T05:00:00Z",
+   "waterways": "ATCHAFALAYA RIVER BAR CHANNEL",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=214896&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 212760,
+   "noticeno": "209226-1",
+   "issuedate": "2025-12-30T15:57:53Z",
+   "begindate": "2024-12-29T06:00:00Z",
+   "waterways": null,
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=212760&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 214915,
+   "noticeno": "213270-1",
+   "issuedate": "2026-08-18T11:33:46Z",
+   "begindate": "2026-03-06T12:00:00Z",
+   "waterways": "SCHOONER BAYOU CONTROL STRUCTURE",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=214915&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 214978,
+   "noticeno": "214978",
+   "issuedate": "2026-09-02T13:39:47Z",
+   "begindate": "2026-09-04T05:00:00Z",
+   "waterways": "MISSISSIPPI RIVER AND SOUTHWEST PASS",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=214978&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 214841,
+   "noticeno": "214841",
+   "issuedate": "2026-08-04T20:53:33Z",
+   "begindate": "2026-08-04T15:00:00Z",
+   "waterways": "GIWW-ALGIERS CANAL",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=214841&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 215017,
+   "noticeno": "215017",
+   "issuedate": "2026-09-08T20:03:34Z",
+   "begindate": "2026-09-10T12:00:00Z",
+   "waterways": "BAYOU TECHE & WAX LAKE OUTLET",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=215017&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 215052,
+   "noticeno": "213851-3",
+   "issuedate": "2026-09-14T20:00:36Z",
+   "begindate": "2026-05-18T12:00:00Z",
+   "waterways": "CALCASIEU LOCK",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=215052&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 215029,
+   "noticeno": "215029",
+   "issuedate": "2026-09-10T17:04:55Z",
+   "begindate": "2026-09-12T05:00:00Z",
+   "waterways": "MISSISSIPPI RIVER - BATON ROUGE TO NEW ORLEANS",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=215029&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 215030,
+   "noticeno": "214994-1",
+   "issuedate": "2026-09-10T05:00:00Z",
+   "begindate": "2026-09-10T17:00:00Z",
+   "waterways": "MISSISSIPPI RIVER AND SOUTHWEST PASS",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=215030&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 210704,
+   "noticeno": "210426-3",
+   "issuedate": "2025-05-07T13:54:28Z",
+   "begindate": "2025-04-10T13:50:21Z",
+   "waterways": "OLD RIVER CONTROL",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=210704&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 212367,
+   "noticeno": "212367",
+   "issuedate": "2025-10-28T15:48:32Z",
+   "begindate": null,
+   "waterways": "GIWW - IHNC LOCK",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=212367&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 206559,
+   "noticeno": "206559",
+   "issuedate": "2024-04-04T18:46:33Z",
+   "begindate": null,
+   "waterways": "BAPTISTE COLLETTE, MI. 10.0 TO 12.4, BAPTISTE COLLETTE, MI. 7.8 TO 10.0, BAPTISTE COLLETTE, MI. 5.9 TO 7.8, BAPTISTE COLLETTE, MI. 3.6 TO 5.9, BAPTISTE COLLETTE, MI. 2.1 TO 3.6, BAPTISTE COLLETTE, RIVER TO MI. 2.1, TIGER PASS",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=206559&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 207912,
+   "noticeno": "207843-1",
+   "issuedate": "2024-08-27T14:43:33Z",
+   "begindate": "2024-08-27T21:00:00Z",
+   "waterways": "HARVEY CANAL",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=207912&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 208008,
+   "noticeno": "208008",
+   "issuedate": "2024-09-09T19:06:17Z",
+   "begindate": null,
+   "waterways": "I.H.N.C. LOCK FOREBAY",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=208008&in_title_formatting=UB"
+  },
+  {
+   "controlnumber": 210809,
+   "noticeno": "210809",
+   "issuedate": "2025-05-19T18:01:01Z",
+   "begindate": "2025-05-21T05:00:00Z",
+   "waterways": "ALHAMBRA CROSSING, BAYOU GOULA CROSSING, GRANADA CROSSING, BATON ROUGE FRONT CROSSING, FAIRVIEW CROSSING, MEDORA CROSSING, PHILADELPHIA POINT CROSSING, REDEYE CROSSING, RICH BEND CROSSING, SARDINE POINT CROSSING, SMOKE BEND CROSSING",
+   "noticelink": "https://ndc.ops.usace.army.mil/ords/ntni/print_nav_notice?in_nav_notice_number=210809&in_title_formatting=UB"
+  }
+ ],
+ "hasMore": false,
+ "limit": 2000,
+ "offset": 0,
+ "count": 27,
+ "links": [
+  {
+   "rel": "self",
+   "href": "https://ndc.ops.usace.army.mil/ords/ntni/json_data/notices_by_district/MVN"
+  },
+  {
+   "rel": "describedby",
+   "href": "https://ndc.ops.usace.army.mil/ords/ntni/metadata-catalog/json_data/notices_by_district/item"
+  },
+  {
+   "rel": "first",
+   "href": "https://ndc.ops.usace.army.mil/ords/ntni/json_data/notices_by_district/MVN"
+  }
+ ]
+}

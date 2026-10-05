@@ -1,0 +1,48 @@
+code,name,kind,parent_code,dodaac_prefix,nid_owner_name,states
+HQ,USACE Headquarters,HQ,,W912HQ,,
+LRD,Great Lakes and Ohio River Division,DIVISION,HQ,,,
+MVD,Mississippi Valley Division,DIVISION,HQ,,,
+NAD,North Atlantic Division,DIVISION,HQ,,,
+NWD,Northwestern Division,DIVISION,HQ,,,
+POD,Pacific Ocean Division,DIVISION,HQ,,,
+SAD,South Atlantic Division,DIVISION,HQ,,,
+SPD,South Pacific Division,DIVISION,HQ,,,
+SWD,Southwestern Division,DIVISION,HQ,,,
+LRB,Buffalo District,DISTRICT,LRD,W912P4,USACE - Buffalo District,NY;PA;OH
+LRC,Chicago District,DISTRICT,LRD,W912P6,USACE - Chicago District,IL;IN
+LRE,Detroit District,DISTRICT,LRD,W911XK,USACE - Detroit District,MI
+LRH,Huntington District,DISTRICT,LRD,W91237,USACE - Huntington District,WV;OH;KY;VA
+LRL,Louisville District,DISTRICT,LRD,W912QR,USACE - Louisville District,KY;IN;OH
+LRN,Nashville District,DISTRICT,LRD,W912P5,USACE - Nashville District,TN
+LRP,Pittsburgh District,DISTRICT,LRD,W911WN,USACE - Pittsburgh District,PA
+MVK,Vicksburg District,DISTRICT,MVD,W912EE,USACE - Vicksburg District,MS;LA;AR
+MVM,Memphis District,DISTRICT,MVD,W912EQ,USACE - Memphis District,TN;AR;MO
+MVN,New Orleans District,DISTRICT,MVD,W912P8,USACE - New Orleans District,LA
+MVP,St. Paul District,DISTRICT,MVD,W912ES,USACE - St. Paul District,MN;WI;ND
+MVR,Rock Island District,DISTRICT,MVD,W912EK,USACE - Rock Island District,IA;IL
+MVS,St. Louis District,DISTRICT,MVD,W912P9,USACE - St. Louis District,MO;IL
+NAB,Baltimore District,DISTRICT,NAD,W912DR,USACE - Baltimore District,MD;PA
+NAE,New England District,DISTRICT,NAD,W912WJ,USACE - New England District,MA;CT;NH;VT;ME;RI
+NAN,New York District,DISTRICT,NAD,W912DS,USACE - New York District,NY;NJ
+NAO,Norfolk District,DISTRICT,NAD,W91236,USACE - Norfolk District,VA
+NAP,Philadelphia District,DISTRICT,NAD,W912BU,USACE - Philadelphia District,PA;NJ;DE
+NWK,Kansas City District,DISTRICT,NWD,W912DQ,USACE - Kansas City District,MO;KS
+NWO,Omaha District,DISTRICT,NWD,W9128F,USACE - Omaha District,NE;SD;ND;MT;CO;WY
+NWP,Portland District,DISTRICT,NWD,W9127N,USACE - Portland District,OR
+NWS,Seattle District,DISTRICT,NWD,W912DW,USACE - Seattle District,WA
+NWW,Walla Walla District,DISTRICT,NWD,W912EF,USACE - Walla Walla District,WA;ID;OR
+POA,Alaska District,DISTRICT,POD,W911KB,USACE - Alaska District,AK
+POH,Honolulu District,DISTRICT,POD,W9128A,USACE - Honolulu District,HI
+SAC,Charleston District,DISTRICT,SAD,W912HP,USACE - Charleston District,SC
+SAJ,Jacksonville District,DISTRICT,SAD,W912EP,USACE - Jacksonville District,FL;PR
+SAM,Mobile District,DISTRICT,SAD,W91278,USACE - Mobile District,AL;MS;GA
+SAS,Savannah District,DISTRICT,SAD,W912HN,USACE - Savannah District,GA
+SAW,Wilmington District,DISTRICT,SAD,W912PM,USACE - Wilmington District,NC
+SPA,Albuquerque District,DISTRICT,SPD,W912PP,USACE - Albuquerque District,NM;CO;TX
+SPK,Sacramento District,DISTRICT,SPD,W91238,USACE - Sacramento District,CA;NV;UT
+SPL,Los Angeles District,DISTRICT,SPD,W912PL,USACE - Los Angeles District,CA;AZ
+SPN,San Francisco District,DISTRICT,SPD,W912P7,USACE - San Francisco District,CA
+SWF,Fort Worth District,DISTRICT,SWD,W9126G,USACE - Fort Worth District,TX
+SWG,Galveston District,DISTRICT,SWD,W912HY,USACE - Galveston District,TX
+SWL,Little Rock District,DISTRICT,SWD,W9127S,USACE - Little Rock District,AR;MO
+SWT,Tulsa District,DISTRICT,SWD,W912BV,USACE - Tulsa District,OK;TX;KS

@@ -1,0 +1,725 @@
+{
+ "_meta": {
+  "source": "LPMS lock status (ORDS)",
+  "url": "https://ndc.ops.usace.army.mil/ords/lpms/lock_status_report_json?in_river_code=MI",
+  "fetched_on": "2026-09-22"
+ },
+ "rivers": [
+  {
+   "riverName": "MISSISSIPPI RIVER",
+   "locks": [
+    {
+     "lockNumber": "51",
+     "lockMile": 854,
+     "lockName": "St Anthony Falls - Upper Lock",
+     "readingEntryDateTime": ":",
+     "damCondition": "n/a",
+     "precipitation": null,
+     "weatherCode": null,
+     "totalPendingArrivals": 0,
+     "totalLocking": 0,
+     "totalLockedUp24Hours": 0,
+     "totalLockedDown24Hours": 0,
+     "average24HourDelay": 0,
+     "notes": "flow is 5189",
+     "stations": [
+      {
+       "stationName": "MI51"
+      }
+     ]
+    },
+    {
+     "lockNumber": "52",
+     "stations": [
+      {
+       "stationName": "MI52"
+      }
+     ]
+    },
+    {
+     "lockNumber": "01",
+     "lockMile": 848,
+     "lockName": "L/D 1",
+     "readingEntryDateTime": ":",
+     "damCondition": "n/a",
+     "precipitation": null,
+     "weatherCode": null,
+     "totalPendingArrivals": 0,
+     "totalLocking": 0,
+     "totalLockedUp24Hours": 1,
+     "totalLockedDown24Hours": 0,
+     "average24HourDelay": 0,
+     "notes": "26FEB2024\r FLOW: 23600\r OUT DRAFT SIGNS GOES OUT AT: 40000",
+     "stations": [
+      {
+       "stationName": "MI01"
+      }
+     ]
+    },
+    {
+     "lockNumber": "02",
+     "lockMile": 815,
+     "lockName": "L/D 2",
+     "readingEntryDateTime": "092226:0500",
+     "gageUpperElevation": 687.49,
+     "gageUpperElevationChange": null,
+     "gageLowerElevation": 675.09,
+     "gageLowerElevationChange": null,
+     "damCondition": "     0.0",
+     "precipitation": null,
+     "weatherCode": null,
+     "totalPendingArrivals": 0,
+     "totalLocking": 0,
+     "totalLockedUp24Hours": 5,
+     "totalLockedDown24Hours": 2,
+     "average24HourDelay": 0,
+     "notes": "Current Flow is 3,610\r Outdraft begins at 31,000",
+     "stations": [
+      {
+       "stationName": "MI02"
+      }
+     ]
+    },
+    {
+     "lockNumber": "03",
+     "lockMile": 796,
+     "lockName": "L/D 3",
+     "readingEntryDateTime": "092226:0600",
+     "gageUpperElevation": 674.85,
+     "gageUpperElevationChange": null,
+     "gageLowerElevation": 667.78,
+     "gageLowerElevationChange": null,
+     "damCondition": "     5.0",
+     "airTemparture": 51,
+     "precipitation": 0.02,
+     "weatherCode": "CL",
+     "totalPendingArrivals": 0,
+     "totalLocking": 0,
+     "totalLockedUp24Hours": 2,
+     "totalLockedDown24Hours": 5,
+     "average24HourDelay": 0,
+     "waterTemperature": "66",
+     "notes": "09/22/2026  CURRENT FLOW 7,500 Gates are in.  \r PLEASE NOTE: \r We cannot pull loaded northbound barges with a notch on the port head when river flow exceeds \r 21,000 CFS (out draft)\r \r ICE:  \r 0%",
+     "stations": [
+      {
+       "stationName": "MI03"
+      }
+     ]
+    },
+    {
+     "lockNumber": "04",
+     "lockMile": 753,
+     "lockName": "L/D 4",
+     "readingEntryDateTime": "092226:0600",
+     "gageUpperElevation": 667.07,
+     "gageUpperElevationChange": null,
+     "gageLowerElevation": 660.41,
+     "gageLowerElevationChange": null,
+     "damCondition": "    17.5",
+     "airTemparture": 49,
+     "precipitation": 0.08,
+     "weatherCode": "PC",
+     "totalPendingArrivals": 0,
+     "totalLocking": 0,
+     "totalLockedUp24Hours": 3,
+     "totalLockedDown24Hours": 5,
+     "average24HourDelay": 0,
+     "waterTemperature": "70",
+     "notes": "Sep. 22, 2026\r Flow is at 14,200 cfs\r Outdraft begins at 59,000 cfs\r \r Lock is open for nav traffic",
+     "stations": [
+      {
+       "stationName": "MI04"
+      }
+     ]
+    },
+    {
+     "lockNumber": "05",
+     "lockMile": 738,
+     "lockName": "L/D 5",
+     "readingEntryDateTime": "092226:0800",
+     "gageUpperElevation": 660.13,
+     "gageUpperElevationChange": null,
+     "gageLowerElevation": 651.23,
+     "gageLowerElevationChange": null,
+     "damCondition": "    15.0",
+     "airTemparture": 54,
+     "precipitation": 0.0,
+     "weatherCode": "FA",
+     "totalPendingArrivals": 0,
+     "totalLocking": 0,
+     "totalLockedUp24Hours": 1,
+     "totalLockedDown24Hours": 3,
+     "average24HourDelay": 0,
+     "waterTemperature": "68",
+     "notes": "9/22/2026\r Current Flow 15500 CFS\r Out draft is 70000\r Water Temp 68 Degrees",
+     "stations": [
+      {
+       "stationName": "MI05"
+      }
+     ]
+    },
+    {
+     "lockNumber": "55",
+     "lockMile": 729,
+     "lockName": "L/D 5a",
+     "readingEntryDateTime": ":",
+     "damCondition": "n/a",
+     "airTemparture": 51,
+     "precipitation": 0.0,
+     "weatherCode": "CL",
+     "totalPendingArrivals": 0,
+     "totalLocking": 0,
+     "totalLockedUp24Hours": 3,
+     "totalLockedDown24Hours": 3,
+     "average24HourDelay": 0,
+     "waterTemperature": "66",
+     "notes": "Current flow 18,200 cubic feet per second.\r  \r  Water temp is 66\r \r Out draft conditions start at 32,000 cubic feet per second, \r \r In out draft conditions, two traveling mooring bitts will be used when pulling two or more lengths of loaded barges.\r \r Lock personnel will use the tow haulage unit to pull any combination of empty or loaded barges to a point just clearing the miter gates, provided that the section pulled does not have a lead notch adjacent to the guide wall in addition to any loaded barges abreast when flow are above 59,000 cfs. A helper boat can be utilized to hold the cut on the wall above 59,000 cfs. A notch with empties abreast will be allowed. Two traveling mooring bitts will be utilized, one traveling mooring bitt will be used from the bow barge quarter kevel and the other traveling mooring bitt will be used from the half or three-quarter kevel on the bow barge, requiring one extra line. One additional deck-hand will be required to handle lines on the section being pulled.",
+     "stations": [
+      {
+       "stationName": "MI55"
+      }
+     ]
+    },
+    {
+     "lockNumber": "06",
+     "lockMile": 714,
+     "lockName": "L/D 6",
+     "readingEntryDateTime": "092226:0600",
+     "gageUpperElevation": 645.57,
+     "gageUpperElevationChange": null,
+     "gageLowerElevation": 639.65,
+     "gageLowerElevationChange": null,
+     "damCondition": "    20.5",
+     "airTemparture": 51,
+     "precipitation": 0.06,
+     "weatherCode": "CL",
+     "totalPendingArrivals": 0,
+     "totalLocking": 0,
+     "totalLockedUp24Hours": 1,
+     "totalLockedDown24Hours": 3,
+     "average24HourDelay": 0,
+     "waterTemperature": "65",
+     "iceCover": "00",
+     "iceThickness": "0 ",
+     "notes": "9/22/2026\r \r Lock is open.\r \r Current flow:  20,400 out draft starts at 45,000.\r \r Water Temp: 65\r Upbound Locking Procedures During Outdraft Conditions at Lock and Dam 5A, Fountain City, Wisconsin, and Lock and Dam 6, Trempealeau, Wisconsin.\r \r --The Corps has adopted a policy for pulling tows in the upbound direction when flows exceed 59,000 cfs.  Lock personnel will use the tow haulage units to pull any combination of empty or loaded barges to a point just clearing the upper miter gates, provided that the section pulled does not have one or more lead loaded spike barges that are not adjacent to the guidewall.  One bitt will be used from the bow barge and the other bitt will be used for lines from the second barge back from the bow end.  One additional deckhand will be required to handle lines on the section being pulled.",
+     "stations": [
+      {
+       "stationName": "MI06"
+      }
+     ]
+    },
+    {
+     "lockNumber": "07",
+     "lockMile": 703,
+     "lockName": "L/D 7",
+     "readingEntryDateTime": "092226:0700",
+     "gageUpperElevation": 639.16,
+     "gageUpperElevationChange": null,
+     "gageLowerElevation": 632.49,
+     "gageLowerElevationChange": null,
+     "damCondition": "    20.5",
+     "airTemparture": 54,
+     "precipitation": 0.12,
+     "weatherCode": "FA",
+     "totalPendingArrivals": 0,
+     "totalLocking": 0,
+     "totalLockedUp24Hours": 0,
+     "totalLockedDown24Hours": 4,
+     "average24HourDelay": 0,
+     "waterTemperature": "66",
+     "iceCover": "00",
+     "notes": "Current flow is 22,500 cfs. Out draft out at 44,000 CFS.\r Lock 7 is currently open to navigation.\r \r \r The Corps has adopted a policy for pulling tows in the upbound direction when flows exceed the cubic feet/ second (cfs) noted below. Lock 7 personnel will use the tow haulage unit to pull any combination of empty or loaded barges to a point just clearing the miter gates, provided that the section pulled does not have a lead notch adjacent to the guide wall in addition to any loaded barge(s) abreast. A notch with empties abreast will be allowed. Two traveling kevels will be utilized, one traveling kevel will be used from the bow barge half kevel and the other traveling kevel will be-used from the three-quarter kevel on the bow barge. One additional deckhand will be required to handle lines on the section being pulled.\r \r Lock and Dam 7, La Crescent, Minnesota, flows >44,000 no port lead notch with loads abreast.",
+     "stations": [
+      {
+       "stationName": "MI07"
+      }
+     ]
+    },
+    {
+     "lockNumber": "08",
+     "lockMile": 679,
+     "lockName": "L/D 8",
+     "readingEntryDateTime": "092226:0600",
+     "gageUpperElevation": 631.3,
+     "gageUpperElevationChange": null,
+     "gageLowerElevation": 623.23,
+     "gageLowerElevationChange": null,
+     "damCondition": "    34.0",
+     "airTemparture": 53,
+     "precipitation": 0.06,
+     "weatherCode": "PC",
+     "totalPendingArrivals": 0,
+     "totalLocking": 0,
+     "totalLockedUp24Hours": 5,
+     "totalLockedDown24Hours": 3,
+     "average24HourDelay": 0,
+     "waterTemperature": "65",
+     "notes": "22 Sept 2026\r \r Open to Navigation! Current Flow 40,500 CFS, Outdraft goes out at 40,000 CFS (Cubic Feet per Second).\r \r Water Temp: 65\r \r Pool 8 Notes: RM 693.6 - 693.7: 375' between 9' contours and 275' between 10.5' contours. WS +0.1' on 21-JUL. *Favor the Reds.*",
+     "stations": [
+      {
+       "stationName": "MI08"
+      }
+     ]
+    },
+    {
+     "lockNumber": "09",
+     "lockMile": 648,
+     "lockName": "L/D 9",
+     "readingEntryDateTime": "092226:0600",
+     "gageUpperElevation": 620.38,
+     "gageUpperElevationChange": null,
+     "gageLowerElevation": 615.57,
+     "gageLowerElevationChange": null,
+     "damCondition": "    48.0",
+     "airTemparture": 52,
+     "precipitation": 0.22,
+     "weatherCode": "CL",
+     "totalPendingArrivals": 1,
+     "totalLocking": 1,
+     "totalLockedUp24Hours": 3,
+     "totalLockedDown24Hours": 3,
+     "average24HourDelay": 0,
+     "waterTemperature": "69",
+     "notes": "09-22-2026 -Current flow is 42,900. Outdraft starts at 55,000. Roller and Tainter gates are in the normal position.",
+     "stations": [
+      {
+       "stationName": "MI09"
+      }
+     ]
+    },
+    {
+     "lockNumber": "10",
+     "lockMile": 615,
+     "lockName": "L/D 10",
+     "readingEntryDateTime": "092226:0600",
+     "gageUpperElevation": 610.93,
+     "gageUpperElevationChange": null,
+     "gageLowerElevation": 607.66,
+     "gageLowerElevationChange": null,
+     "damCondition": "    77.0",
+     "airTemparture": 53,
+     "precipitation": 0.39,
+     "weatherCode": "RN",
+     "totalPendingArrivals": 0,
+     "totalLocking": 0,
+     "totalLockedUp24Hours": 4,
+     "totalLockedDown24Hours": 5,
+     "average24HourDelay": 43,
+     "waterTemperature": "59",
+     "notes": "",
+     "stations": [
+      {
+       "stationName": "MI10"
+      }
+     ]
+    },
+    {
+     "lockNumber": "11",
+     "lockMile": 583,
+     "lockName": "L/D 11",
+     "readingEntryDateTime": "092226:1600",
+     "gageUpperElevation": 14.62,
+     "gageUpperElevationChange": -0.84,
+     "gageLowerElevation": 7.66,
+     "gageLowerElevationChange": -0.3,
+     "damCondition": "    63.0",
+     "airTemparture": 53,
+     "precipitation": 0.19,
+     "weatherCode": "DR",
+     "totalPendingArrivals": 0,
+     "totalLocking": 0,
+     "totalLockedUp24Hours": 3,
+     "totalLockedDown24Hours": 7,
+     "average24HourDelay": 55,
+     "waterTemperature": "64",
+     "notes": "If anyone needs an update please call the lock. 563-582-1204.",
+     "stations": [
+      {
+       "stationName": "MI11"
+      }
+     ]
+    },
+    {
+     "lockNumber": "12",
+     "lockMile": 557,
+     "lockName": "L/D 12",
+     "readingEntryDateTime": "092226:1200",
+     "gageUpperElevation": 11.84,
+     "gageUpperElevationChange": -0.22,
+     "gageLowerElevation": 9.72,
+     "gageLowerElevationChange": 0.18,
+     "damCondition": "    87.0",
+     "airTemparture": 56,
+     "precipitation": 0.2,
+     "weatherCode": "CL",
+     "totalPendingArrivals": 0,
+     "totalLocking": 0,
+     "totalLockedUp24Hours": 3,
+     "totalLockedDown24Hours": 7,
+     "average24HourDelay": 0,
+     "waterTemperature": "63",
+     "notes": "If anyone needs lock information, please call the lock 563-872-3314.\r \r Assist boat on site. M/V City of Bellevue 563-872-3456.",
+     "stations": [
+      {
+       "stationName": "MI12"
+      }
+     ]
+    },
+    {
+     "lockNumber": "13",
+     "lockMile": 523,
+     "lockName": "L/D 13",
+     "readingEntryDateTime": "092226:1600",
+     "gageUpperElevation": 14.38,
+     "gageUpperElevationChange": -0.06,
+     "gageLowerElevation": 9.92,
+     "gageLowerElevationChange": 0.72,
+     "damCondition": "    89.0",
+     "airTemparture": 56,
+     "precipitation": 0.45,
+     "weatherCode": "CL",
+     "totalPendingArrivals": 1,
+     "totalLocking": 0,
+     "totalLockedUp24Hours": 5,
+     "totalLockedDown24Hours": 10,
+     "average24HourDelay": 85,
+     "waterTemperature": "64",
+     "notes": "",
+     "stations": [
+      {
+       "stationName": "MI13"
+      }
+     ]
+    },
+    {
+     "lockNumber": "14",
+     "lockMile": 493,
+     "lockName": "L/D 14",
+     "readingEntryDateTime": "092226:1600",
+     "gageUpperElevation": 15.21,
+     "gageUpperElevationChange": 0.23,
+     "gageLowerElevation": 7.47,
+     "gageLowerElevationChange": 0.4,
+     "damCondition": "    80.0",
+     "precipitation": null,
+     "weatherCode": null,
+     "totalPendingArrivals": 2,
+     "totalLocking": 1,
+     "totalLockedUp24Hours": 6,
+     "totalLockedDown24Hours": 7,
+     "average24HourDelay": 58,
+     "notes": "Helper Boat #\r Cleva Lee, Newt Marine (309)738-1165.\r \r Out draft stage starts at 7Ft Tail stage.\r \r Helper boat highly recommended for all down bound tows at 10Ft Tail stage\r \r Haulage unit restrictions start at 10.5 Tail stage. Call lock for details.",
+     "stations": [
+      {
+       "stationName": "MI14"
+      }
+     ]
+    },
+    {
+     "lockNumber": "15",
+     "lockMile": 483,
+     "lockName": "L/D 15",
+     "readingEntryDateTime": "092226:1400",
+     "gageUpperElevation": 18.3,
+     "gageUpperElevationChange": 0.1,
+     "gageLowerElevation": 11.34,
+     "gageLowerElevationChange": 1.15,
+     "damCondition": "    49.0",
+     "airTemparture": 59,
+     "precipitation": 0.1,
+     "weatherCode": "FA",
+     "totalPendingArrivals": 3,
+     "totalLocking": 0,
+     "totalLockedUp24Hours": 4,
+     "totalLockedDown24Hours": 5,
+     "average24HourDelay": 96,
+     "waterTemperature": "67",
+     "notes": "Out draft sign will be displayed at stage 9.0' tail-water.\r \r Helper boat is recommended at stage 11.0' tail-water.\t\r \r At stage 13.0' on the tail water a helper boat is highly recommended, especially for all Southbound tows with 6 or more barges in tow. Northbound doubles 70' wide, with a notch, or with empties on starboard side and loads down the center and or on\r  the port side, will not have the availability of the tow haulage unit.\r \t\t\t\t\t\r When tail stage reaches 13' FT Auxiliary Lock is closed.",
+     "stations": [
+      {
+       "stationName": "MI15"
+      }
+     ]
+    },
+    {
+     "lockNumber": "16",
+     "lockMile": 457,
+     "lockName": "L/D 16",
+     "readingEntryDateTime": "092226:1600",
+     "gageUpperElevation": 11.3,
+     "gageUpperElevationChange": 0.63,
+     "gageLowerElevation": 10.63,
+     "gageLowerElevationChange": 1.69,
+     "damCondition": "OUT",
+     "precipitation": null,
+     "weatherCode": null,
+     "totalPendingArrivals": 0,
+     "totalLocking": 0,
+     "totalLockedUp24Hours": 12,
+     "totalLockedDown24Hours": 6,
+     "average24HourDelay": 50,
+     "notes": "Current tail stage, 10.20 FT  09/22/2026  \r Normal tail stage - 4.00\r Normal flow - 41,000 CFS ,  Current flow 105278 CFS\r Outdraft sign posted at a tail stage of 8.0'\r Dam pulled with a tail stage of 9'6\r With a tail stage of 11.0' northbound tows with a starboard lead notch of loads will no longer have the use of the upper haulage unit\r Out of Operations - tail stage 17.0'",
+     "stations": [
+      {
+       "stationName": "MI16"
+      }
+     ]
+    },
+    {
+     "lockNumber": "17",
+     "lockMile": 437,
+     "lockName": "L/D 17",
+     "readingEntryDateTime": "092226:1600",
+     "gageUpperElevation": 13.56,
+     "gageUpperElevationChange": 2.2,
+     "gageLowerElevation": 13.37,
+     "gageLowerElevationChange": 2.21,
+     "damCondition": "OUT",
+     "airTemparture": 58,
+     "precipitation": 0.07,
+     "weatherCode": "DR",
+     "totalPendingArrivals": 0,
+     "totalLocking": 0,
+     "totalLockedUp24Hours": 9,
+     "totalLockedDown24Hours": 2,
+     "average24HourDelay": 0,
+     "waterTemperature": "66",
+     "notes": "",
+     "stations": [
+      {
+       "stationName": "MI17"
+      }
+     ]
+    },
+    {
+     "lockNumber": "18",
+     "lockMile": 411,
+     "lockName": "L/D 18",
+     "readingEntryDateTime": "092226:1600",
+     "gageUpperElevation": 9.44,
+     "gageUpperElevationChange": 0.05,
+     "gageLowerElevation": 8.92,
+     "gageLowerElevationChange": 2.18,
+     "damCondition": "OUT",
+     "airTemparture": 59,
+     "precipitation": 0.07,
+     "weatherCode": "CL",
+     "totalPendingArrivals": 0,
+     "totalLocking": 0,
+     "totalLockedUp24Hours": 7,
+     "totalLockedDown24Hours": 0,
+     "average24HourDelay": 0,
+     "waterTemperature": "69",
+     "notes": "",
+     "stations": [
+      {
+       "stationName": "MI18"
+      }
+     ]
+    },
+    {
+     "lockNumber": "19",
+     "lockMile": 364,
+     "lockName": "Lock 19",
+     "readingEntryDateTime": "092226:1200",
+     "gageUpperElevation": 18.14,
+     "gageUpperElevationChange": 0.0,
+     "gageLowerElevation": 11.15,
+     "gageLowerElevationChange": 2.73,
+     "damCondition": "n/a",
+     "airTemparture": 61,
+     "precipitation": 0.0,
+     "weatherCode": "FA",
+     "totalPendingArrivals": 0,
+     "totalLocking": 0,
+     "totalLockedUp24Hours": 3,
+     "totalLockedDown24Hours": 2,
+     "average24HourDelay": 16,
+     "waterTemperature": "72",
+     "notes": "",
+     "stations": [
+      {
+       "stationName": "MI19"
+      }
+     ]
+    },
+    {
+     "lockNumber": "20",
+     "lockMile": 343,
+     "lockName": "L/D 20",
+     "readingEntryDateTime": "092226:1200",
+     "gageUpperElevation": 12.38,
+     "gageUpperElevationChange": 3.13,
+     "gageLowerElevation": 11.95,
+     "gageLowerElevationChange": 3.0,
+     "damCondition": "OUT",
+     "airTemparture": 61,
+     "precipitation": 0.01,
+     "weatherCode": "DR",
+     "totalPendingArrivals": 0,
+     "totalLocking": 0,
+     "totalLockedUp24Hours": 5,
+     "totalLockedDown24Hours": 1,
+     "average24HourDelay": 16,
+     "waterTemperature": "70",
+     "notes": "",
+     "stations": [
+      {
+       "stationName": "MI20"
+      }
+     ]
+    },
+    {
+     "lockNumber": "21",
+     "lockMile": 325,
+     "lockName": "L/D 21",
+     "readingEntryDateTime": "092226:1600",
+     "gageUpperElevation": 14.04,
+     "gageUpperElevationChange": 1.62,
+     "gageLowerElevation": 12.98,
+     "gageLowerElevationChange": 4.01,
+     "damCondition": "OUT",
+     "precipitation": null,
+     "weatherCode": null,
+     "totalPendingArrivals": 2,
+     "totalLocking": 1,
+     "totalLockedUp24Hours": 7,
+     "totalLockedDown24Hours": 4,
+     "average24HourDelay": 82,
+     "notes": "",
+     "stations": [
+      {
+       "stationName": "MI21"
+      }
+     ]
+    },
+    {
+     "lockNumber": "22",
+     "lockMile": 301,
+     "lockName": "L/D 22",
+     "readingEntryDateTime": "092226:1600",
+     "gageUpperElevation": 13.97,
+     "gageUpperElevationChange": 0.46,
+     "gageLowerElevation": 12.99,
+     "gageLowerElevationChange": 3.8,
+     "damCondition": "OUT",
+     "airTemparture": 65,
+     "precipitation": 0.0,
+     "weatherCode": "CL",
+     "totalPendingArrivals": 1,
+     "totalLocking": 0,
+     "totalLockedUp24Hours": 5,
+     "totalLockedDown24Hours": 5,
+     "average24HourDelay": 191,
+     "waterTemperature": "75",
+     "notes": "Until Further Notice: Northbound tow traffic will be required to use a lock line to align the position of their tow (Flatten Out) prior to entry of the guide cell on the lower long wall due to damage to the top of the lock wall approximately 100 feet below the bull nose. Contact lock for further guidance or questions.",
+     "stations": [
+      {
+       "stationName": "MI22"
+      }
+     ]
+    },
+    {
+     "lockNumber": "24",
+     "lockMile": 273,
+     "lockName": "L/D 24",
+     "readingEntryDateTime": "092226:1400",
+     "gageUpperElevation": 446.02,
+     "gageUpperElevationChange": -1.7,
+     "gageLowerElevation": 444.63,
+     "gageLowerElevationChange": 4.42,
+     "damCondition": "OUT",
+     "airTemparture": 65,
+     "precipitation": 0.0,
+     "weatherCode": "CL",
+     "totalPendingArrivals": 0,
+     "totalLocking": 0,
+     "totalLockedUp24Hours": 5,
+     "totalLockedDown24Hours": 7,
+     "average24HourDelay": 0,
+     "waterTemperature": "79",
+     "notes": "",
+     "stations": [
+      {
+       "stationName": "MI24"
+      }
+     ]
+    },
+    {
+     "lockNumber": "25",
+     "lockMile": 241,
+     "lockName": "L/D 25",
+     "readingEntryDateTime": "092226:1600",
+     "gageUpperElevation": 430.04,
+     "gageUpperElevationChange": -0.56,
+     "gageLowerElevation": 428.96,
+     "gageLowerElevationChange": 3.68,
+     "damCondition": "   282.0",
+     "airTemparture": 66,
+     "precipitation": 0.0,
+     "weatherCode": "CL",
+     "totalPendingArrivals": 4,
+     "totalLocking": 0,
+     "totalLockedUp24Hours": 1,
+     "totalLockedDown24Hours": 1,
+     "average24HourDelay": 113,
+     "waterTemperature": "84",
+     "notes": "",
+     "stations": [
+      {
+       "stationName": "MI25"
+      }
+     ]
+    },
+    {
+     "lockNumber": "26",
+     "lockMile": 201,
+     "lockName": "Mel Price L/D",
+     "readingEntryDateTime": "092226:1400",
+     "gageUpperElevation": 416.4,
+     "gageUpperElevationChange": -0.6,
+     "gageLowerElevation": 406.4,
+     "gageLowerElevationChange": 2.1,
+     "damCondition": "    79.0",
+     "precipitation": null,
+     "weatherCode": null,
+     "totalPendingArrivals": 3,
+     "totalLocking": 0,
+     "totalLockedUp24Hours": 6,
+     "totalLockedDown24Hours": 4,
+     "average24HourDelay": 83,
+     "notes": "",
+     "stations": [
+      {
+       "stationName": "MI26"
+      }
+     ]
+    },
+    {
+     "lockNumber": "27",
+     "lockMile": 186,
+     "lockName": "Chain Of Rocks L/D 27",
+     "readingEntryDateTime": "092226:1600",
+     "gageUpperElevation": 405.6,
+     "gageUpperElevationChange": 2.5,
+     "gageLowerElevation": 394.0,
+     "gageLowerElevationChange": 3.9,
+     "damCondition": "n/a",
+     "precipitation": null,
+     "weatherCode": null,
+     "totalPendingArrivals": 0,
+     "totalLocking": 0,
+     "totalLockedUp24Hours": 9,
+     "totalLockedDown24Hours": 9,
+     "average24HourDelay": 5,
+     "notes": "",
+     "stations": [
+      {
+       "stationName": "MI27"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
