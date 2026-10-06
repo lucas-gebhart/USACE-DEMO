@@ -49,7 +49,7 @@ async def lifespan(app: FastAPI):
 
 
 app = FastAPI(
-    title="EMT Modernization API (Oracle APEX -> FastAPI)",
+    title="Program Portfolio Dashboard API (Oracle APEX -> FastAPI)",
     version="0.1.0",
     description=DESCRIPTION,
     lifespan=lifespan,

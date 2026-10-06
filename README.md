@@ -1,7 +1,7 @@
-# USACE EMT — Oracle APEX → FastAPI + React modernization demo
+# Program Portfolio Dashboard — Oracle APEX → FastAPI + React modernization demo
 
-A working demonstration of moving an Oracle APEX application (modelled on the USACE
-Enterprise Management Tool, EMT) to a custom FastAPI + React stack **without moving off
+A working demonstration of moving an Oracle APEX application (a generic *Program Portfolio
+Dashboard*, modelled on the kind of enterprise PM tool USACE runs) to a custom FastAPI + React stack **without moving off
 Oracle** — page by page, with the real APEX app still running while each page flips.
 Everything runs locally on Oracle Database 23ai Free + APEX 24.2 + ORDS and is populated from
 public USACE / Treasury data. Nothing here is CEFMS, EMS, P2/CMP or BUILDER data — every
@@ -72,8 +72,8 @@ production). Scope is resolved from the `organizations` hierarchy in Oracle
 
 ## The legacy APEX application (the "before")
 
-`db/apex/f100.sql` is a real Oracle APEX 24.2 export (application 100, *Enterprise Management
-Tool (EMT)*), imported into workspace `EMT` on the same `emt` schema the API uses:
+`db/apex/f100.sql` is a real Oracle APEX 24.2 export (application 100, *Program Portfolio
+Dashboard*), imported into workspace `EMT` on the same `emt` schema the API uses:
 
 | Page | Name | Built from |
 |---|---|---|
@@ -106,7 +106,7 @@ Both tiers read the same tables, so nothing about the data changes when a page m
 
 ## Demo script (≈10 minutes)
 
-1. **Start on the old app.** Open <http://localhost:8080/ords/f?p=100> — the APEX EMT:
+1. **Start on the old app.** Open <http://localhost:8080/ords/f?p=100> — the legacy APEX app:
    Dashboard, Districts, Projects → Project Detail (PL/SQL page process), Lock Operations.
 2. **Same app inside the new shell.** Sign in to <http://localhost:5173> as `hq.analyst`.
    Every page is still the embedded APEX page (red *LEGACY · Oracle APEX* pill).
@@ -135,7 +135,7 @@ Both tiers read the same tables, so nothing about the data changes when a page m
 data/       fetch.py refreshes public fixtures; fixtures/ (committed) ; reference/orgs.csv
 db/         migrations/V001 canonical schema, V002 emt_legacy PL/SQL package, V003 migration_routes,
             V004 v_emt_* views the APEX app reads, V005 Sustainable Rivers Program read model + route
-            apex/f100.sql — APEX 24.2 export of the legacy EMT app (application 100)
+            apex/f100.sql — APEX 24.2 export of the legacy app (application 100)
             oracle/startup/ — first-boot init (emt_init.sh + steps/): app user, APEX install, migrations, workspace + import
             legacy/apex_page_process_example.sql — annotated district-dashboard page process (shown on the coexistence page)
 api/        FastAPI (app/), loaders (python -m loaders), pytest integration suite (tests/)
@@ -162,7 +162,7 @@ docs/       demo plan (interactive HTML)
 
 ## Data sources (all public proxies)
 
-| EMT data area (internal system) | Public proxy used | Not shown |
+| Data area (internal system) | Public proxy used | Not shown |
 |---|---|---|
 | Financial & execution (CEFMS) | [USAspending](https://api.usaspending.gov/docs/endpoints) agency 096 budgetary resources/obligations; Army awards by district DoDAAC (`W912xx`) | CEFMS obligation/disbursement detail |
 | Workforce (EMS labor logs) | USAspending personnel object classes; [OPM FedScope](https://data.opm.gov/get-data/data-downloads) (offline) | Labor hours, project charging |

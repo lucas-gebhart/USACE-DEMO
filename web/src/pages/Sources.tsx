@@ -24,7 +24,7 @@ export default function Sources() {
         <table className="usa-table usa-table--compact usa-table--striped width-full font-body-2xs">
           <thead>
             <tr>
-              <th scope="col">EMT data area (internal system)</th>
+              <th scope="col">Data area (internal system)</th>
               <th scope="col">Public proxy used here</th>
               <th scope="col">What it does not show</th>
             </tr>
